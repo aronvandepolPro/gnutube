@@ -1,0 +1,1302 @@
+{
+ "_about": "Brontekst voor vertaling. Elke waarde: {\"en\": Engels, \"nl\": Nederlands (ter context)}. Sleutels = id.",
+ "regions": {
+  "east": {
+   "en": "East Africa",
+   "nl": "Oost-Afrika"
+  },
+  "south": {
+   "en": "Southern Africa",
+   "nl": "Zuidelijk Afrika"
+  },
+  "central": {
+   "en": "Central Africa",
+   "nl": "Centraal-Afrika"
+  },
+  "west": {
+   "en": "West Africa",
+   "nl": "West-Afrika"
+  },
+  "north": {
+   "en": "North Africa",
+   "nl": "Noord-Afrika"
+  }
+ },
+ "countries": {
+  "tz": {
+   "en": "Tanzania",
+   "nl": "Tanzania"
+  },
+  "ke": {
+   "en": "Kenya",
+   "nl": "Kenia"
+  },
+  "ug": {
+   "en": "Uganda",
+   "nl": "Oeganda"
+  },
+  "rw": {
+   "en": "Rwanda",
+   "nl": "Rwanda"
+  },
+  "bi": {
+   "en": "Burundi",
+   "nl": "Burundi"
+  },
+  "km": {
+   "en": "Comoros",
+   "nl": "Comoren"
+  },
+  "dj": {
+   "en": "Djibouti",
+   "nl": "Djibouti"
+  },
+  "er": {
+   "en": "Eritrea",
+   "nl": "Eritrea"
+  },
+  "et": {
+   "en": "Ethiopia",
+   "nl": "Ethiopië"
+  },
+  "mg": {
+   "en": "Madagascar",
+   "nl": "Madagaskar"
+  },
+  "mu": {
+   "en": "Mauritius",
+   "nl": "Mauritius"
+  },
+  "sc": {
+   "en": "Seychelles",
+   "nl": "Seychellen"
+  },
+  "so": {
+   "en": "Somalia",
+   "nl": "Somalië"
+  },
+  "ss": {
+   "en": "South Sudan",
+   "nl": "Zuid-Soedan"
+  },
+  "za": {
+   "en": "South Africa",
+   "nl": "Zuid-Afrika"
+  },
+  "bw": {
+   "en": "Botswana",
+   "nl": "Botswana"
+  },
+  "na": {
+   "en": "Namibia",
+   "nl": "Namibië"
+  },
+  "zm": {
+   "en": "Zambia",
+   "nl": "Zambia"
+  },
+  "zw": {
+   "en": "Zimbabwe",
+   "nl": "Zimbabwe"
+  },
+  "ao": {
+   "en": "Angola",
+   "nl": "Angola"
+  },
+  "sz": {
+   "en": "Eswatini",
+   "nl": "Eswatini"
+  },
+  "ls": {
+   "en": "Lesotho",
+   "nl": "Lesotho"
+  },
+  "mw": {
+   "en": "Malawi",
+   "nl": "Malawi"
+  },
+  "mz": {
+   "en": "Mozambique",
+   "nl": "Mozambique"
+  },
+  "ga": {
+   "en": "Gabon",
+   "nl": "Gabon"
+  },
+  "cm": {
+   "en": "Cameroon",
+   "nl": "Kameroen"
+  },
+  "cf": {
+   "en": "Central African Republic",
+   "nl": "Centraal-Afrikaanse Republiek"
+  },
+  "cg": {
+   "en": "Republic of the Congo",
+   "nl": "Congo-Brazzaville"
+  },
+  "cd": {
+   "en": "DR Congo",
+   "nl": "DR Congo"
+  },
+  "gq": {
+   "en": "Equatorial Guinea",
+   "nl": "Equatoriaal-Guinea"
+  },
+  "st": {
+   "en": "São Tomé and Príncipe",
+   "nl": "Sao Tomé en Principe"
+  },
+  "td": {
+   "en": "Chad",
+   "nl": "Tsjaad"
+  },
+  "bj": {
+   "en": "Benin",
+   "nl": "Benin"
+  },
+  "bf": {
+   "en": "Burkina Faso",
+   "nl": "Burkina Faso"
+  },
+  "gm": {
+   "en": "The Gambia",
+   "nl": "Gambia"
+  },
+  "gh": {
+   "en": "Ghana",
+   "nl": "Ghana"
+  },
+  "gn": {
+   "en": "Guinea",
+   "nl": "Guinee"
+  },
+  "gw": {
+   "en": "Guinea-Bissau",
+   "nl": "Guinee-Bissau"
+  },
+  "ci": {
+   "en": "Côte d’Ivoire",
+   "nl": "Ivoorkust"
+  },
+  "cv": {
+   "en": "Cape Verde",
+   "nl": "Kaapverdië"
+  },
+  "lr": {
+   "en": "Liberia",
+   "nl": "Liberia"
+  },
+  "ml": {
+   "en": "Mali",
+   "nl": "Mali"
+  },
+  "mr": {
+   "en": "Mauritania",
+   "nl": "Mauritanië"
+  },
+  "ne": {
+   "en": "Niger",
+   "nl": "Niger"
+  },
+  "ng": {
+   "en": "Nigeria",
+   "nl": "Nigeria"
+  },
+  "sn": {
+   "en": "Senegal",
+   "nl": "Senegal"
+  },
+  "sl": {
+   "en": "Sierra Leone",
+   "nl": "Sierra Leone"
+  },
+  "tg": {
+   "en": "Togo",
+   "nl": "Togo"
+  },
+  "dz": {
+   "en": "Algeria",
+   "nl": "Algerije"
+  },
+  "eg": {
+   "en": "Egypt",
+   "nl": "Egypte"
+  },
+  "ly": {
+   "en": "Libya",
+   "nl": "Libië"
+  },
+  "ma": {
+   "en": "Morocco",
+   "nl": "Marokko"
+  },
+  "sd": {
+   "en": "Sudan",
+   "nl": "Soedan"
+  },
+  "tn": {
+   "en": "Tunisia",
+   "nl": "Tunesië"
+  }
+ },
+ "activities": {
+  "trek": {
+   "en": "Multi-day trek",
+   "nl": "Meerdaagse trektocht"
+  },
+  "climb": {
+   "en": "Mountain climb",
+   "nl": "Bergbeklimming"
+  },
+  "wine": {
+   "en": "Wine tasting",
+   "nl": "Wijnproeverij"
+  },
+  "market": {
+   "en": "Local market",
+   "nl": "Lokale markt"
+  },
+  "ruins": {
+   "en": "Ancient ruins and monuments",
+   "nl": "Oude ruïnes en monumenten"
+  },
+  "desert": {
+   "en": "Desert excursion",
+   "nl": "Woestijntocht"
+  },
+  "surf": {
+   "en": "Surfing",
+   "nl": "Surfen"
+  },
+  "museum": {
+   "en": "Museums",
+   "nl": "Musea"
+  },
+  "lake": {
+   "en": "Lake swimming",
+   "nl": "Zwemmen in het meer"
+  },
+  "raft": {
+   "en": "White-water rafting",
+   "nl": "Wildwaterraften"
+  },
+  "snorkel": {
+   "en": "Snorkelling",
+   "nl": "Snorkelen"
+  },
+  "dive": {
+   "en": "Scuba diving",
+   "nl": "Duiken"
+  },
+  "dhow": {
+   "en": "Sunset dhow cruise",
+   "nl": "Dhow-tocht bij zonsondergang"
+  },
+  "oldtown": {
+   "en": "Old town walk",
+   "nl": "Wandeling door de oude stad"
+  },
+  "spice": {
+   "en": "Spice tour",
+   "nl": "Kruidentour"
+  },
+  "kite": {
+   "en": "Kitesurfing",
+   "nl": "Kitesurfen"
+  },
+  "whaleshark": {
+   "en": "Whale sharks (seasonal)",
+   "nl": "Walvishaaien (seizoen)"
+  },
+  "turtles": {
+   "en": "Sea turtles (seasonal)",
+   "nl": "Zeeschildpadden (seizoen)"
+  },
+  "whales": {
+   "en": "Humpback whale watching (seasonal)",
+   "nl": "Bultruggen spotten (seizoen)"
+  },
+  "catamaran": {
+   "en": "Catamaran trip",
+   "nl": "Catamarantocht"
+  },
+  "bike": {
+   "en": "Cycling around the island",
+   "nl": "Fietsen over het eiland"
+  },
+  "hop": {
+   "en": "Island hopping",
+   "nl": "Eilandhoppen"
+  },
+  "natwalk": {
+   "en": "Nature walk",
+   "nl": "Natuurwandeling"
+  },
+  "gd": {
+   "en": "Game drive",
+   "nl": "Game drive"
+  },
+  "balloon": {
+   "en": "Hot-air balloon safari",
+   "nl": "Luchtballonsafari"
+  },
+  "walk": {
+   "en": "Walking safari",
+   "nl": "Wandelsafari"
+  },
+  "night": {
+   "en": "Night drive",
+   "nl": "Nachtsafari"
+  },
+  "boat": {
+   "en": "Boat safari",
+   "nl": "Boottocht"
+  },
+  "canoe": {
+   "en": "Canoe trip",
+   "nl": "Kanotocht"
+  },
+  "gorilla": {
+   "en": "Gorilla trekking",
+   "nl": "Gorillatrekking"
+  },
+  "golden": {
+   "en": "Golden monkey trekking",
+   "nl": "Goudapen-trekking"
+  },
+  "chimp": {
+   "en": "Chimp trekking",
+   "nl": "Chimpansee-trekking"
+  },
+  "canopy": {
+   "en": "Canopy walk",
+   "nl": "Boomtoppenpad"
+  },
+  "mokoro": {
+   "en": "Mokoro trip",
+   "nl": "Mokorotocht"
+  },
+  "scenic": {
+   "en": "Scenic flight",
+   "nl": "Rondvlucht"
+  },
+  "heli": {
+   "en": "Helicopter flight",
+   "nl": "Helikoptervlucht"
+  },
+  "village": {
+   "en": "Village visit",
+   "nl": "Dorpsbezoek"
+  },
+  "crater": {
+   "en": "Crater descent",
+   "nl": "Kraterafdaling"
+  },
+  "dune": {
+   "en": "Dune climb",
+   "nl": "Duinbeklimming"
+  },
+  "rock": {
+   "en": "Rock engravings",
+   "nl": "Rotstekeningen"
+  },
+  "waterhole": {
+   "en": "Floodlit waterhole",
+   "nl": "Verlichte drinkplaats"
+  },
+  "falls": {
+   "en": "Guided tour of the falls",
+   "nl": "Rondleiding watervallen"
+  },
+  "sunset": {
+   "en": "Sunset cruise",
+   "nl": "Zonsondergangcruise"
+  },
+  "fishing": {
+   "en": "Tigerfish fishing",
+   "nl": "Tijgervissen"
+  },
+  "hike": {
+   "en": "Hike to the top",
+   "nl": "Wandeling naar de top"
+  }
+ },
+ "taglines": {
+  "tz-arusha": {
+   "name": "Arusha National Park",
+   "en": "Forest, lakes and Mount Meru",
+   "nl": "Bos, meer en Mount Meru"
+  },
+  "tz-tarangire": {
+   "name": "Tarangire",
+   "en": "Elephants and baobabs",
+   "nl": "Olifanten en baobabs"
+  },
+  "tz-manyara": {
+   "name": "Lake Manyara",
+   "en": "Lake, forest and birds",
+   "nl": "Meer, bos en vogels"
+  },
+  "tz-ngorongoro": {
+   "name": "Ngorongoro",
+   "en": "A crater full of wildlife",
+   "nl": "Een krater vol wild"
+  },
+  "tz-serengeti": {
+   "name": "Serengeti",
+   "en": "Plains and the great migration",
+   "nl": "Vlaktes en de grote trek"
+  },
+  "tz-zanzibar": {
+   "name": "Zanzibar",
+   "en": "White beaches and Stone Town",
+   "nl": "Witte stranden en Stone Town"
+  },
+  "tz-mafia": {
+   "name": "Mafia",
+   "en": "Quiet island, rich coral",
+   "nl": "Rustig eiland, rijk koraal"
+  },
+  "tz-pemba": {
+   "name": "Pemba",
+   "en": "Green island, deep dive sites",
+   "nl": "Groen eiland, diepe duikplekken"
+  },
+  "tz-kilimanjaro": {
+   "name": "Kilimanjaro",
+   "en": "Africa’s highest mountain",
+   "nl": "Hoogste berg van Afrika"
+  },
+  "tz-ruaha": {
+   "name": "Ruaha",
+   "en": "Wild and untouched",
+   "nl": "Wild en ongerept"
+  },
+  "tz-nyerere": {
+   "name": "Nyerere (Selous)",
+   "en": "Rivers and lakes full of game",
+   "nl": "Rivieren en meren vol wild"
+  },
+  "tz-mahale": {
+   "name": "Mahale",
+   "en": "Chimps by the lake",
+   "nl": "Chimpansees aan het meer"
+  },
+  "ke-amboseli": {
+   "name": "Amboseli",
+   "en": "Elephants with Kilimanjaro views",
+   "nl": "Olifanten met zicht op de Kilimanjaro"
+  },
+  "ke-tsavo": {
+   "name": "Tsavo",
+   "en": "Vast wilderness",
+   "nl": "Uitgestrekte wildernis"
+  },
+  "ke-samburu": {
+   "name": "Samburu",
+   "en": "The dry north",
+   "nl": "Het droge noorden"
+  },
+  "ke-mara": {
+   "name": "Masai Mara",
+   "en": "Open savanna and the great migration",
+   "nl": "Open savanne en de grote trek"
+  },
+  "ke-lamu": {
+   "name": "Lamu",
+   "en": "Old Swahili town and dhows",
+   "nl": "Oude Swahili-stad en dhows"
+  },
+  "ke-diani": {
+   "name": "Diani",
+   "en": "Long white beach on the coast",
+   "nl": "Lang wit strand aan de kust"
+  },
+  "ke-nakuru": {
+   "name": "Lake Nakuru",
+   "en": "Lake with rhinos",
+   "nl": "Meer met neushoorns"
+  },
+  "ke-mtkenya": {
+   "name": "Mount Kenya",
+   "en": "Africa’s second peak",
+   "nl": "Tweede berg van Afrika"
+  },
+  "ke-nairobi": {
+   "name": "Nairobi",
+   "en": "City with its own national park",
+   "nl": "Stad met een eigen nationaal park"
+  },
+  "ug-bwindi": {
+   "name": "Bwindi",
+   "en": "Mountain gorillas in the rainforest",
+   "nl": "Berggorilla’s in het regenwoud"
+  },
+  "ug-queen": {
+   "name": "Queen Elizabeth",
+   "en": "Savanna and the Kazinga Channel",
+   "nl": "Savanne en het Kazinga-kanaal"
+  },
+  "ug-murchison": {
+   "name": "Murchison Falls",
+   "en": "The Nile through a narrow gorge",
+   "nl": "De Nijl door een smalle kloof"
+  },
+  "ug-kidepo": {
+   "name": "Kidepo",
+   "en": "Remote savanna",
+   "nl": "Afgelegen savanne"
+  },
+  "ug-jinja": {
+   "name": "Jinja",
+   "en": "Source of the Nile",
+   "nl": "Bron van de Nijl"
+  },
+  "rw-volcanoes": {
+   "name": "Volcanoes",
+   "en": "Gorillas on the volcanoes",
+   "nl": "Gorilla’s op de vulkanen"
+  },
+  "rw-nyungwe": {
+   "name": "Nyungwe",
+   "en": "Rainforest and chimpanzees",
+   "nl": "Regenwoud en chimpansees"
+  },
+  "rw-akagera": {
+   "name": "Akagera",
+   "en": "Savanna and lakes",
+   "nl": "Savanne en meren"
+  },
+  "rw-kivu": {
+   "name": "Kivumeer",
+   "en": "Calm lake among hills",
+   "nl": "Rustig meer tussen heuvels"
+  },
+  "rw-kigali": {
+   "name": "Kigali",
+   "en": "Clean, green capital",
+   "nl": "Schone, groene hoofdstad"
+  },
+  "bi-tanganyika": {
+   "name": "Tanganyikameer",
+   "en": "Beach on a deep lake",
+   "nl": "Strand aan een diep meer"
+  },
+  "bi-kibira": {
+   "name": "Kibira",
+   "en": "Montane rainforest",
+   "nl": "Bergregenwoud"
+  },
+  "bi-rusizi": {
+   "name": "Rusizi",
+   "en": "Delta with hippos",
+   "nl": "Delta met nijlpaarden"
+  },
+  "km-grandecomore": {
+   "name": "Grande Comore",
+   "en": "Volcano and black beach",
+   "nl": "Vulkaan en zwart strand"
+  },
+  "km-moheli": {
+   "name": "Mohéli",
+   "en": "Marine park and turtles",
+   "nl": "Marinepark en schildpadden"
+  },
+  "km-anjouan": {
+   "name": "Anjouan",
+   "en": "Green mountains and waterfalls",
+   "nl": "Groene bergen en watervallen"
+  },
+  "dj-assal": {
+   "name": "Lac Assal",
+   "en": "Salt lake, lowest point in Africa",
+   "nl": "Zoutmeer, laagste punt van Afrika"
+  },
+  "dj-tadjoura": {
+   "name": "Golf van Tadjoura",
+   "en": "Whale sharks in season",
+   "nl": "Walvishaaien in het seizoen"
+  },
+  "dj-abbe": {
+   "name": "Lac Abbé",
+   "en": "Limestone chimneys at sunrise",
+   "nl": "Kalkschoorstenen bij zonsopkomst"
+  },
+  "er-asmara": {
+   "name": "Asmara",
+   "en": "Modernist architecture",
+   "nl": "Modernistische architectuur"
+  },
+  "er-massawa": {
+   "name": "Massawa",
+   "en": "Old port town",
+   "nl": "Oude havenstad"
+  },
+  "er-dahlak": {
+   "name": "Dahlak-eilanden",
+   "en": "Remote coral islands",
+   "nl": "Afgelegen koraaleilanden"
+  },
+  "et-simien": {
+   "name": "Simiengebergte",
+   "en": "Rugged peaks and geladas",
+   "nl": "Ruige bergen en gelada’s"
+  },
+  "et-lalibela": {
+   "name": "Lalibela",
+   "en": "Rock-hewn churches",
+   "nl": "Uit rots gehouwen kerken"
+  },
+  "et-bale": {
+   "name": "Bale-gebergte",
+   "en": "Plateau with Ethiopian wolves",
+   "nl": "Hoogvlakte met Ethiopische wolven"
+  },
+  "et-danakil": {
+   "name": "Danakil",
+   "en": "Salt flats and volcanoes",
+   "nl": "Zoutvlaktes en vulkanen"
+  },
+  "mg-nosybe": {
+   "name": "Nosy Be",
+   "en": "Tropical island with coral",
+   "nl": "Tropisch eiland met koraal"
+  },
+  "mg-saintemarie": {
+   "name": "Île Sainte-Marie",
+   "en": "Quiet island, humpbacks in season",
+   "nl": "Rustig eiland, bultruggen in het seizoen"
+  },
+  "mg-tsingy": {
+   "name": "Tsingy de Bemaraha",
+   "en": "Jagged limestone forest",
+   "nl": "Grillige kalkrotsen"
+  },
+  "mg-baobab": {
+   "name": "Allée des Baobabs",
+   "en": "Avenue of giant trees",
+   "nl": "Laan van reuzenbomen"
+  },
+  "mg-andasibe": {
+   "name": "Andasibe",
+   "en": "Rainforest with indris",
+   "nl": "Regenwoud met indri’s"
+  },
+  "mu-mauritius": {
+   "name": "Mauritius",
+   "en": "Lagoons and mountains",
+   "nl": "Lagunes en bergen"
+  },
+  "mu-lemorne": {
+   "name": "Le Morne",
+   "en": "Mountain by the lagoon",
+   "nl": "Berg aan de lagune"
+  },
+  "sc-mahe": {
+   "name": "Mahé",
+   "en": "Mountains and bays",
+   "nl": "Bergen en baaien"
+  },
+  "sc-praslin": {
+   "name": "Praslin",
+   "en": "Palm forest and white beaches",
+   "nl": "Palmbos en witte stranden"
+  },
+  "sc-ladigue": {
+   "name": "La Digue",
+   "en": "Granite boulders and bicycles",
+   "nl": "Granietrotsen en fietsen"
+  },
+  "so-laasgeel": {
+   "name": "Laas Geel",
+   "en": "Ancient rock art",
+   "nl": "Oude rotsschilderingen"
+  },
+  "so-berbera": {
+   "name": "Berbera",
+   "en": "Gulf of Aden coast",
+   "nl": "Kust aan de Golf van Aden"
+  },
+  "ss-boma": {
+   "name": "Boma",
+   "en": "Vast migration, very remote",
+   "nl": "Grote dierentrek, heel afgelegen"
+  },
+  "ss-nile": {
+   "name": "Witte Nijl",
+   "en": "River landscape near Juba",
+   "nl": "Rivierlandschap bij Juba"
+  },
+  "za-pilanesberg": {
+   "name": "Pilanesberg",
+   "en": "Close to Johannesburg",
+   "nl": "Dicht bij Johannesburg"
+  },
+  "za-kruger": {
+   "name": "Kruger",
+   "en": "Huge park, abundant wildlife",
+   "nl": "Groot park, veel wild"
+  },
+  "za-sabisand": {
+   "name": "Sabi Sand",
+   "en": "Private reserve beside Kruger",
+   "nl": "Privéreservaat naast Kruger"
+  },
+  "za-madikwe": {
+   "name": "Madikwe",
+   "en": "Game reserve by Botswana",
+   "nl": "Wildreservaat bij Botswana"
+  },
+  "za-addo": {
+   "name": "Addo Elephant",
+   "en": "Elephants near the coast",
+   "nl": "Olifanten dicht bij de kust"
+  },
+  "za-kgalagadi": {
+   "name": "Kgalagadi",
+   "en": "Red dunes and predators",
+   "nl": "Rode duinen en roofdieren"
+  },
+  "za-hluhluwe": {
+   "name": "Hluhluwe-iMfolozi",
+   "en": "Rhinos in the hills",
+   "nl": "Neushoorns in de heuvels"
+  },
+  "za-isimangaliso": {
+   "name": "iSimangaliso",
+   "en": "Wetland and coast",
+   "nl": "Wetland en kust"
+  },
+  "za-capetown": {
+   "name": "Kaapstad",
+   "en": "Table Mountain and sea",
+   "nl": "Tafelberg en zee"
+  },
+  "za-winelands": {
+   "name": "Kaapse wijnlanden",
+   "en": "Vineyards and mountains",
+   "nl": "Wijngaarden en bergen"
+  },
+  "za-gardenroute": {
+   "name": "Garden Route",
+   "en": "Coastal route with forests",
+   "nl": "Kustroute met bossen"
+  },
+  "za-drakensberg": {
+   "name": "Drakensberg",
+   "en": "High peaks and rock art",
+   "nl": "Hoge bergen en rotskunst"
+  },
+  "bw-okavango": {
+   "name": "Okavango",
+   "en": "The delta by mokoro",
+   "nl": "De delta per mokoro"
+  },
+  "bw-kalahari": {
+   "name": "Central Kalahari",
+   "en": "Desert and silence",
+   "nl": "Woestijn en stilte"
+  },
+  "bw-chobe": {
+   "name": "Chobe",
+   "en": "Elephants along the river",
+   "nl": "Olifanten langs de rivier"
+  },
+  "na-sossusvlei": {
+   "name": "Sossusvlei",
+   "en": "Red dunes",
+   "nl": "Rode duinen"
+  },
+  "na-damaraland": {
+   "name": "Damaraland",
+   "en": "Rocks and desert elephants",
+   "nl": "Rotsen en woestijnolifanten"
+  },
+  "na-etosha": {
+   "name": "Etosha",
+   "en": "Salt pan and waterholes",
+   "nl": "Zoutpan en drinkplaatsen"
+  },
+  "zm-kafue": {
+   "name": "Kafue",
+   "en": "Vast and untouched",
+   "nl": "Groot en ongerept"
+  },
+  "zm-lowerzambezi": {
+   "name": "Lower Zambezi",
+   "en": "Canoeing the Zambezi",
+   "nl": "Kano op de Zambezi"
+  },
+  "zm-luangwa": {
+   "name": "South Luangwa",
+   "en": "Walking safaris",
+   "nl": "Wandelsafari’s"
+  },
+  "zw-falls": {
+   "name": "Victoria Falls",
+   "en": "The falls",
+   "nl": "De watervallen"
+  },
+  "zw-hwange": {
+   "name": "Hwange",
+   "en": "Large elephant herds",
+   "nl": "Grote olifantenkuddes"
+  },
+  "zw-mana": {
+   "name": "Mana Pools",
+   "en": "Along the Zambezi",
+   "nl": "Langs de Zambezi"
+  },
+  "zw-matobo": {
+   "name": "Matobo",
+   "en": "Granite hills and rhinos",
+   "nl": "Granieten heuvels en neushoorns"
+  },
+  "zw-greatzim": {
+   "name": "Groot-Zimbabwe",
+   "en": "Medieval stone city",
+   "nl": "Stenen stad uit de middeleeuwen"
+  },
+  "ao-kalandula": {
+   "name": "Kalandula",
+   "en": "Wide waterfalls",
+   "nl": "Brede watervallen"
+  },
+  "ao-iona": {
+   "name": "Iona",
+   "en": "Desert by the ocean",
+   "nl": "Woestijn aan de oceaan"
+  },
+  "ao-luanda": {
+   "name": "Luanda",
+   "en": "Capital on the bay",
+   "nl": "Hoofdstad aan de baai"
+  },
+  "sz-hlane": {
+   "name": "Hlane",
+   "en": "Royal game park",
+   "nl": "Koninklijk wildpark"
+  },
+  "sz-mlilwane": {
+   "name": "Mlilwane",
+   "en": "Walk and cycle among game",
+   "nl": "Wandelen en fietsen tussen wild"
+  },
+  "sz-malolotja": {
+   "name": "Malolotja",
+   "en": "Highlands and gorges",
+   "nl": "Hooggebergte en kloven"
+  },
+  "ls-sani": {
+   "name": "Sani Pass",
+   "en": "High mountain pass",
+   "nl": "Bergpas op grote hoogte"
+  },
+  "ls-maletsunyane": {
+   "name": "Maletsunyane",
+   "en": "Tall waterfall in the mountains",
+   "nl": "Hoge waterval in de bergen"
+  },
+  "mw-liwonde": {
+   "name": "Liwonde",
+   "en": "River full of hippos",
+   "nl": "Rivier vol nijlpaarden"
+  },
+  "mw-capemaclear": {
+   "name": "Cape Maclear",
+   "en": "Clear lake with colourful fish",
+   "nl": "Helder meer met kleurrijke vissen"
+  },
+  "mw-likoma": {
+   "name": "Likoma",
+   "en": "Island in the lake",
+   "nl": "Eiland in het meer"
+  },
+  "mw-majete": {
+   "name": "Majete",
+   "en": "Restored game reserve",
+   "nl": "Hersteld wildreservaat"
+  },
+  "mz-bazaruto": {
+   "name": "Bazaruto",
+   "en": "Islands, dunes and clear water",
+   "nl": "Eilanden, duinen en helder water"
+  },
+  "mz-ilha": {
+   "name": "Ilha de Moçambique",
+   "en": "Historic island and old town",
+   "nl": "Historisch eiland en oude stad"
+  },
+  "mz-gorongosa": {
+   "name": "Gorongosa",
+   "en": "Restored national park",
+   "nl": "Hersteld nationaal park"
+  },
+  "mz-tofo": {
+   "name": "Tofo",
+   "en": "Diving and whale sharks",
+   "nl": "Duiken en walvishaaien"
+  },
+  "ga-loango": {
+   "name": "Loango",
+   "en": "Beach, forest and wildlife",
+   "nl": "Strand, bos en wild"
+  },
+  "ga-lope": {
+   "name": "Lopé",
+   "en": "Savanna and rainforest",
+   "nl": "Savanne en regenwoud"
+  },
+  "cm-kribi": {
+   "name": "Kribi",
+   "en": "Beach and a waterfall into the sea",
+   "nl": "Strand en een waterval in zee"
+  },
+  "cm-waza": {
+   "name": "Waza",
+   "en": "Savanna in the north",
+   "nl": "Savanne in het noorden"
+  },
+  "cm-mtcameroon": {
+   "name": "Mount Cameroon",
+   "en": "Active volcano near the coast",
+   "nl": "Actieve vulkaan bij de kust"
+  },
+  "cf-dzangha": {
+   "name": "Dzanga-Sangha",
+   "en": "Forest elephants and gorillas",
+   "nl": "Bosolifanten en gorilla’s"
+  },
+  "cg-odzala": {
+   "name": "Odzala-Kokoua",
+   "en": "Lowland gorillas in the rainforest",
+   "nl": "Laaglandgorilla’s in het oerwoud"
+  },
+  "cg-pointenoire": {
+   "name": "Pointe-Noire",
+   "en": "Atlantic beach town",
+   "nl": "Strandstad aan de Atlantische kust"
+  },
+  "cd-virunga": {
+   "name": "Virunga",
+   "en": "Mountain gorillas and volcano",
+   "nl": "Berggorilla’s en vulkaan"
+  },
+  "cd-kahuzi": {
+   "name": "Kahuzi-Biega",
+   "en": "Eastern lowland gorillas",
+   "nl": "Oostelijke laaglandgorilla’s"
+  },
+  "cd-kinshasa": {
+   "name": "Kinshasa",
+   "en": "Music and markets",
+   "nl": "Muziek en markten"
+  },
+  "gq-bioko": {
+   "name": "Bioko",
+   "en": "Volcanic island with rainforest",
+   "nl": "Vulkanisch eiland met regenwoud"
+  },
+  "gq-montealen": {
+   "name": "Monte Alén",
+   "en": "Deep rainforest",
+   "nl": "Diep oerwoud"
+  },
+  "st-saotome": {
+   "name": "São Tomé",
+   "en": "Rainforest and cocoa",
+   "nl": "Regenwoud en cacao"
+  },
+  "st-principe": {
+   "name": "Príncipe",
+   "en": "Wild, green and quiet",
+   "nl": "Wild, groen en stil"
+  },
+  "td-zakouma": {
+   "name": "Zakouma",
+   "en": "Big herds in the Sahel",
+   "nl": "Grote kuddes in de Sahel"
+  },
+  "td-ennedi": {
+   "name": "Ennedi",
+   "en": "Rock arches in the Sahara",
+   "nl": "Rotsbogen in de Sahara"
+  },
+  "bj-pendjari": {
+   "name": "Pendjari",
+   "en": "West African savanna",
+   "nl": "West-Afrikaanse savanne"
+  },
+  "bj-ouidah": {
+   "name": "Ouidah",
+   "en": "History and vodun culture",
+   "nl": "Geschiedenis en vodun-cultuur"
+  },
+  "bj-ganvie": {
+   "name": "Ganvié",
+   "en": "Stilt village on a lake",
+   "nl": "Dorp op palen in een meer"
+  },
+  "bf-sindou": {
+   "name": "Sindou-pieken",
+   "en": "Jagged rock peaks",
+   "nl": "Grillige rotspieken"
+  },
+  "gm-river": {
+   "name": "Gambiarivier",
+   "en": "River with birds and primates",
+   "nl": "Rivier met vogels en apen"
+  },
+  "gm-kololi": {
+   "name": "Kololi",
+   "en": "Atlantic beach",
+   "nl": "Strand aan de Atlantische Oceaan"
+  },
+  "gh-mole": {
+   "name": "Mole",
+   "en": "Elephants at the waterhole",
+   "nl": "Olifanten bij de drinkplaats"
+  },
+  "gh-capecoast": {
+   "name": "Cape Coast",
+   "en": "Forts and history",
+   "nl": "Forten en geschiedenis"
+  },
+  "gh-kakum": {
+   "name": "Kakum",
+   "en": "Canopy walkway in the rainforest",
+   "nl": "Boomtoppenpad in het regenwoud"
+  },
+  "gn-fouta": {
+   "name": "Fouta Djalon",
+   "en": "Highlands with waterfalls",
+   "nl": "Hoogland met watervallen"
+  },
+  "gn-loos": {
+   "name": "Îles de Los",
+   "en": "Islands off Conakry",
+   "nl": "Eilanden voor Conakry"
+  },
+  "gw-bijagos": {
+   "name": "Bijagós",
+   "en": "Archipelago full of nature",
+   "nl": "Archipel vol natuur"
+  },
+  "ci-assinie": {
+   "name": "Assinie",
+   "en": "Beach and lagoon",
+   "nl": "Strand en lagune"
+  },
+  "ci-tai": {
+   "name": "Taï",
+   "en": "Rainforest with chimps",
+   "nl": "Oerwoud met chimpansees"
+  },
+  "ci-grandbassam": {
+   "name": "Grand-Bassam",
+   "en": "Colonial old town",
+   "nl": "Koloniale oude stad"
+  },
+  "cv-sal": {
+   "name": "Sal",
+   "en": "Wind, sun and salt",
+   "nl": "Wind, zon en zout"
+  },
+  "cv-boavista": {
+   "name": "Boa Vista",
+   "en": "Dunes and empty beaches",
+   "nl": "Duinen en lege stranden"
+  },
+  "cv-santoantao": {
+   "name": "Santo Antão",
+   "en": "Green mountain trails",
+   "nl": "Groene bergpaden"
+  },
+  "lr-robertsport": {
+   "name": "Robertsport",
+   "en": "Surf beach",
+   "nl": "Surfstrand"
+  },
+  "lr-sapo": {
+   "name": "Sapo",
+   "en": "Pristine rainforest",
+   "nl": "Ongerept regenwoud"
+  },
+  "ml-djenne": {
+   "name": "Djenné",
+   "en": "Great mud mosque",
+   "nl": "Grote lemen moskee"
+  },
+  "ml-dogon": {
+   "name": "Dogonland",
+   "en": "Villages on the cliffs",
+   "nl": "Dorpen tegen de rotswand"
+  },
+  "mr-arguin": {
+   "name": "Banc d’Arguin",
+   "en": "Birds, desert and sea",
+   "nl": "Vogels, woestijn en zee"
+  },
+  "mr-chinguetti": {
+   "name": "Chinguetti",
+   "en": "Desert town with old libraries",
+   "nl": "Woestijnstad met oude bibliotheken"
+  },
+  "ne-agadez": {
+   "name": "Agadez",
+   "en": "Mud minaret in the Sahel",
+   "nl": "Lemen minaret in de Sahel"
+  },
+  "ne-air": {
+   "name": "Aïr en Ténéré",
+   "en": "Mountains and sand sea",
+   "nl": "Bergen en zandzee"
+  },
+  "ng-yankari": {
+   "name": "Yankari",
+   "en": "Wildlife and warm springs",
+   "nl": "Wild en warme bronnen"
+  },
+  "ng-lagos": {
+   "name": "Lagos",
+   "en": "Buzzing lagoon city",
+   "nl": "Bruisende stad aan de lagune"
+  },
+  "ng-obudu": {
+   "name": "Obudu",
+   "en": "Plateau with cable car",
+   "nl": "Plateau met kabelbaan"
+  },
+  "sn-saloum": {
+   "name": "Sine-Saloum",
+   "en": "Mangroves and islets",
+   "nl": "Mangroven en eilandjes"
+  },
+  "sn-goree": {
+   "name": "Gorée",
+   "en": "Island full of history",
+   "nl": "Eiland vol geschiedenis"
+  },
+  "sn-niokolo": {
+   "name": "Niokolo-Koba",
+   "en": "Savanna and river",
+   "nl": "Savanne en rivier"
+  },
+  "sl-banana": {
+   "name": "Bananeilanden",
+   "en": "Quiet islands",
+   "nl": "Rustige eilanden"
+  },
+  "sl-tiwai": {
+   "name": "Tiwai",
+   "en": "River island with primates",
+   "nl": "Rivier-eiland met apen"
+  },
+  "tg-kpalime": {
+   "name": "Kpalimé",
+   "en": "Green hills and waterfalls",
+   "nl": "Groene heuvels en watervallen"
+  },
+  "tg-koutammakou": {
+   "name": "Koutammakou",
+   "en": "Mud tower houses",
+   "nl": "Lemen torenhuizen"
+  },
+  "dz-tassili": {
+   "name": "Tassili n’Ajjer",
+   "en": "Rock art in the Sahara",
+   "nl": "Rotskunst in de Sahara"
+  },
+  "dz-algiers": {
+   "name": "Algiers",
+   "en": "Casbah by the sea",
+   "nl": "Casbah aan zee"
+  },
+  "dz-ghardaia": {
+   "name": "Ghardaïa",
+   "en": "Desert towns of the Mzab",
+   "nl": "Woestijnsteden van de Mzab"
+  },
+  "eg-redsea": {
+   "name": "Hurghada",
+   "en": "Red Sea coral reefs",
+   "nl": "Koraalriffen aan de Rode Zee"
+  },
+  "eg-cairo": {
+   "name": "Caïro en Gizeh",
+   "en": "Pyramids and museums",
+   "nl": "Piramides en musea"
+  },
+  "eg-luxor": {
+   "name": "Luxor",
+   "en": "Temples on the Nile",
+   "nl": "Tempels aan de Nijl"
+  },
+  "eg-siwa": {
+   "name": "Siwa",
+   "en": "Oasis in the Western Desert",
+   "nl": "Oase in de Westelijke Woestijn"
+  },
+  "ly-leptis": {
+   "name": "Leptis Magna",
+   "en": "Roman city by the sea",
+   "nl": "Romeinse stad aan zee"
+  },
+  "ly-acacus": {
+   "name": "Acacus",
+   "en": "Rock art and dunes",
+   "nl": "Rotskunst en duinen"
+  },
+  "ma-marrakech": {
+   "name": "Marrakech",
+   "en": "Medina and souks",
+   "nl": "Medina en souks"
+  },
+  "ma-merzouga": {
+   "name": "Merzouga",
+   "en": "Sahara dunes",
+   "nl": "Duinen van de Sahara"
+  },
+  "ma-atlas": {
+   "name": "Hoge Atlas",
+   "en": "Mountain villages and peaks",
+   "nl": "Bergdorpen en toppen"
+  },
+  "ma-essaouira": {
+   "name": "Essaouira",
+   "en": "Windy port town",
+   "nl": "Winderige havenstad"
+  },
+  "ma-chefchaouen": {
+   "name": "Chefchaouen",
+   "en": "Blue mountain town",
+   "nl": "Blauwe bergstad"
+  },
+  "sd-meroe": {
+   "name": "Meroë",
+   "en": "Pyramids in the desert",
+   "nl": "Piramides in de woestijn"
+  },
+  "sd-sanganeb": {
+   "name": "Sanganeb",
+   "en": "Red Sea coral reef",
+   "nl": "Koraalrif in de Rode Zee"
+  },
+  "tn-djerba": {
+   "name": "Djerba",
+   "en": "Island with white villages",
+   "nl": "Eiland met witte dorpen"
+  },
+  "tn-sidibousaid": {
+   "name": "Sidi Bou Said",
+   "en": "Blue and white village by the sea",
+   "nl": "Blauw-wit dorp aan zee"
+  },
+  "tn-douz": {
+   "name": "Douz",
+   "en": "Gateway to the Sahara",
+   "nl": "Poort naar de Sahara"
+  }
+ }
+}
