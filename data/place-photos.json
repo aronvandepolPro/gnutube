@@ -1,0 +1,243 @@
+{
+  "_uitleg": "Eigen foto per plek (placeId → foto). Zet het bestand in public/places/ en voeg een regel toe, bv. \"tz-zanzibar\": { \"src\": \"/places/zanzibar.jpg\", \"by\": \"Naam fotograaf\", \"source\": \"waar de foto vandaan komt / toestemming\", \"pos\": \"50% 50%\" }. 'by' mag leeg zijn (dan geen naam op de foto); 'pos' bepaalt welk deel zichtbaar blijft bij het bijsnijden. Plekken zonder foto houden hun getekende affiche.",
+  "tz-zanzibar": {
+    "src": "/places/zanzibar.webp",
+    "by": "",
+    "source": "Aangeleverd door het team op 15 oktober 2026; bron en toestemming nog vastleggen",
+    "pos": "50% 48%"
+  },
+  "tz-serengeti": {
+    "src": "/places/serengeti.webp",
+    "by": "",
+    "source": "Aangeleverd door het team op 15 oktober 2026 (Serengeti, Tanzania); fotograaf en toestemming nog vastleggen",
+    "pos": "45% 50%"
+  },
+  "tz-dar": {
+    "src": "/places/dar.webp",
+    "by": "",
+    "source": "Aangeleverd door het team op 15 oktober 2026 (Dar es Salaam, Tanzania); fotograaf en toestemming nog vastleggen",
+    "pos": "50% 55%"
+  },
+  "tz-ngorongoro": {
+    "src": "/places/ngorongoro.webp",
+    "by": "",
+    "source": "Aangeleverd door het team op 15 oktober 2026 (Crater Highlands, Ngorongoro, Tanzania); fotograaf en toestemming nog vastleggen",
+    "pos": "50% 72%"
+  },
+  "tz-kilimanjaro": {
+    "src": "/places/kilimanjaro.webp",
+    "by": "",
+    "source": "Unsplash (Unsplash-licentie), gepubliceerd 14 september 2021; genomen vanuit Amboseli, Kenia (de berg zelf ligt in Tanzania). Fotograaf en link nog vastleggen",
+    "pos": "50% 35%"
+  },
+  "tz-stonetown": {
+    "src": "/places/stonetown.webp",
+    "by": "",
+    "source": "Aangeleverd door het team op 15 oktober 2026 (Stone Town, Zanzibar Town, Tanzania); fotograaf en toestemming nog vastleggen",
+    "pos": "45% 55%"
+  },
+  "tz-gombe": {
+    "src": "/places/gombe.webp",
+    "by": "",
+    "source": "Pexels (Pexels-licentie), volgens het team genomen in Gombe; link naar de Pexels-pagina en naam fotograaf nog vastleggen",
+    "pos": "50% 40%"
+  },
+  "tz-arushacity": {
+    "src": "/places/arusha.webp",
+    "by": "Alex Levis · Pexels",
+    "source": "Pexels (Pexels-licentie, gratis), Alex Levis, 31 maart 2023, Arusha, Tanzania: https://www.pexels.com/nl-nl/foto/weg-straat-gebouwen-huizen-16157043/",
+    "pos": "50% 50%"
+  },
+  "tz-tarangire": {
+    "src": "/places/tarangire.webp",
+    "by": "Tanzania Wild Sky · Unsplash",
+    "source": "Unsplash (Unsplash-licentie, gratis, ook commercieel), Tanzania Wild Sky (@tanzania_wild_sky), gepubliceerd 8 februari 2024, locatie volgens Unsplash: Tarangire National Park, Tanzania. Gedownload 16 oktober 2026: https://unsplash.com/photos/NHQOJBbJgdk",
+    "pos": "50% 55%"
+  },
+  "tz-manyara": {
+    "src": "/places/manyara.webp",
+    "by": "Tomáš Malík · Unsplash",
+    "source": "Unsplash (Unsplash-licentie, gratis, ook commercieel), Tomáš Malík (@malcoo), locatie volgens Unsplash: Lake Manyara, Tanzania. Gedownload 16 oktober 2026: https://unsplash.com/photos/eCT0UCyFhjA",
+    "pos": "50% 60%"
+  },
+  "tz-ruaha": {
+    "src": "/places/ruaha.webp",
+    "by": "Bob Brewer · Unsplash",
+    "source": "Unsplash (Unsplash-licentie, gratis, ook commercieel), Bob Brewer (@brewbottle), locatie volgens Unsplash: Ruaha, Tanzania. Gedownload 16 oktober 2026: https://unsplash.com/photos/vNFUqVRTPEE",
+    "pos": "55% 45%"
+  },
+  "tz-mikumi": {
+    "src": "/places/mikumi.webp",
+    "by": "Muhuji Mshana · Unsplash",
+    "source": "Unsplash (Unsplash-licentie, gratis, ook commercieel), Muhuji Mshana (@maloya86), locatie volgens Unsplash: Mikumi National Park, Tanzania. Gedownload 16 oktober 2026: https://unsplash.com/photos/NEIBFVx_iK8",
+    "pos": "50% 60%"
+  },
+  "tz-nyerere": {
+    "src": "/places/nyerere.webp",
+    "by": "Aron Marinelli · Unsplash",
+    "source": "Unsplash (Unsplash-licentie, gratis, ook commercieel), Aron Marinelli (@aronmarinelli), gepubliceerd 21 september 2023, locatie volgens Unsplash: Nyerere National Park, Tanzania. Gedownload 16 oktober 2026: https://unsplash.com/photos/bGJK-uwOpbQ",
+    "pos": "50% 50%"
+  },
+  "tz-natron": {
+    "src": "/places/natron.webp",
+    "by": "Bajcetic · CC BY-SA 4.0",
+    "source": "Wikimedia Commons (CC BY-SA 4.0), Bajcetic: Waterfalls at Lake Natron Due to Volcanic activities.. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:IMGA17.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "pos": "50% 50%"
+  },
+  "tz-mkomazi": {
+    "src": "/places/mkomazi.webp",
+    "by": "Nicola Avery · CC BY-SA 2.0",
+    "source": "Wikimedia Commons (CC BY-SA 2.0), Nicola Avery: Mkomazi National Park, Tanzania. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:Mkomazi_National_Park-2.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "pos": "50% 50%"
+  },
+  "tz-olduvai": {
+    "src": "/places/olduvai.webp",
+    "by": "D. Gordon E. Robertson · CC BY-SA 3.0",
+    "source": "Wikimedia Commons (CC BY-SA 3.0), D. Gordon E. Robertson: View on monolith at Olduvai Gorge, Tanzania. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:Oldupai_Gorge_monolith.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "pos": "50% 50%"
+  },
+  "tz-eyasi": {
+    "src": "/places/eyasi.webp",
+    "by": "kiwiexplorer · CC BY-SA 2.0",
+    "source": "Wikimedia Commons (CC BY-SA 2.0), kiwiexplorer: Hadzabe hunting grounds, Tanzania. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:Hadzabe_areal.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "pos": "50% 50%"
+  },
+  "tz-kitulo": {
+    "src": "/places/kitulo.webp",
+    "by": "Daniel Msirikale · CC BY-SA 4.0",
+    "source": "Wikimedia Commons (CC BY-SA 4.0), Daniel Msirikale: Undulating landscape of Kitulo National Park, a protected area of montane grassland and montane forest on the Kitulo Pla. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:Kitulo_National_Park_19.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "pos": "50% 50%"
+  },
+  "tz-udzungwa": {
+    "src": "/places/udzungwa.webp",
+    "by": "Erasmus Kamugisha · CC BY-SA 4.0",
+    "source": "Wikimedia Commons (CC BY-SA 4.0), Erasmus Kamugisha: The waterfalls is situate at the Udzungwa national park. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:Sanje_middle_waterfall.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "pos": "50% 50%"
+  },
+  "tz-matema": {
+    "src": "/places/matema.webp",
+    "by": "Clown23 at English Wikipedia · publiek domein",
+    "source": "Wikimedia Commons (Public domain), Clown23 at English Wikipedia: Matema Beach in Mbeya, Tanzania.. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:Matema_Beach_in_Mbeya_Tanzania.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "pos": "50% 50%"
+  },
+  "tz-katavi": {
+    "src": "/places/katavi.webp",
+    "by": "Calle v H · CC BY 2.0",
+    "source": "Wikimedia Commons (CC BY 2.0), Calle v H: Sundowner  (( Image taken off Flikr because of description tags listing it as \"Katavi\" so that this can be used to illus. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:Katavi_sunset.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "pos": "50% 50%"
+  },
+  "tz-bagamoyo": {
+    "src": "/places/bagamoyo.webp",
+    "by": "Mangapwani · CC BY-SA 4.0",
+    "source": "Wikimedia Commons (CC BY-SA 4.0), Mangapwani: Bagamoyo, Pwani Region. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:15th_Century_Graves_at_Kaole_Ruins,_Bagamoyo,_Pwani.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "pos": "50% 50%"
+  },
+  "tz-kondoa": {
+    "src": "/places/kondoa.webp",
+    "by": "Nina R from Africa · CC BY 2.0",
+    "source": "Wikimedia Commons (CC BY 2.0), Nina R from Africa: Tanzania. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:Kondoa_Irangi_Rock_Paintings_(51507918388).jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "pos": "50% 50%"
+  },
+  "tz-pemba": {
+    "src": "/places/pemba.webp",
+    "by": "Vincent van Zeijst · CC BY-SA 3.0",
+    "source": "Wikimedia Commons (CC BY-SA 3.0), Vincent van Zeijst: Pemba Island, Tanzania. View from Chake-Chake town center over the mangroves towards the Indian Ocean (Pemba Channel).. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:Pemba_island,_Tanzania._View_from_Chake_Chake_town_center_over_the_mangroves_towards_the_sea.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "pos": "50% 50%"
+  },
+  "tz-rubondo": {
+    "src": "/places/rubondo.webp",
+    "by": "Asterlegorch367 · CC BY-SA 4.0",
+    "source": "Wikimedia Commons (CC BY-SA 4.0), Asterlegorch367: Part of Lake Victoria inside Rubondo National Park, an island park. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:Rubondo_National_Park.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "pos": "50% 60%"
+  },
+  "tz-mahale": {
+    "src": "/places/mahale.webp",
+    "by": "Caelio · CC BY-SA 3.0",
+    "source": "Wikimedia Commons (CC BY-SA 3.0), Caelio: Alpha male chimp and older jump on fig tree. Verkleind, bijgesneden en omgezet naar webp. Gedownload 19 oktober 2026.",
+    "url": "https://commons.wikimedia.org/wiki/File:Adult_male_chimps_in_mahale.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "pos": "50% 40%"
+  },
+  "tz-mafia": {
+    "src": "/places/mafia.webp",
+    "by": "Uzuri Safaris Tanzania · Unsplash",
+    "source": "Unsplash (Unsplash-licentie, gratis, ook commercieel), Uzuri Safaris Tanzania (@uzuri_safaris_tanzania), locatie volgens Unsplash: Mafia Island, Tanzania. Gedownload 19 oktober 2026.",
+    "url": "https://unsplash.com/photos/L8WVu2Y9kDU",
+    "license": "Unsplash-licentie",
+    "licenseUrl": "https://unsplash.com/license",
+    "pos": "50% 55%"
+  },
+  "tz-usambara": {
+    "src": "/places/usambara.webp",
+    "by": "Napenda Adventures · Unsplash",
+    "source": "Unsplash (Unsplash-licentie, gratis, ook commercieel), Napenda Adventures (@napendaadventures), locatie volgens Unsplash: Lushoto, Tanzania. Gedownload 19 oktober 2026.",
+    "url": "https://unsplash.com/photos/qj0JsavUAxo",
+    "license": "Unsplash-licentie",
+    "licenseUrl": "https://unsplash.com/license",
+    "pos": "50% 50%"
+  },
+  "tz-saadani": {
+    "src": "/places/saadani.webp",
+    "by": "Andrew Kayani · Unsplash",
+    "source": "Unsplash (Unsplash-licentie, gratis, ook commercieel), Andrew Kayani (@the_gallery), locatie volgens Unsplash: Saadani National Park, Bagamoyo, Tanzania. Gedownload 19 oktober 2026.",
+    "url": "https://unsplash.com/photos/BYmRo4ztcss",
+    "license": "Unsplash-licentie",
+    "licenseUrl": "https://unsplash.com/license",
+    "pos": "50% 55%"
+  },
+  "tz-arusha": {
+    "src": "/places/arusha-np.webp",
+    "by": "mn str · Pexels",
+    "source": "Pexels (Pexels-licentie, gratis, ook commercieel), mn str; titel op Pexels: “Majestic View of Mount Meru in Tanzania” (Mount Meru ligt in Arusha National Park). Gedownload 19 oktober 2026.",
+    "url": "https://www.pexels.com/photo/30847954/",
+    "license": "Pexels-licentie",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "pos": "50% 45%"
+  },
+  "tz-kilwa": {
+    "src": "/places/kilwa.webp",
+    "by": "Baz R · Pexels",
+    "source": "Pexels (Pexels-licentie, gratis, ook commercieel), Baz R; beschrijving op Pexels: traditionele dhow bij Kilwa Kisiwani, Tanzania; Pexels toont geen apart locatieveld. Gedownload 19 oktober 2026.",
+    "url": "https://www.pexels.com/photo/9311360/",
+    "license": "Pexels-licentie",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "pos": "50% 55%"
+  }
+}

@@ -1,0 +1,616 @@
+{
+ "_uitleg": "Focus op Tanzania. 'areas' zijn de gebieden binnen Tanzania (vervangen de Afrikaanse regio's zolang de site alleen Tanzania toont). 'places' zijn extra bestemmingen bovenop data/seed.json. Alles NIET GECONTROLEERD: namen, coördinaten (afgerond, uit algemene kennis), indeling en activiteiten moeten door mensen met lokale kennis worden nagelopen. Geen lodges, prijzen of andere details verzonnen.",
+ "areas": [
+  {
+   "id": "north",
+   "name": {
+    "nl": "Noord-Tanzania",
+    "en": "Northern Tanzania",
+    "de": "Nordtansania",
+    "fr": "Nord de la Tanzanie",
+    "es": "Norte de Tanzania",
+    "it": "Tanzania settentrionale",
+    "pt": "Norte da Tanzânia",
+    "sw": "Kaskazini mwa Tanzania"
+   }
+  },
+  {
+   "id": "south",
+   "name": {
+    "nl": "Zuid-Tanzania",
+    "en": "Southern Tanzania",
+    "de": "Südtansania",
+    "fr": "Sud de la Tanzanie",
+    "es": "Sur de Tanzania",
+    "it": "Tanzania meridionale",
+    "pt": "Sul da Tanzânia",
+    "sw": "Kusini mwa Tanzania"
+   }
+  },
+  {
+   "id": "west",
+   "name": {
+    "nl": "West-Tanzania",
+    "en": "Western Tanzania",
+    "de": "Westtansania",
+    "fr": "Ouest de la Tanzanie",
+    "es": "Oeste de Tanzania",
+    "it": "Tanzania occidentale",
+    "pt": "Oeste da Tanzânia",
+    "sw": "Magharibi mwa Tanzania"
+   }
+  },
+  {
+   "id": "coast",
+   "name": {
+    "nl": "Kust en eilanden",
+    "en": "Coast and islands",
+    "de": "Küste und Inseln",
+    "fr": "Côte et îles",
+    "es": "Costa e islas",
+    "it": "Costa e isole",
+    "pt": "Costa e ilhas",
+    "sw": "Pwani na visiwa"
+   }
+  }
+ ],
+ "areaOf": {
+  "tz-arusha": "north",
+  "tz-tarangire": "north",
+  "tz-manyara": "north",
+  "tz-ngorongoro": "north",
+  "tz-serengeti": "north",
+  "tz-kilimanjaro": "north",
+  "tz-zanzibar": "coast",
+  "tz-mafia": "coast",
+  "tz-pemba": "coast",
+  "tz-ruaha": "south",
+  "tz-nyerere": "south",
+  "tz-mahale": "west"
+ },
+ "places": [
+  {
+   "id": "tz-natron",
+   "countryId": "tz",
+   "name": "Lake Natron",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Sodameer met flamingo’s onder de Ol Doinyo Lengai",
+    "en": "Soda lake with flamingos below Ol Doinyo Lengai",
+    "de": "Sodasee mit Flamingos unter dem Ol Doinyo Lengai",
+    "fr": "Lac de soude et flamants au pied de l’Ol Doinyo Lengai",
+    "es": "Lago de sosa con flamencos bajo el Ol Doinyo Lengai",
+    "it": "Lago salato con fenicotteri sotto l’Ol Doinyo Lengai",
+    "pt": "Lago de soda com flamingos sob o Ol Doinyo Lengai",
+    "sw": "Ziwa la magadi lenye heroe chini ya Ol Doinyo Lengai"
+   },
+   "lat": -2.42,
+   "lon": 36.03,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": true,
+   "advisory": null,
+   "area": "north",
+   "activities": [
+    "walk",
+    "village",
+    "falls",
+    "climb"
+   ]
+  },
+  {
+   "id": "tz-mkomazi",
+   "countryId": "tz",
+   "name": "Mkomazi",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Droge savanne in het noordoosten",
+    "en": "Dry savanna in the north-east",
+    "de": "Trockene Savanne im Nordosten",
+    "fr": "Savane sèche au nord-est",
+    "es": "Sabana seca en el noreste",
+    "it": "Savana arida a nord-est",
+    "pt": "Savana seca no nordeste",
+    "sw": "Savana kavu kaskazini-mashariki"
+   },
+   "lat": -4.0,
+   "lon": 38.1,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null,
+   "area": "north",
+   "activities": [
+    "gd",
+    "walk"
+   ]
+  },
+  {
+   "id": "tz-olduvai",
+   "countryId": "tz",
+   "name": "Olduvai Gorge",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Kloof met vondsten van de vroegste mensen",
+    "en": "Gorge with finds of the earliest humans",
+    "de": "Schlucht mit Funden der frühesten Menschen",
+    "fr": "Gorge aux vestiges des premiers humains",
+    "es": "Garganta con hallazgos de los primeros humanos",
+    "it": "Gola con reperti dei primi esseri umani",
+    "pt": "Desfiladeiro com achados dos primeiros humanos",
+    "sw": "Bonde lenye mabaki ya binadamu wa kwanza"
+   },
+   "lat": -2.99,
+   "lon": 35.35,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null,
+   "area": "north",
+   "activities": [
+    "museum",
+    "walk"
+   ]
+  },
+  {
+   "id": "tz-eyasi",
+   "countryId": "tz",
+   "name": "Lake Eyasi",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Zoutmeer en dorpen van de Hadzabe en Datoga",
+    "en": "Salt lake and Hadzabe and Datoga villages",
+    "de": "Salzsee und Dörfer der Hadzabe und Datoga",
+    "fr": "Lac salé et villages hadzabe et datoga",
+    "es": "Lago salado y aldeas hadzabe y datoga",
+    "it": "Lago salato e villaggi hadzabe e datoga",
+    "pt": "Lago salgado e aldeias hadzabe e datoga",
+    "sw": "Ziwa la chumvi na vijiji vya Wahadzabe na Wadatoga"
+   },
+   "lat": -3.6,
+   "lon": 35.05,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null,
+   "area": "north",
+   "activities": [
+    "village",
+    "walk"
+   ]
+  },
+  {
+   "id": "tz-usambara",
+   "countryId": "tz",
+   "name": "Usambara (Lushoto)",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Groene bergen, dorpen en wandelpaden",
+    "en": "Green mountains, villages and footpaths",
+    "de": "Grüne Berge, Dörfer und Wanderwege",
+    "fr": "Montagnes vertes, villages et sentiers",
+    "es": "Montañas verdes, aldeas y senderos",
+    "it": "Montagne verdi, villaggi e sentieri",
+    "pt": "Montanhas verdes, aldeias e trilhos",
+    "sw": "Milima ya kijani, vijiji na njia za matembezi"
+   },
+   "lat": -4.79,
+   "lon": 38.29,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null,
+   "area": "north",
+   "activities": [
+    "hike",
+    "trek",
+    "village",
+    "market"
+   ]
+  },
+  {
+   "id": "tz-kondoa",
+   "countryId": "tz",
+   "name": "Kondoa",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Eeuwenoude rotstekeningen, UNESCO-werelderfgoed",
+    "en": "Ancient rock paintings, a UNESCO World Heritage site",
+    "de": "Uralte Felsmalereien, UNESCO-Welterbe",
+    "fr": "Peintures rupestres anciennes, patrimoine de l’UNESCO",
+    "es": "Pinturas rupestres antiguas, Patrimonio de la UNESCO",
+    "it": "Antiche pitture rupestri, patrimonio UNESCO",
+    "pt": "Pinturas rupestres antigas, Património da UNESCO",
+    "sw": "Michoro ya kale ya miambani, urithi wa dunia wa UNESCO"
+   },
+   "lat": -4.7,
+   "lon": 35.8,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null,
+   "area": "north",
+   "activities": [
+    "rock",
+    "walk"
+   ]
+  },
+  {
+   "id": "tz-arushacity",
+   "countryId": "tz",
+   "name": "Arusha",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Stad aan de voet van Mount Meru, met markten",
+    "en": "Town at the foot of Mount Meru, with markets",
+    "de": "Stadt am Fuß des Mount Meru, mit Märkten",
+    "fr": "Ville au pied du mont Meru, avec ses marchés",
+    "es": "Ciudad al pie del monte Meru, con mercados",
+    "it": "Città ai piedi del Monte Meru, con mercati",
+    "pt": "Cidade no sopé do Monte Meru, com mercados",
+    "sw": "Mji chini ya Mlima Meru, wenye masoko"
+   },
+   "lat": -3.37,
+   "lon": 36.68,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null,
+   "area": "north",
+   "activities": [
+    "market",
+    "museum"
+   ]
+  },
+  {
+   "id": "tz-udzungwa",
+   "countryId": "tz",
+   "name": "Udzungwa Mountains",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Regenwoud, watervallen en zeldzame apen",
+    "en": "Rainforest, waterfalls and rare monkeys",
+    "de": "Regenwald, Wasserfälle und seltene Affen",
+    "fr": "Forêt tropicale, cascades et singes rares",
+    "es": "Selva, cascadas y monos raros",
+    "it": "Foresta pluviale, cascate e scimmie rare",
+    "pt": "Floresta tropical, cascatas e macacos raros",
+    "sw": "Msitu wa mvua, maporomoko na nyani adimu"
+   },
+   "lat": -7.8,
+   "lon": 36.75,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null,
+   "area": "south",
+   "activities": [
+    "hike",
+    "falls",
+    "natwalk"
+   ]
+  },
+  {
+   "id": "tz-mikumi",
+   "countryId": "tz",
+   "name": "Mikumi",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Open vlakte, over de weg bereikbaar vanaf Dar es Salaam",
+    "en": "Open plains, reachable by road from Dar es Salaam",
+    "de": "Offene Ebene, auf der Straße erreichbar ab Dar es Salaam",
+    "fr": "Plaine ouverte, accessible par la route depuis Dar es Salaam",
+    "es": "Llanura abierta, accesible por carretera desde Dar es Salaam",
+    "it": "Pianura aperta, raggiungibile in auto da Dar es Salaam",
+    "pt": "Planície aberta, acessível por estrada a partir de Dar es Salaam",
+    "sw": "Uwanda wazi, unaofikika kwa barabara kutoka Dar es Salaam"
+   },
+   "lat": -7.25,
+   "lon": 37.05,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null,
+   "area": "south",
+   "activities": [
+    "gd"
+   ]
+  },
+  {
+   "id": "tz-kitulo",
+   "countryId": "tz",
+   "name": "Kitulo",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Hoogvlakte vol wilde bloemen",
+    "en": "High plateau full of wildflowers",
+    "de": "Hochplateau voller Wildblumen",
+    "fr": "Haut plateau couvert de fleurs sauvages",
+    "es": "Meseta alta llena de flores silvestres",
+    "it": "Altopiano pieno di fiori selvatici",
+    "pt": "Planalto cheio de flores silvestres",
+    "sw": "Uwanda wa juu wenye maua ya porini"
+   },
+   "lat": -9.05,
+   "lon": 33.95,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null,
+   "area": "south",
+   "activities": [
+    "hike",
+    "natwalk"
+   ]
+  },
+  {
+   "id": "tz-matema",
+   "countryId": "tz",
+   "name": "Matema (Lake Nyasa)",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Strand aan het Nyasameer onder steile bergen",
+    "en": "Beach on Lake Nyasa below steep mountains",
+    "de": "Strand am Malawisee unter steilen Bergen",
+    "fr": "Plage sur le lac Nyassa au pied de montagnes abruptes",
+    "es": "Playa en el lago Nyasa bajo montañas escarpadas",
+    "it": "Spiaggia sul lago Nyasa sotto ripide montagne",
+    "pt": "Praia no lago Niassa sob montanhas íngremes",
+    "sw": "Ufukwe wa Ziwa Nyasa chini ya milima mikali"
+   },
+   "lat": -9.5,
+   "lon": 34.03,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": true,
+   "advisory": null,
+   "area": "south",
+   "activities": [
+    "lake",
+    "canoe",
+    "hike"
+   ]
+  },
+  {
+   "id": "tz-gombe",
+   "countryId": "tz",
+   "name": "Gombe",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Chimpansees in het bos aan het Tanganyikameer",
+    "en": "Chimpanzees in the forest on Lake Tanganyika",
+    "de": "Schimpansen im Wald am Tanganjikasee",
+    "fr": "Chimpanzés dans la forêt au bord du lac Tanganyika",
+    "es": "Chimpancés en el bosque junto al lago Tanganica",
+    "it": "Scimpanzé nella foresta sul lago Tanganica",
+    "pt": "Chimpanzés na floresta junto ao lago Tanganica",
+    "sw": "Sokwe msituni kando ya Ziwa Tanganyika"
+   },
+   "lat": -4.67,
+   "lon": 29.62,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null,
+   "area": "west",
+   "activities": [
+    "chimp",
+    "hike",
+    "lake"
+   ]
+  },
+  {
+   "id": "tz-katavi",
+   "countryId": "tz",
+   "name": "Katavi",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Afgelegen, weinig bezocht wildpark in het westen",
+    "en": "Remote, little-visited park in the west",
+    "de": "Abgelegener, wenig besuchter Park im Westen",
+    "fr": "Parc isolé et peu visité à l’ouest",
+    "es": "Parque remoto y poco visitado en el oeste",
+    "it": "Parco remoto e poco visitato a ovest",
+    "pt": "Parque remoto e pouco visitado no oeste",
+    "sw": "Hifadhi ya mbali isiyotembelewa sana magharibi"
+   },
+   "lat": -6.9,
+   "lon": 31.2,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null,
+   "area": "west",
+   "activities": [
+    "gd",
+    "walk"
+   ]
+  },
+  {
+   "id": "tz-rubondo",
+   "countryId": "tz",
+   "name": "Rubondo Island",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Boseiland in het Victoriameer",
+    "en": "Forested island in Lake Victoria",
+    "de": "Bewaldete Insel im Victoriasee",
+    "fr": "Île boisée sur le lac Victoria",
+    "es": "Isla boscosa en el lago Victoria",
+    "it": "Isola boscosa nel lago Vittoria",
+    "pt": "Ilha florestada no lago Vitória",
+    "sw": "Kisiwa chenye msitu katika Ziwa Victoria"
+   },
+   "lat": -2.3,
+   "lon": 31.85,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null,
+   "area": "west",
+   "activities": [
+    "boat",
+    "natwalk",
+    "canoe"
+   ]
+  },
+  {
+   "id": "tz-stonetown",
+   "countryId": "tz",
+   "name": "Stone Town",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Oude stad met smalle straatjes, UNESCO-werelderfgoed",
+    "en": "Old town of narrow streets, a UNESCO World Heritage site",
+    "de": "Altstadt mit engen Gassen, UNESCO-Welterbe",
+    "fr": "Vieille ville aux ruelles étroites, patrimoine de l’UNESCO",
+    "es": "Casco antiguo de calles estrechas, Patrimonio de la UNESCO",
+    "it": "Città vecchia di vicoli stretti, patrimonio UNESCO",
+    "pt": "Cidade velha de ruas estreitas, Património da UNESCO",
+    "sw": "Mji wa kale wenye vichochoro, urithi wa dunia wa UNESCO"
+   },
+   "lat": -6.16,
+   "lon": 39.19,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null,
+   "area": "coast",
+   "activities": [
+    "oldtown",
+    "spice",
+    "market",
+    "dhow"
+   ]
+  },
+  {
+   "id": "tz-bagamoyo",
+   "countryId": "tz",
+   "name": "Bagamoyo",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Oude handelsstad aan de kust",
+    "en": "Old trading town on the coast",
+    "de": "Alte Handelsstadt an der Küste",
+    "fr": "Ancienne ville marchande sur la côte",
+    "es": "Antigua ciudad comercial en la costa",
+    "it": "Antica città mercantile sulla costa",
+    "pt": "Antiga cidade comercial na costa",
+    "sw": "Mji wa kale wa biashara pwani"
+   },
+   "lat": -6.44,
+   "lon": 38.9,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null,
+   "area": "coast",
+   "activities": [
+    "ruins",
+    "oldtown",
+    "museum"
+   ]
+  },
+  {
+   "id": "tz-kilwa",
+   "countryId": "tz",
+   "name": "Kilwa Kisiwani",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Ruïnes van een middeleeuwse handelsstad, UNESCO-werelderfgoed",
+    "en": "Ruins of a medieval trading city, a UNESCO World Heritage site",
+    "de": "Ruinen einer mittelalterlichen Handelsstadt, UNESCO-Welterbe",
+    "fr": "Ruines d’une cité marchande médiévale, patrimoine de l’UNESCO",
+    "es": "Ruinas de una ciudad comercial medieval, Patrimonio de la UNESCO",
+    "it": "Rovine di una città mercantile medievale, patrimonio UNESCO",
+    "pt": "Ruínas de uma cidade comercial medieval, Património da UNESCO",
+    "sw": "Magofu ya mji wa biashara wa enzi za kati, urithi wa dunia wa UNESCO"
+   },
+   "lat": -8.96,
+   "lon": 39.51,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null,
+   "area": "coast",
+   "activities": [
+    "ruins",
+    "boat"
+   ]
+  },
+  {
+   "id": "tz-saadani",
+   "countryId": "tz",
+   "name": "Saadani",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Wildpark dat aan de Indische Oceaan grenst",
+    "en": "Wildlife park bordering the Indian Ocean",
+    "de": "Wildpark direkt am Indischen Ozean",
+    "fr": "Parc animalier au bord de l’océan Indien",
+    "es": "Parque de fauna junto al océano Índico",
+    "it": "Parco faunistico affacciato sull’Oceano Indiano",
+    "pt": "Parque de vida selvagem junto ao oceano Índico",
+    "sw": "Hifadhi ya wanyama inayopakana na Bahari ya Hindi"
+   },
+   "lat": -6.05,
+   "lon": 38.78,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null,
+   "area": "coast",
+   "activities": [
+    "gd",
+    "boat",
+    "walk"
+   ]
+  },
+  {
+   "id": "tz-dar",
+   "countryId": "tz",
+   "name": "Dar es Salaam",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Grootste stad, met markten en musea",
+    "en": "Largest city, with markets and museums",
+    "de": "Größte Stadt, mit Märkten und Museen",
+    "fr": "Plus grande ville, avec marchés et musées",
+    "es": "La ciudad más grande, con mercados y museos",
+    "it": "La città più grande, con mercati e musei",
+    "pt": "A maior cidade, com mercados e museus",
+    "sw": "Jiji kubwa zaidi, lenye masoko na makumbusho"
+   },
+   "lat": -6.8,
+   "lon": 39.28,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null,
+   "area": "coast",
+   "activities": [
+    "market",
+    "museum"
+   ]
+  }
+ ]
+}

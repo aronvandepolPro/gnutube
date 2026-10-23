@@ -1,0 +1,1135 @@
+{
+ "_uitleg": "Beste reistijd per plek (placeId). months = beste maanden (1 = januari); why = waarom, per taal; also = tweede goede periode met eigen maanden; avoid = waar je rekening mee houdt; source = waar het vandaan komt (naam, exacte pagina, datum van controle). Alleen invullen met een echte bron, niets uit het hoofd. Nog zonder bron: tz-kondoa, tz-matema.",
+ "tz-arusha": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   12,
+   1,
+   2
+  ],
+  "why": {
+   "nl": "Volgens TANAPA zijn dit de drukste seizoenen in het park; boek je verblijf dan op tijd.",
+   "en": "According to TANAPA these are the park’s peak seasons; book accommodation early.",
+   "de": "Laut TANAPA sind das die Hauptsaisons im Park; Unterkunft früh buchen.",
+   "fr": "Selon TANAPA, ce sont les hautes saisons du parc ; réservez tôt votre hébergement.",
+   "es": "Según TANAPA, son las temporadas altas del parque; reserva el alojamiento pronto.",
+   "it": "Secondo TANAPA sono le alte stagioni del parco; prenota presto l’alloggio.",
+   "pt": "Segundo a TANAPA, são as épocas altas do parque; reserve cedo o alojamento.",
+   "sw": "Kwa mujibu wa TANAPA, hii ni misimu ya juu ya hifadhi; weka nafasi ya malazi mapema."
+  },
+  "also": null,
+  "avoid": null,
+  "source": {
+   "name": "Tanzania National Parks (TANAPA) – Arusha National Park",
+   "url": "https://www.tanzaniaparks.go.tz/arusha/visitor-guide",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-arushacity": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "Van juni tot en met oktober is het droge seizoen.",
+   "en": "June to October is the dry season.",
+   "de": "Von Juni bis Oktober ist Trockenzeit.",
+   "fr": "De juin à octobre, c’est la saison sèche.",
+   "es": "De junio a octubre es la estación seca.",
+   "it": "Da giugno a ottobre è la stagione secca.",
+   "pt": "De junho a outubro é a estação seca.",
+   "sw": "Juni hadi Oktoba ni kiangazi."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "Van maart tot en met mei vallen de lange regens.",
+   "en": "March to May brings the long rains.",
+   "de": "März bis Mai fällt der große Regen.",
+   "fr": "De mars à mai, ce sont les grandes pluies.",
+   "es": "De marzo a mayo llegan las lluvias largas.",
+   "it": "Da marzo a maggio ci sono le grandi piogge.",
+   "pt": "De março a maio chegam as chuvas longas.",
+   "sw": "Machi hadi Mei ni masika."
+  },
+  "source": {
+   "name": "Wikipedia – Arusha (klimaat)",
+   "url": "https://en.wikipedia.org/wiki/Arusha",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-bagamoyo": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "why": {
+   "nl": "Rough Guides noemt Bagamoyo niet apart, maar geeft voor de hele Swahili-kust juni tot februari: droog en een rustige zee.",
+   "en": "Rough Guides does not mention Bagamoyo separately, but gives June to February for the whole Swahili coast: dry with calm seas.",
+   "de": "Rough Guides nennt Bagamoyo nicht eigens, gibt aber für die ganze Swahili-Küste Juni bis Februar an: trocken und ruhige See.",
+   "fr": "Rough Guides ne cite pas Bagamoyo à part, mais indique de juin à février pour toute la côte swahilie : sec et mer calme.",
+   "es": "Rough Guides no menciona Bagamoyo por separado, pero indica de junio a febrero para toda la costa suajili: seco y mar en calma.",
+   "it": "Rough Guides non cita Bagamoyo a parte, ma indica da giugno a febbraio per tutta la costa swahili: secco e mare calmo.",
+   "pt": "A Rough Guides não menciona Bagamoyo à parte, mas indica de junho a fevereiro para toda a costa suaíli: seco e mar calmo.",
+   "sw": "Rough Guides haitaji Bagamoyo peke yake, lakini inataja Juni hadi Februari kwa pwani yote ya Kiswahili: kavu na bahari tulivu."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "Half maart tot en met mei vallen de lange regens; dan sluiten sommige hotels. In november kunnen korte regens vallen.",
+   "en": "Mid-March to May brings the long rains, when some hotels close. Short rains can fall in November.",
+   "de": "Von Mitte März bis Mai fällt der große Regen, manche Hotels schließen dann. Im November kann es kurz regnen.",
+   "fr": "De mi-mars à mai, ce sont les grandes pluies et certains hôtels ferment. De courtes pluies peuvent tomber en novembre.",
+   "es": "De mediados de marzo a mayo llegan las lluvias largas y algunos hoteles cierran. En noviembre puede haber lluvias cortas.",
+   "it": "Da metà marzo a maggio ci sono le grandi piogge e alcuni hotel chiudono. A novembre possono cadere piogge brevi.",
+   "pt": "De meados de março a maio chegam as chuvas longas e alguns hotéis fecham. Em novembro podem cair chuvas curtas.",
+   "sw": "Katikati ya Machi hadi Mei ni mvua za masika na baadhi ya hoteli hufungwa. Mvua fupi zinaweza kunyesha Novemba."
+  },
+  "source": {
+   "name": "Rough Guides – Wanneer naar Tanzania",
+   "url": "https://www.roughguides.com/tanzania/when-to-go/",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-dar": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "Juni tot en met september zijn de droogste maanden. Het blijft het hele jaar warm en vochtig.",
+   "en": "June to September are the driest months. It stays hot and humid all year.",
+   "de": "Juni bis September sind die trockensten Monate. Es bleibt das ganze Jahr heiß und feucht.",
+   "fr": "Juin à septembre sont les mois les plus secs. Il fait chaud et humide toute l’année.",
+   "es": "De junio a septiembre son los meses más secos. Hace calor y humedad todo el año.",
+   "it": "Da giugno a settembre sono i mesi più secchi. Fa caldo e umido tutto l’anno.",
+   "pt": "Junho a setembro são os meses mais secos. Está quente e húmido todo o ano.",
+   "sw": "Juni hadi Septemba ni miezi mikavu zaidi. Joto na unyevu huendelea mwaka mzima."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "Lange regens in april en mei, korte regens in november en december.",
+   "en": "Long rains in April and May, short rains in November and December.",
+   "de": "Großer Regen im April und Mai, kleiner Regen im November und Dezember.",
+   "fr": "Grandes pluies en avril et mai, petites pluies en novembre et décembre.",
+   "es": "Lluvias largas en abril y mayo, cortas en noviembre y diciembre.",
+   "it": "Grandi piogge ad aprile e maggio, piogge brevi a novembre e dicembre.",
+   "pt": "Chuvas longas em abril e maio, curtas em novembro e dezembro.",
+   "sw": "Masika Aprili na Mei, vuli Novemba na Desemba."
+  },
+  "source": {
+   "name": "Wikipedia – Dar es Salaam (klimaat)",
+   "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-eyasi": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "Je kunt hier het hele jaar heen. Van juni tot en met oktober is het droog, dus dan zijn de wegen en paden het makkelijkst.",
+   "en": "You can visit all year. June to October is dry, so roads and trails are easiest then.",
+   "de": "Man kann das ganze Jahr hin. Von Juni bis Oktober ist es trocken, dann sind Straßen und Wege am einfachsten.",
+   "fr": "On peut y aller toute l’année. De juin à octobre, c’est sec, routes et sentiers sont alors les plus faciles.",
+   "es": "Se puede visitar todo el año. De junio a octubre es seco, así que caminos y senderos son más fáciles.",
+   "it": "Si può visitare tutto l’anno. Da giugno a ottobre è secco, quindi strade e sentieri sono più facili.",
+   "pt": "Pode visitar-se todo o ano. De junho a outubro é seco, por isso estradas e trilhos são mais fáceis.",
+   "sw": "Unaweza kutembelea mwaka mzima. Juni hadi Oktoba ni kavu, hivyo barabara na njia ni rahisi zaidi."
+  },
+  "also": {
+   "months": [
+    3,
+    4,
+    5,
+    11,
+    12
+   ],
+   "text": {
+    "nl": "In de regentijd staat er meer water in het meer, met nijlpaarden en veel vogels.",
+    "en": "In the rains the lake is fuller, with hippos and lots of birds.",
+    "de": "In der Regenzeit ist der See voller, mit Flusspferden und vielen Vögeln.",
+    "fr": "Pendant les pluies, le lac est plus plein, avec hippopotames et beaucoup d’oiseaux.",
+    "es": "En las lluvias el lago está más lleno, con hipopótamos y muchas aves.",
+    "it": "Durante le piogge il lago è più pieno, con ippopotami e molti uccelli.",
+    "pt": "Nas chuvas o lago fica mais cheio, com hipopótamos e muitas aves.",
+    "sw": "Wakati wa mvua ziwa hujaa zaidi, kuna viboko na ndege wengi."
+   }
+  },
+  "avoid": null,
+  "source": {
+   "name": "AfricanMecca Safaris – Lake Eyasi",
+   "url": "https://www.africanmeccasafaris.com/travel-guide/tanzania/parks-reserves/lake-eyasi/when-best-time-to-visit",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-gombe": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "Het drukste seizoen: boek chimpansee-tochten op tijd. Volgens Lonely Planet komen de chimpansees in de droge tijd lager op de hellingen, wat zoeken makkelijker maakt.",
+   "en": "Peak season: book chimp treks early. According to Lonely Planet the chimps come lower on the slopes in the dry season, which makes tracking easier.",
+   "de": "Hauptsaison: Schimpansen-Touren früh buchen. Laut Lonely Planet kommen die Schimpansen in der Trockenzeit tiefer an die Hänge, was die Suche erleichtert.",
+   "fr": "Haute saison : réservez tôt les sorties chimpanzés. Selon Lonely Planet, ils descendent plus bas sur les pentes en saison sèche, ce qui facilite le pistage.",
+   "es": "Temporada alta: reserva pronto las caminatas de chimpancés. Según Lonely Planet, en la estación seca bajan por las laderas y es más fácil encontrarlos.",
+   "it": "Alta stagione: prenota presto il trekking degli scimpanzé. Secondo Lonely Planet in stagione secca scendono più in basso sui pendii, e trovarli è più facile.",
+   "pt": "Época alta: reserve cedo os passeios aos chimpanzés. Segundo a Lonely Planet, na estação seca descem mais nas encostas e é mais fácil encontrá-los.",
+   "sw": "Msimu wa juu: weka nafasi mapema. Kwa mujibu wa Lonely Planet, sokwe hushuka chini kiangazi, hivyo ni rahisi kuwapata."
+  },
+  "also": null,
+  "avoid": null,
+  "source": {
+   "name": "Tanzania National Parks (TANAPA) – Gombe",
+   "url": "https://www.tanzaniaparks.go.tz/gombe/visitor-guide",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-katavi": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "De beste tijd voor dieren: buffels, olifanten en nijlpaarden verzamelen zich bij de laatste poelen in de vlaktes van de Katuma.",
+   "en": "Peak wildlife viewing: buffalo, elephant and hippo crowd the last pools on the Katuma floodplains.",
+   "de": "Beste Tierbeobachtung: Büffel, Elefanten und Flusspferde drängen sich an den letzten Tümpeln der Katuma-Ebene.",
+   "fr": "Meilleure période pour la faune : buffles, éléphants et hippopotames se pressent autour des derniers points d’eau de la plaine de la Katuma.",
+   "es": "La mejor época para ver fauna: búfalos, elefantes e hipopótamos se concentran en las últimas pozas de las llanuras del Katuma.",
+   "it": "Il periodo migliore per gli animali: bufali, elefanti e ippopotami si radunano nelle ultime pozze delle pianure del Katuma.",
+   "pt": "A melhor altura para a vida selvagem: búfalos, elefantes e hipopótamos juntam-se nas últimas poças das planícies do Katuma.",
+   "sw": "Wakati bora kwa wanyama: nyati, tembo na viboko hukusanyika kwenye madimbwi ya mwisho ya tambarare za Katuma."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "In de regentijd (november tot en met mei) heb je echt een hoge 4x4 nodig.",
+   "en": "In the rains (November–May) a high-clearance 4x4 is essential.",
+   "de": "In der Regenzeit (November–Mai) ist ein hochbeiniger 4x4 unverzichtbar.",
+   "fr": "Pendant les pluies (novembre–mai), un 4x4 surélevé est indispensable.",
+   "es": "En las lluvias (noviembre–mayo) es imprescindible un 4x4 alto.",
+   "it": "Durante le piogge (novembre–maggio) serve un 4x4 rialzato.",
+   "pt": "Nas chuvas (novembro–maio) é essencial um 4x4 alto.",
+   "sw": "Wakati wa mvua (Novemba–Mei) gari la 4x4 lililo juu ni lazima."
+  },
+  "source": {
+   "name": "Tanzania National Parks (TANAPA) – Katavi",
+   "url": "https://www.tanzaniaparks.go.tz/katavi/visitor-guide",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-kilimanjaro": {
+  "months": [
+   1,
+   2,
+   3,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "Beklimmen gaat het best in de droge seizoenen: januari tot begin maart en augustus tot en met oktober. Januari tot begin maart is rustiger en geeft de helderste lucht, maar is het koudst op de berg.",
+   "en": "Climbing is best in the dry seasons: January to early March and August to October. January to early March is quieter with the clearest skies, but is the coldest time on the mountain.",
+   "de": "Am besten besteigt man ihn in der Trockenzeit: Januar bis Anfang März und August bis Oktober. Januar bis Anfang März ist ruhiger mit klarstem Himmel, aber am kältesten am Berg.",
+   "fr": "L’ascension est idéale en saison sèche : de janvier à début mars et d’août à octobre. Janvier à début mars est plus calme avec le ciel le plus clair, mais c’est le plus froid sur la montagne.",
+   "es": "Lo mejor es subir en las estaciones secas: de enero a principios de marzo y de agosto a octubre. Enero a principios de marzo es más tranquilo y con cielos más despejados, pero hace más frío en la montaña.",
+   "it": "Si sale meglio nelle stagioni secche: da gennaio a inizio marzo e da agosto a ottobre. Gennaio–inizio marzo è più tranquillo e con il cielo più limpido, ma è il periodo più freddo sulla montagna.",
+   "pt": "Sobe-se melhor nas estações secas: de janeiro ao início de março e de agosto a outubro. Janeiro–início de março é mais calmo e com o céu mais limpo, mas é o mais frio na montanha.",
+   "sw": "Kupanda ni bora kiangazi: Januari hadi mwanzo wa Machi na Agosti hadi Oktoba. Januari hadi mwanzo wa Machi ni tulivu na anga safi zaidi, lakini ni baridi zaidi mlimani."
+  },
+  "also": {
+   "months": [
+    6,
+    7
+   ],
+   "text": {
+    "nl": "Volgens Lonely Planet begint het droge seizoen al eind juni.",
+    "en": "According to Lonely Planet the dry season starts in late June.",
+    "de": "Laut Lonely Planet beginnt die Trockenzeit schon Ende Juni.",
+    "fr": "Selon Lonely Planet, la saison sèche commence dès fin juin.",
+    "es": "Según Lonely Planet, la estación seca empieza a finales de junio.",
+    "it": "Secondo Lonely Planet la stagione secca inizia già a fine giugno.",
+    "pt": "Segundo a Lonely Planet, a estação seca começa no fim de junho.",
+    "sw": "Kwa mujibu wa Lonely Planet, kiangazi huanza mwishoni mwa Juni."
+   }
+  },
+  "avoid": {
+   "nl": "November en december hebben het slechtste weer; in de regentijd van maart tot en met mei is klimmen zwaarder.",
+   "en": "November and December have the worst weather; climbing is harder in the March–May rains.",
+   "de": "November und Dezember haben das schlechteste Wetter; in der Regenzeit März–Mai ist der Aufstieg schwerer.",
+   "fr": "Novembre et décembre ont la pire météo ; l’ascension est plus dure pendant les pluies de mars à mai.",
+   "es": "Noviembre y diciembre tienen el peor tiempo; subir es más duro con las lluvias de marzo a mayo.",
+   "it": "Novembre e dicembre hanno il tempo peggiore; salire è più duro con le piogge di marzo–maggio.",
+   "pt": "Novembro e dezembro têm o pior tempo; subir é mais difícil nas chuvas de março a maio.",
+   "sw": "Novemba na Desemba zina hali mbaya zaidi; kupanda ni kugumu zaidi wakati wa masika Machi–Mei."
+  },
+  "source": {
+   "name": "Bradt Guides – Tanzania (Mount Kilimanjaro)",
+   "url": "https://www.bradtguides.com/destinations/africa-travel-guides/tanzania/",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-kilwa": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "why": {
+   "nl": "Rough Guides noemt Kilwa niet apart, maar geeft voor de hele Swahili-kust juni tot februari: droog en een rustige zee.",
+   "en": "Rough Guides does not mention Kilwa separately, but gives June to February for the whole Swahili coast: dry with calm seas.",
+   "de": "Rough Guides nennt Kilwa nicht eigens, gibt aber für die ganze Swahili-Küste Juni bis Februar an: trocken und ruhige See.",
+   "fr": "Rough Guides ne cite pas Kilwa à part, mais indique de juin à février pour toute la côte swahilie : sec et mer calme.",
+   "es": "Rough Guides no menciona Kilwa por separado, pero indica de junio a febrero para toda la costa suajili: seco y mar en calma.",
+   "it": "Rough Guides non cita Kilwa a parte, ma indica da giugno a febbraio per tutta la costa swahili: secco e mare calmo.",
+   "pt": "A Rough Guides não menciona Kilwa à parte, mas indica de junho a fevereiro para toda a costa suaíli: seco e mar calmo.",
+   "sw": "Rough Guides haitaji Kilwa peke yake, lakini inataja Juni hadi Februari kwa pwani yote ya Kiswahili: kavu na bahari tulivu."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "Half maart tot en met mei vallen de lange regens; dan sluiten sommige hotels. In november kunnen korte regens vallen.",
+   "en": "Mid-March to May brings the long rains, when some hotels close. Short rains can fall in November.",
+   "de": "Von Mitte März bis Mai fällt der große Regen, manche Hotels schließen dann. Im November kann es kurz regnen.",
+   "fr": "De mi-mars à mai, ce sont les grandes pluies et certains hôtels ferment. De courtes pluies peuvent tomber en novembre.",
+   "es": "De mediados de marzo a mayo llegan las lluvias largas y algunos hoteles cierran. En noviembre puede haber lluvias cortas.",
+   "it": "Da metà marzo a maggio ci sono le grandi piogge e alcuni hotel chiudono. A novembre possono cadere piogge brevi.",
+   "pt": "De meados de março a maio chegam as chuvas longas e alguns hotéis fecham. Em novembro podem cair chuvas curtas.",
+   "sw": "Katikati ya Machi hadi Mei ni mvua za masika na baadhi ya hoteli hufungwa. Mvua fupi zinaweza kunyesha Novemba."
+  },
+  "source": {
+   "name": "Rough Guides – Wanneer naar Tanzania",
+   "url": "https://www.roughguides.com/tanzania/when-to-go/",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-kitulo": {
+  "months": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "why": {
+   "nl": "Het bloemenseizoen: orchideeën en bergweiden staan in bloei, afhankelijk van de regen.",
+   "en": "Flower season: orchids and alpine meadows are in bloom, depending on the rains.",
+   "de": "Blütezeit: Orchideen und Bergwiesen blühen, je nach Regen.",
+   "fr": "Saison des fleurs : orchidées et prairies alpines en fleurs, selon les pluies.",
+   "es": "Temporada de flores: orquídeas y prados alpinos en flor, según las lluvias.",
+   "it": "Stagione dei fiori: orchidee e prati alpini in fiore, a seconda delle piogge.",
+   "pt": "Época das flores: orquídeas e prados alpinos em flor, conforme as chuvas.",
+   "sw": "Msimu wa maua: okidi na nyika za milimani huchanua, kutegemea mvua."
+  },
+  "also": {
+   "months": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "text": {
+    "nl": "Droger: heerlijk wandelen met weidse uitzichten, maar zonder bloemenpracht.",
+    "en": "Drier: great hiking and wide views, but no flower peak.",
+    "de": "Trockener: tolles Wandern mit weiter Sicht, aber ohne Blütenpracht.",
+    "fr": "Plus sec : belles randonnées et grands panoramas, mais sans floraison.",
+    "es": "Más seco: muy buenas caminatas y vistas amplias, pero sin flores.",
+    "it": "Più secco: ottime escursioni e ampie vedute, ma senza fioritura.",
+    "pt": "Mais seco: ótimas caminhadas e vistas amplas, mas sem flores.",
+    "sw": "Kavu zaidi: matembezi mazuri na mandhari pana, lakini bila maua."
+   }
+  },
+  "avoid": {
+   "nl": "In de regentijd zijn de laatste klimmen naar het plateau steil en ruw; neem een 4x4.",
+   "en": "In the rains the final climbs to the plateau are steep and rough; take a 4x4.",
+   "de": "In der Regenzeit sind die letzten Anstiege zum Plateau steil und rau; nimm einen 4x4.",
+   "fr": "Pendant les pluies, les dernières montées vers le plateau sont raides et difficiles ; prenez un 4x4.",
+   "es": "En las lluvias las últimas subidas a la meseta son empinadas; usa un 4x4.",
+   "it": "Durante le piogge le ultime salite all’altopiano sono ripide; usa un 4x4.",
+   "pt": "Nas chuvas as últimas subidas ao planalto são íngremes; use um 4x4.",
+   "sw": "Wakati wa mvua miinuko ya mwisho ni mikali; tumia 4x4."
+  },
+  "source": {
+   "name": "Tanzania National Parks (TANAPA) – Kitulo",
+   "url": "https://www.tanzaniaparks.go.tz/kitulo/visitor-guide",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-mafia": {
+  "months": [
+   10,
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "why": {
+   "nl": "De meeste duikplekken zijn het best van oktober tot en met maart. In Chole Bay kun je het hele jaar duiken.",
+   "en": "Most dive sites are best from October to March. Chole Bay can be dived all year.",
+   "de": "Die meisten Tauchplätze sind von Oktober bis März am besten. In der Chole Bay kann man ganzjährig tauchen.",
+   "fr": "La plupart des sites de plongée sont meilleurs d’octobre à mars. On peut plonger toute l’année dans la baie de Chole.",
+   "es": "La mayoría de los puntos de buceo son mejores de octubre a marzo. En Chole Bay se puede bucear todo el año.",
+   "it": "La maggior parte dei siti di immersione è migliore da ottobre a marzo. Nella Chole Bay ci si immerge tutto l’anno.",
+   "pt": "A maioria dos locais de mergulho é melhor de outubro a março. Em Chole Bay pode mergulhar-se todo o ano.",
+   "sw": "Maeneo mengi ya kupiga mbizi ni bora Oktoba hadi Machi. Chole Bay unaweza kupiga mbizi mwaka mzima."
+  },
+  "also": {
+   "months": [
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "text": {
+    "nl": "Walvishaaien zwemmen dan vlak onder het wateroppervlak.",
+    "en": "Whale sharks feed close to the surface.",
+    "de": "Walhaie fressen dann dicht unter der Oberfläche.",
+    "fr": "Les requins-baleines se nourrissent alors près de la surface.",
+    "es": "Los tiburones ballena se alimentan cerca de la superficie.",
+    "it": "Gli squali balena si nutrono vicino alla superficie.",
+    "pt": "Os tubarões-baleia alimentam-se perto da superfície.",
+    "sw": "Papa potwe hula karibu na uso wa maji."
+   }
+  },
+  "avoid": {
+   "nl": "Van maart tot en met juni is het regenseizoen.",
+   "en": "March to June is the rainy season.",
+   "de": "März bis Juni ist Regenzeit.",
+   "fr": "La saison des pluies va de mars à juin.",
+   "es": "De marzo a junio es la temporada de lluvias.",
+   "it": "Da marzo a giugno è la stagione delle piogge.",
+   "pt": "De março a junho é a época das chuvas.",
+   "sw": "Machi hadi Juni ni msimu wa mvua."
+  },
+  "source": {
+   "name": "Responsible Travel – Mafia Island",
+   "url": "https://www.responsibletravel.com/holidays/safari-and-beach/travel-guide/mafia-island",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-mahale": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "De beste tijd voor chimpansees zoeken en het strand aan het Tanganyikameer. In de regentijd is het bos groen en zijn er minder bezoekers.",
+   "en": "The best time for chimp trekking and the beach on Lake Tanganyika. In the green season the forest is lush and there are fewer visitors.",
+   "de": "Die beste Zeit für Schimpansen-Trekking und den Strand am Tanganjikasee. In der Regenzeit ist der Wald grün und es gibt weniger Besucher.",
+   "fr": "La meilleure période pour le pistage des chimpanzés et la plage du lac Tanganyika. En saison verte, la forêt est luxuriante et il y a moins de visiteurs.",
+   "es": "La mejor época para buscar chimpancés y la playa del lago Tanganica. En la temporada verde el bosque está frondoso y hay menos visitantes.",
+   "it": "Il periodo migliore per il trekking degli scimpanzé e la spiaggia del lago Tanganica. Nella stagione verde la foresta è rigogliosa e ci sono meno visitatori.",
+   "pt": "A melhor altura para o trekking de chimpanzés e a praia do lago Tanganica. Na época verde a floresta é exuberante e há menos visitantes.",
+   "sw": "Wakati bora wa kufuatilia sokwe na ufukwe wa Ziwa Tanganyika. Msimu wa kijani msitu hustawi na wageni ni wachache."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "Over de weg kom je er alleen in het droge seizoen; de meeste bezoekers vliegen en gaan per boot verder.",
+   "en": "Road access only in the dry season; most visitors fly in and continue by boat.",
+   "de": "Über Land nur in der Trockenzeit erreichbar; die meisten fliegen ein und fahren mit dem Boot weiter.",
+   "fr": "Accès par la route uniquement en saison sèche ; la plupart des visiteurs prennent l’avion puis le bateau.",
+   "es": "Por carretera solo en la estación seca; la mayoría vuela y sigue en barco.",
+   "it": "Su strada solo nella stagione secca; la maggior parte vola e prosegue in barca.",
+   "pt": "Por estrada só na estação seca; a maioria voa e continua de barco.",
+   "sw": "Kwa barabara ni kiangazi tu; wageni wengi husafiri kwa ndege kisha boti."
+  },
+  "source": {
+   "name": "Tanzania National Parks (TANAPA) – Mahale",
+   "url": "https://www.tanzaniaparks.go.tz/mahale/visitor-guide",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-manyara": {
+  "months": [
+   7,
+   8,
+   9
+  ],
+  "why": {
+   "nl": "Juli tot en met september zijn de droogste maanden. Volgens Bradt is Manyara niet sterk aan seizoenen gebonden; het meeste wild zie je in de droge tijd.",
+   "en": "July to September are the driest months. Bradt says Manyara is not strongly seasonal; you see most game in the dry season.",
+   "de": "Juli bis September sind die trockensten Monate. Laut Bradt ist Manyara nicht stark saisonabhängig; das meiste Wild sieht man in der Trockenzeit.",
+   "fr": "Juillet à septembre sont les mois les plus secs. Selon Bradt, Manyara est peu saisonnier ; on voit le plus d’animaux en saison sèche.",
+   "es": "De julio a septiembre son los meses más secos. Según Bradt, Manyara no es muy estacional; la mayor fauna se ve en la estación seca.",
+   "it": "Da luglio a settembre sono i mesi più secchi. Secondo Bradt, Manyara non è molto stagionale; gli animali si vedono soprattutto nella stagione secca.",
+   "pt": "Julho a setembro são os meses mais secos. Segundo a Bradt, Manyara não é muito sazonal; vê-se mais fauna na estação seca.",
+   "sw": "Julai hadi Septemba ni miezi mikavu zaidi. Kwa mujibu wa Bradt, Manyara haitegemei sana misimu; wanyama wengi huonekana kiangazi."
+  },
+  "also": {
+   "months": [
+    11
+   ],
+   "text": {
+    "nl": "De beste maand voor vogels (Rough Guides); flamingo’s zijn er vooral in de natte tijd.",
+    "en": "The best month for birding (Rough Guides); flamingos are mostly there in the wet season.",
+    "de": "Der beste Monat für Vögel (Rough Guides); Flamingos sind vor allem in der Regenzeit da.",
+    "fr": "Le meilleur mois pour les oiseaux (Rough Guides) ; les flamants sont surtout là en saison humide.",
+    "es": "El mejor mes para las aves (Rough Guides); los flamencos están sobre todo en la temporada húmeda.",
+    "it": "Il mese migliore per gli uccelli (Rough Guides); i fenicotteri ci sono soprattutto nella stagione umida.",
+    "pt": "O melhor mês para aves (Rough Guides); os flamingos estão sobretudo na época húmida.",
+    "sw": "Mwezi bora kwa ndege (Rough Guides); heroe huwepo hasa msimu wa mvua."
+   }
+  },
+  "avoid": {
+   "nl": "Van maart tot en met mei vallen de lange regens; dan zijn sommige wegen modderig.",
+   "en": "March to May brings the long rains, when some roads get muddy.",
+   "de": "Von März bis Mai fällt der große Regen, manche Straßen werden schlammig.",
+   "fr": "De mars à mai, les grandes pluies rendent certaines routes boueuses.",
+   "es": "De marzo a mayo llegan las lluvias largas y algunos caminos se embarran.",
+   "it": "Da marzo a maggio ci sono le grandi piogge e alcune strade diventano fangose.",
+   "pt": "De março a maio chegam as chuvas longas e algumas estradas ficam enlameadas.",
+   "sw": "Machi hadi Mei ni masika, baadhi ya barabara huwa na matope."
+  },
+  "source": {
+   "name": "Wikipedia – Lake Manyara National Park",
+   "url": "https://en.wikipedia.org/wiki/Lake_Manyara_National_Park",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-mikumi": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "In het droge seizoen verzamelen de dieren zich bij de laatste poelen in de Mkata-vlakte.",
+   "en": "In the dry season wildlife concentrates at the last pools on the Mkata floodplain.",
+   "de": "In der Trockenzeit sammeln sich die Tiere an den letzten Tümpeln der Mkata-Ebene.",
+   "fr": "En saison sèche, la faune se concentre autour des derniers points d’eau de la plaine de la Mkata.",
+   "es": "En la estación seca la fauna se concentra en las últimas pozas de la llanura del Mkata.",
+   "it": "Nella stagione secca gli animali si radunano nelle ultime pozze della pianura del Mkata.",
+   "pt": "Na estação seca a fauna junta-se nas últimas poças da planície do Mkata.",
+   "sw": "Kiangazi wanyama hukusanyika kwenye madimbwi ya mwisho ya tambarare ya Mkata."
+  },
+  "also": null,
+  "avoid": null,
+  "source": {
+   "name": "Tanzania National Parks (TANAPA) – Mikumi",
+   "url": "https://www.tanzaniaparks.go.tz/mikumi/visitor-guide",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-mkomazi": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "In het droge seizoen is het gras laag en komen de dieren bij het stuwmeer, dus zie je het meest.",
+   "en": "In the dry season the vegetation is thin and animals gather at the dam, so you see the most.",
+   "de": "In der Trockenzeit ist die Vegetation licht und die Tiere sammeln sich am Damm, so sieht man am meisten.",
+   "fr": "En saison sèche, la végétation est clairsemée et les animaux se regroupent au barrage : on en voit le plus.",
+   "es": "En la estación seca la vegetación es escasa y los animales se reúnen en la presa, así que se ve más.",
+   "it": "Nella stagione secca la vegetazione è rada e gli animali si radunano alla diga, quindi se ne vedono di più.",
+   "pt": "Na estação seca a vegetação é rala e os animais juntam-se na barragem, por isso vê-se mais.",
+   "sw": "Kiangazi majani ni machache na wanyama hukusanyika bwawani, hivyo unaona wengi zaidi."
+  },
+  "also": {
+   "months": [
+    11,
+    12,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "text": {
+    "nl": "Het mooiste landschap en heldere uitzichten op de Kilimanjaro; olifanten komen dan uit Tsavo.",
+    "en": "The most dramatic scenery and clear views of Kilimanjaro; elephants come over from Tsavo.",
+    "de": "Die schönste Landschaft und klare Sicht auf den Kilimandscharo; Elefanten kommen aus Tsavo.",
+    "fr": "Les plus beaux paysages et une vue dégagée sur le Kilimandjaro ; les éléphants arrivent de Tsavo.",
+    "es": "El paisaje más espectacular y vistas claras del Kilimanjaro; llegan elefantes de Tsavo.",
+    "it": "Il paesaggio più spettacolare e viste nitide sul Kilimangiaro; arrivano elefanti da Tsavo.",
+    "pt": "A paisagem mais bonita e vistas limpas do Kilimanjaro; chegam elefantes de Tsavo.",
+    "sw": "Mandhari bora na mwonekano wazi wa Kilimanjaro; tembo huja kutoka Tsavo."
+   }
+  },
+  "avoid": null,
+  "source": {
+   "name": "SafariBookings – Mkomazi",
+   "url": "https://www.safaribookings.com/mkomazi",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-natron": {
+  "months": [
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "Het Natronmeer is de enige bekende broedplaats van de kleine flamingo in Oost-Afrika. Van augustus tot en met oktober verzamelen ze zich hier om algen te eten.",
+   "en": "Lake Natron is the only known breeding ground of East Africa’s lesser flamingos. From August to October they gather here to feed on algae.",
+   "de": "Der Natronsee ist der einzige bekannte Brutplatz der Zwergflamingos in Ostafrika. Von August bis Oktober sammeln sie sich hier, um Algen zu fressen.",
+   "fr": "Le lac Natron est le seul site de reproduction connu des flamants nains d’Afrique de l’Est. D’août à octobre, ils s’y rassemblent pour se nourrir d’algues.",
+   "es": "El lago Natron es el único lugar de cría conocido del flamenco enano en África oriental. De agosto a octubre se reúnen aquí para comer algas.",
+   "it": "Il lago Natron è l’unico sito di nidificazione noto dei fenicotteri minori dell’Africa orientale. Da agosto a ottobre si radunano qui per nutrirsi di alghe.",
+   "pt": "O lago Natron é o único local de reprodução conhecido do flamingo-pequeno na África Oriental. De agosto a outubro juntam-se aqui para comer algas.",
+   "sw": "Ziwa Natron ndilo eneo pekee linalojulikana la kuzaliana kwa heroe wadogo wa Afrika Mashariki. Agosti hadi Oktoba hukusanyika hapa kula mwani."
+  },
+  "also": {
+   "months": [
+    11,
+    12
+   ],
+   "text": {
+    "nl": "Volgens Lonely Planet broeden ze vanaf september en komen de kuikens rond december uit. De nesten midden in het meer zie je alleen vanuit de lucht.",
+    "en": "According to Lonely Planet they nest from September and chicks hatch around December. The nests in the middle of the lake can only be seen from the air.",
+    "de": "Laut Lonely Planet brüten sie ab September, die Küken schlüpfen um Dezember. Die Nester mitten im See sieht man nur aus der Luft.",
+    "fr": "Selon Lonely Planet, ils nichent dès septembre et les poussins éclosent vers décembre. Les nids au milieu du lac ne se voient que du ciel.",
+    "es": "Según Lonely Planet anidan desde septiembre y los pollos nacen hacia diciembre. Los nidos en medio del lago solo se ven desde el aire.",
+    "it": "Secondo Lonely Planet nidificano da settembre e i pulcini nascono verso dicembre. I nidi al centro del lago si vedono solo dall’alto.",
+    "pt": "Segundo a Lonely Planet, nidificam a partir de setembro e as crias nascem por volta de dezembro. Os ninhos no meio do lago só se veem do ar.",
+    "sw": "Kwa mujibu wa Lonely Planet hutaga kuanzia Septemba na vifaranga huanguliwa karibu Desemba. Viota katikati ya ziwa huonekana kutoka angani tu."
+   }
+  },
+  "avoid": null,
+  "source": {
+   "name": "Bradt Guides – Lake Natron",
+   "url": "https://www.bradtguides.com/introducing-lake-natron-tanzanias-blood-red-phenomenon/",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-ngorongoro": {
+  "months": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "why": {
+   "nl": "De krater is volgens de officiële beheerder het hele jaar goed te bezoeken: de wegen blijven goed en er is altijd veel wild. Juni tot en met oktober is het droge seizoen.",
+   "en": "According to the official authority the crater can be visited all year: roads stay good and wildlife is plentiful year-round. June to October is the dry season.",
+   "de": "Laut der offiziellen Behörde ist der Krater ganzjährig gut zu besuchen: Die Straßen bleiben gut und es gibt immer viel Wild. Juni bis Oktober ist Trockenzeit.",
+   "fr": "Selon l’autorité officielle, le cratère se visite toute l’année : les routes restent bonnes et la faune abondante. La saison sèche va de juin à octobre.",
+   "es": "Según la autoridad oficial, el cráter se puede visitar todo el año: los caminos siguen bien y hay mucha fauna. De junio a octubre es la estación seca.",
+   "it": "Secondo l’autorità ufficiale il cratere si visita tutto l’anno: le strade restano buone e la fauna è abbondante. Da giugno a ottobre è la stagione secca.",
+   "pt": "Segundo a autoridade oficial, a cratera visita-se todo o ano: as estradas mantêm-se boas e há sempre muita fauna. De junho a outubro é a estação seca.",
+   "sw": "Kwa mujibu wa mamlaka rasmi, kreta inaweza kutembelewa mwaka mzima: barabara hubaki nzuri na wanyama ni wengi. Juni hadi Oktoba ni kiangazi."
+  },
+  "also": {
+   "months": [
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "text": {
+    "nl": "Rond Ndutu (in het Ngorongoro-gebied) zijn dan de gnoes van de grote trek, met jongen.",
+    "en": "Around Ndutu (inside the Ngorongoro area) the migration herds are there, with calves.",
+    "de": "Rund um Ndutu (im Ngorongoro-Gebiet) sind dann die Gnuherden der großen Wanderung mit Jungtieren.",
+    "fr": "Autour de Ndutu (dans la zone du Ngorongoro), les troupeaux de la grande migration sont là, avec les petits.",
+    "es": "Alrededor de Ndutu (en la zona de Ngorongoro) están las manadas de la gran migración, con crías.",
+    "it": "Intorno a Ndutu (nell’area di Ngorongoro) ci sono le mandrie della grande migrazione, con i piccoli.",
+    "pt": "Perto de Ndutu (na área de Ngorongoro) estão as manadas da grande migração, com crias.",
+    "sw": "Karibu na Ndutu (eneo la Ngorongoro) makundi ya uhamaji mkubwa huwepo, pamoja na watoto."
+   }
+  },
+  "avoid": null,
+  "source": {
+   "name": "Ngorongoro Conservation Area Authority (NCAA)",
+   "url": "https://www.ncaa.go.tz/ngorongoro-crater/",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-nyerere": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "In het lange droge seizoen verzamelen de dieren zich bij het water en zie je ze het makkelijkst; de wegen zijn dan op hun best en het malariarisico is het laagst.",
+   "en": "In the long dry season wildlife gathers at permanent water and is easiest to see; roads are at their best and malaria risk is lowest.",
+   "de": "In der langen Trockenzeit sammeln sich die Tiere am Wasser und sind am leichtesten zu sehen; die Straßen sind am besten und das Malariarisiko am geringsten.",
+   "fr": "Pendant la longue saison sèche, la faune se concentre autour de l’eau et se voit le plus facilement ; les routes sont au mieux et le risque de paludisme au plus bas.",
+   "es": "En la larga estación seca la fauna se concentra junto al agua y se ve más fácilmente; los caminos están mejor y el riesgo de malaria es menor.",
+   "it": "Nella lunga stagione secca gli animali si radunano vicino all’acqua e si vedono più facilmente; le strade sono migliori e il rischio di malaria è minimo.",
+   "pt": "Na longa estação seca a fauna junta-se perto da água e vê-se mais facilmente; as estradas estão melhores e o risco de malária é menor.",
+   "sw": "Kiangazi kirefu wanyama hukusanyika karibu na maji na huonekana kwa urahisi; barabara huwa bora na hatari ya malaria ni ndogo."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "Van eind februari tot eind mei kun je beter wegblijven: wegen spoelen weg en veel kampen zijn (deels) dicht.",
+   "en": "Late February to end of May is best avoided: roads wash out and many camps close for part or all of it.",
+   "de": "Ende Februar bis Ende Mai besser meiden: Straßen werden weggespült und viele Camps schließen.",
+   "fr": "Mieux vaut éviter fin février à fin mai : routes emportées et beaucoup de camps fermés.",
+   "es": "Mejor evitar de finales de febrero a finales de mayo: los caminos se deslavan y muchos campamentos cierran.",
+   "it": "Meglio evitare da fine febbraio a fine maggio: strade dilavate e molti campi chiusi.",
+   "pt": "É melhor evitar de fim de fevereiro a fim de maio: estradas arrastadas e muitos acampamentos fechados.",
+   "sw": "Ni bora kuepuka mwisho wa Februari hadi mwisho wa Mei: barabara huharibika na kambi nyingi hufungwa."
+  },
+  "source": {
+   "name": "Bradt Guides – Tanzania (zuidelijke safariparken)",
+   "url": "https://www.bradtguides.com/destinations/africa-travel-guides/tanzania/",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-olduvai": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "Geen bron noemt een beste tijd voor Olduvai zelf. Het ligt in het noordelijke safarigebied, waar juni tot en met oktober het droge seizoen is; onderzoekers werken hier ook in die maanden.",
+   "en": "No source gives a best time for Olduvai itself. It lies in the northern safari area, where June to October is the dry season; researchers also work here in those months.",
+   "de": "Keine Quelle nennt eine beste Zeit für Olduvai selbst. Es liegt im nördlichen Safarigebiet, wo Juni bis Oktober Trockenzeit ist; auch Forscher arbeiten in diesen Monaten hier.",
+   "fr": "Aucune source ne donne de meilleure période pour Olduvai même. Le site se trouve dans la zone de safari du nord, où la saison sèche va de juin à octobre ; les chercheurs y travaillent aussi à cette période.",
+   "es": "Ninguna fuente indica una mejor época para Olduvai en sí. Está en la zona de safari del norte, donde de junio a octubre es la estación seca; los investigadores también trabajan aquí en esos meses.",
+   "it": "Nessuna fonte indica il periodo migliore per Olduvai in sé. Si trova nell’area safari del nord, dove da giugno a ottobre è la stagione secca; anche i ricercatori lavorano qui in quei mesi.",
+   "pt": "Nenhuma fonte indica a melhor altura para Olduvai em si. Fica na zona de safari do norte, onde de junho a outubro é a estação seca; os investigadores também trabalham aqui nesses meses.",
+   "sw": "Hakuna chanzo kinachotaja wakati bora kwa Olduvai yenyewe. Iko katika eneo la safari la kaskazini, ambapo Juni hadi Oktoba ni kiangazi; watafiti pia hufanya kazi hapa miezi hiyo."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "Van maart tot en met mei maken de lange regens de wegen modderig.",
+   "en": "March to May: the long rains turn tracks to mud.",
+   "de": "März bis Mai: Der große Regen macht die Pisten schlammig.",
+   "fr": "De mars à mai, les grandes pluies rendent les pistes boueuses.",
+   "es": "De marzo a mayo, las lluvias largas embarran las pistas.",
+   "it": "Da marzo a maggio le grandi piogge rendono le piste fangose.",
+   "pt": "De março a maio, as chuvas longas enlameiam as estradas.",
+   "sw": "Machi hadi Mei, masika hufanya barabara kuwa za matope."
+  },
+  "source": {
+   "name": "Expert Africa – Olduvai Gorge",
+   "url": "https://expertafrica.com/tanzania/excursions/olduvai-gorge-visit",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-pemba": {
+  "months": [
+   10,
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "why": {
+   "nl": "Duiken is op zijn best van oktober tot en met maart: dan is de zee het rustigst en kun je ook in het zuiden van het eiland duiken.",
+   "en": "Diving is best from October to March, when the sea is calmest and the south of the island can be dived too.",
+   "de": "Tauchen ist von Oktober bis März am besten: Dann ist das Meer am ruhigsten und man kann auch im Süden der Insel tauchen.",
+   "fr": "La plongée est idéale d’octobre à mars : la mer est alors la plus calme et on peut aussi plonger au sud de l’île.",
+   "es": "El buceo es mejor de octubre a marzo: el mar está más tranquilo y también se puede bucear en el sur de la isla.",
+   "it": "Le immersioni sono migliori da ottobre a marzo: il mare è più calmo e si può immergersi anche nel sud dell’isola.",
+   "pt": "O mergulho é melhor de outubro a março: o mar está mais calmo e também se pode mergulhar no sul da ilha.",
+   "sw": "Kupiga mbizi ni bora Oktoba hadi Machi: bahari huwa tulivu zaidi na unaweza kupiga mbizi hata kusini mwa kisiwa."
+  },
+  "also": null,
+  "avoid": null,
+  "source": {
+   "name": "Fundu Lagoon – Duiken (resort op Pemba)",
+   "url": "https://www.fundulagoon.com/diving",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-ruaha": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "In het droge seizoen verzamelen de dieren zich langs de Grote Ruaha-rivier en de zandrivieren: olifanten, leeuwen, luipaarden, buffels en wilde honden.",
+   "en": "In the dry season wildlife gathers along the Great Ruaha River and sand rivers: elephants, lions, leopards, buffalo and wild dogs.",
+   "de": "In der Trockenzeit sammeln sich die Tiere am Großen Ruaha und an den Sandflüssen: Elefanten, Löwen, Leoparden, Büffel und Wildhunde.",
+   "fr": "En saison sèche, la faune se concentre le long du Grand Ruaha et des rivières de sable : éléphants, lions, léopards, buffles et lycaons.",
+   "es": "En la estación seca la fauna se concentra junto al Gran Ruaha y los ríos de arena: elefantes, leones, leopardos, búfalos y licaones.",
+   "it": "Nella stagione secca gli animali si radunano lungo il Grande Ruaha e i fiumi di sabbia: elefanti, leoni, leopardi, bufali e licaoni.",
+   "pt": "Na estação seca a fauna junta-se ao longo do Grande Ruaha e dos rios de areia: elefantes, leões, leopardos, búfalos e mabecos.",
+   "sw": "Kiangazi wanyama hukusanyika kando ya Mto Ruaha Mkuu na mito ya mchanga: tembo, simba, chui, nyati na mbwa mwitu."
+  },
+  "also": {
+   "months": [
+    11
+   ],
+   "text": {
+    "nl": "Volgens Bradt is het wild aan het eind van het droge seizoen het spectaculairst (juli tot en met november).",
+    "en": "Bradt says wildlife is most spectacular at the end of the dry season (July–November).",
+    "de": "Laut Bradt ist das Wild am Ende der Trockenzeit am spektakulärsten (Juli–November).",
+    "fr": "Selon Bradt, la faune est la plus spectaculaire en fin de saison sèche (juillet–novembre).",
+    "es": "Según Bradt, la fauna es más espectacular al final de la estación seca (julio–noviembre).",
+    "it": "Secondo Bradt la fauna è più spettacolare alla fine della stagione secca (luglio–novembre).",
+    "pt": "Segundo a Bradt, a fauna é mais espetacular no fim da estação seca (julho–novembro).",
+    "sw": "Kwa mujibu wa Bradt, wanyama huvutia zaidi mwishoni mwa kiangazi (Julai–Novemba)."
+   }
+  },
+  "avoid": {
+   "nl": "Aan het eind van de regentijd (maart tot en met mei) kunnen wegen in het park onbegaanbaar zijn.",
+   "en": "Towards the end of the rains (March–May) park roads can be impassable.",
+   "de": "Gegen Ende der Regenzeit (März–Mai) können Parkstraßen unpassierbar sein.",
+   "fr": "En fin de saison des pluies (mars–mai), les routes du parc peuvent être impraticables.",
+   "es": "Al final de las lluvias (marzo–mayo) los caminos del parque pueden ser intransitables.",
+   "it": "Verso la fine delle piogge (marzo–maggio) le strade del parco possono essere impraticabili.",
+   "pt": "No fim das chuvas (março–maio) as estradas do parque podem ficar intransitáveis.",
+   "sw": "Mwishoni mwa masika (Machi–Mei) barabara za hifadhi zinaweza kutopitika."
+  },
+  "source": {
+   "name": "Tanzania National Parks (TANAPA) – Ruaha",
+   "url": "https://www.tanzaniaparks.go.tz/ruaha/about",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-rubondo": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "In het droge seizoen is het Victoriameer rustiger, dus de boottocht naar het eiland is betrouwbaarder. Vogels kijken kan het hele jaar.",
+   "en": "In the dry season Lake Victoria is calmer, so the boat transfer to the island is more reliable. Birding is good all year.",
+   "de": "In der Trockenzeit ist der Victoriasee ruhiger, die Bootsfahrt zur Insel also verlässlicher. Vögel beobachten geht das ganze Jahr.",
+   "fr": "En saison sèche, le lac Victoria est plus calme et le transfert en bateau plus fiable. L’observation des oiseaux est bonne toute l’année.",
+   "es": "En la estación seca el lago Victoria está más tranquilo y el traslado en barco es más fiable. La observación de aves es buena todo el año.",
+   "it": "Nella stagione secca il lago Vittoria è più calmo e il trasferimento in barca più affidabile. Il birdwatching è buono tutto l’anno.",
+   "pt": "Na estação seca o lago Vitória está mais calmo e a travessia de barco é mais fiável. A observação de aves é boa todo o ano.",
+   "sw": "Kiangazi Ziwa Victoria huwa tulivu zaidi, hivyo safari ya boti ni ya uhakika. Kuangalia ndege ni vizuri mwaka mzima."
+  },
+  "also": null,
+  "avoid": null,
+  "source": {
+   "name": "Tanzania National Parks (TANAPA) – Rubondo Island",
+   "url": "https://www.tanzaniaparks.go.tz/rubondo/visitor-guide",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-saadani": {
+  "months": [
+   1,
+   2,
+   6,
+   7,
+   8
+  ],
+  "why": {
+   "nl": "Net na de regens zie je het meeste: in de droge periode van januari en februari en van juni tot en met augustus, als dieren drinken bij plassen op de vlakte.",
+   "en": "Game viewing is best just after the rains: in the January–February dry spell and from June to August, when animals drink at pools on the plains.",
+   "de": "Am besten kurz nach dem Regen: in der trockenen Zeit im Januar–Februar und von Juni bis August, wenn Tiere an Pfützen in der Ebene trinken.",
+   "fr": "Meilleure observation juste après les pluies : pendant la période sèche de janvier–février et de juin à août, quand les animaux boivent aux mares de la plaine.",
+   "es": "Mejor justo después de las lluvias: en el periodo seco de enero–febrero y de junio a agosto, cuando los animales beben en charcas de la llanura.",
+   "it": "Meglio subito dopo le piogge: nel periodo secco di gennaio–febbraio e da giugno ad agosto, quando gli animali bevono alle pozze della pianura.",
+   "pt": "Melhor logo depois das chuvas: no período seco de janeiro–fevereiro e de junho a agosto, quando os animais bebem nas poças da planície.",
+   "sw": "Bora mara baada ya mvua: kipindi kikavu Januari–Februari na Juni hadi Agosti, wanyama wanapokunywa kwenye madimbwi."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "April en mei: de meeste regen, en wegen zijn soms onbegaanbaar.",
+   "en": "April–May: the heaviest rain, and roads are sometimes impassable.",
+   "de": "April–Mai: der meiste Regen, Straßen sind manchmal unpassierbar.",
+   "fr": "Avril–mai : les plus fortes pluies, routes parfois impraticables.",
+   "es": "Abril–mayo: las lluvias más fuertes, a veces caminos intransitables.",
+   "it": "Aprile–maggio: le piogge più forti, strade a volte impraticabili.",
+   "pt": "Abril–maio: a chuva mais forte, estradas por vezes intransitáveis.",
+   "sw": "Aprili–Mei: mvua nyingi zaidi, barabara wakati mwingine hazipitiki."
+  },
+  "source": {
+   "name": "SafariBookings – Saadani",
+   "url": "https://www.safaribookings.com/saadani",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-serengeti": {
+  "months": [
+   1,
+   2,
+   3,
+   6,
+   7,
+   8
+  ],
+  "why": {
+   "nl": "Het hangt af van waar de grote trek van de gnoes is: van januari tot en met maart worden de jongen geboren op de vlaktes in het zuiden, van juni tot en met augustus steken de kuddes in het noorden de Mara-rivier over.",
+   "en": "It depends on where the wildebeest migration is: January to March the calves are born on the southern plains, June to August the herds cross the Mara River in the north.",
+   "de": "Es hängt davon ab, wo die Gnuwanderung ist: Januar bis März werden die Jungen in den südlichen Ebenen geboren, Juni bis August überqueren die Herden im Norden den Mara-Fluss.",
+   "fr": "Tout dépend de l’endroit où se trouve la migration des gnous : de janvier à mars, les petits naissent dans les plaines du sud ; de juin à août, les troupeaux traversent la rivière Mara au nord.",
+   "es": "Depende de dónde esté la migración de ñus: de enero a marzo nacen las crías en las llanuras del sur; de junio a agosto las manadas cruzan el río Mara en el norte.",
+   "it": "Dipende da dove si trova la migrazione degli gnu: da gennaio a marzo nascono i piccoli nelle pianure del sud, da giugno ad agosto le mandrie attraversano il fiume Mara a nord.",
+   "pt": "Depende de onde está a migração dos gnus: de janeiro a março nascem as crias nas planícies do sul; de junho a agosto as manadas atravessam o rio Mara no norte.",
+   "sw": "Inategemea uhamaji wa nyumbu ulipo: Januari hadi Machi watoto huzaliwa kwenye tambarare za kusini, Juni hadi Agosti makundi huvuka Mto Mara kaskazini."
+  },
+  "also": {
+   "months": [
+    4,
+    5,
+    11,
+    12
+   ],
+   "text": {
+    "nl": "April en mei trekken de kuddes door het midden naar het noorden; in november en december komen ze terug naar het zuiden. Het precieze moment verschuift met de regen.",
+    "en": "In April–May the herds move north through the centre; in November–December they return south. Exact timing shifts with the rains.",
+    "de": "Im April–Mai ziehen die Herden durch die Mitte nach Norden; im November–Dezember kehren sie nach Süden zurück. Der genaue Zeitpunkt hängt vom Regen ab.",
+    "fr": "En avril–mai, les troupeaux remontent vers le nord par le centre ; en novembre–décembre, ils redescendent vers le sud. Le calendrier varie avec les pluies.",
+    "es": "En abril–mayo las manadas suben al norte por el centro; en noviembre–diciembre vuelven al sur. El momento exacto cambia con las lluvias.",
+    "it": "Ad aprile–maggio le mandrie salgono a nord passando per il centro; a novembre–dicembre tornano a sud. I tempi esatti cambiano con le piogge.",
+    "pt": "Em abril–maio as manadas sobem para norte pelo centro; em novembro–dezembro regressam ao sul. O momento exato muda com as chuvas.",
+    "sw": "Aprili–Mei makundi huelekea kaskazini kupitia katikati; Novemba–Desemba hurudi kusini. Wakati kamili hubadilika na mvua."
+   }
+  },
+  "avoid": null,
+  "source": {
+   "name": "Lonely Planet – The Serengeti’s Great Migration",
+   "url": "https://www.lonelyplanet.com/articles/great-migration-serengeti",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-stonetown": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "why": {
+   "nl": "Stone Town ligt op Zanzibar. Voor de kust en eilanden noemt Rough Guides juni tot februari: droog en een rustige zee.",
+   "en": "Stone Town is on Zanzibar. For the coast and islands Rough Guides gives June to February: dry with calm seas.",
+   "de": "Stone Town liegt auf Sansibar. Für Küste und Inseln nennt Rough Guides Juni bis Februar: trocken und ruhige See.",
+   "fr": "Stone Town se trouve à Zanzibar. Pour la côte et les îles, Rough Guides indique de juin à février : sec et mer calme.",
+   "es": "Stone Town está en Zanzíbar. Para la costa y las islas, Rough Guides indica de junio a febrero: seco y mar en calma.",
+   "it": "Stone Town si trova a Zanzibar. Per la costa e le isole Rough Guides indica da giugno a febbraio: secco e mare calmo.",
+   "pt": "Stone Town fica em Zanzibar. Para a costa e as ilhas, a Rough Guides indica de junho a fevereiro: seco e mar calmo.",
+   "sw": "Stone Town iko Zanzibar. Kwa pwani na visiwa, Rough Guides inataja Juni hadi Februari: kavu na bahari tulivu."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "Half maart tot en met mei vallen de lange regens; dan sluiten sommige hotels. In november kunnen korte regens vallen.",
+   "en": "Mid-March to May brings the long rains, when some hotels close. Short rains can fall in November.",
+   "de": "Von Mitte März bis Mai fällt der große Regen, manche Hotels schließen dann. Im November kann es kurz regnen.",
+   "fr": "De mi-mars à mai, ce sont les grandes pluies et certains hôtels ferment. De courtes pluies peuvent tomber en novembre.",
+   "es": "De mediados de marzo a mayo llegan las lluvias largas y algunos hoteles cierran. En noviembre puede haber lluvias cortas.",
+   "it": "Da metà marzo a maggio ci sono le grandi piogge e alcuni hotel chiudono. A novembre possono cadere piogge brevi.",
+   "pt": "De meados de março a maio chegam as chuvas longas e alguns hotéis fecham. Em novembro podem cair chuvas curtas.",
+   "sw": "Katikati ya Machi hadi Mei ni mvua za masika na baadhi ya hoteli hufungwa. Mvua fupi zinaweza kunyesha Novemba."
+  },
+  "source": {
+   "name": "Rough Guides – Wanneer naar Tanzania",
+   "url": "https://www.roughguides.com/tanzania/when-to-go/",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-tarangire": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "In het droge seizoen drogen poelen op en verzamelen gnoes, zebra’s, buffels en grote olifantenkuddes zich langs de Tarangire-rivier.",
+   "en": "In the dry season the pans dry out and wildebeest, zebra, buffalo and big elephant herds gather along the Tarangire River.",
+   "de": "In der Trockenzeit trocknen die Senken aus, und Gnus, Zebras, Büffel und große Elefantenherden sammeln sich am Tarangire-Fluss.",
+   "fr": "En saison sèche, les mares s’assèchent et gnous, zèbres, buffles et grands troupeaux d’éléphants se rassemblent le long de la rivière Tarangire.",
+   "es": "En la estación seca las charcas se secan y ñus, cebras, búfalos y grandes manadas de elefantes se reúnen junto al río Tarangire.",
+   "it": "Nella stagione secca le pozze si prosciugano e gnu, zebre, bufali e grandi branchi di elefanti si radunano lungo il fiume Tarangire.",
+   "pt": "Na estação seca as lagoas secam e gnus, zebras, búfalos e grandes manadas de elefantes juntam-se ao longo do rio Tarangire.",
+   "sw": "Kiangazi madimbwi hukauka na nyumbu, punda milia, nyati na makundi makubwa ya tembo hukusanyika kando ya Mto Tarangire."
+  },
+  "also": {
+   "months": [
+    1,
+    2
+   ],
+   "text": {
+    "nl": "Een korte droge periode tussen de korte en de lange regens.",
+    "en": "A short dry spell between the short and long rains.",
+    "de": "Eine kurze Trockenzeit zwischen kleinem und großem Regen.",
+    "fr": "Une courte période sèche entre les petites et les grandes pluies.",
+    "es": "Un breve periodo seco entre las lluvias cortas y largas.",
+    "it": "Un breve periodo secco tra le piogge brevi e quelle lunghe.",
+    "pt": "Um curto período seco entre as chuvas curtas e longas.",
+    "sw": "Kipindi kifupi kikavu kati ya vuli na masika."
+   }
+  },
+  "avoid": {
+   "nl": "Van maart tot en met mei vallen de lange regens; dan zijn sommige wegen modderig.",
+   "en": "March to May brings the long rains, when some roads get muddy.",
+   "de": "Von März bis Mai fällt der große Regen, manche Straßen werden schlammig.",
+   "fr": "De mars à mai, les grandes pluies rendent certaines routes boueuses.",
+   "es": "De marzo a mayo llegan las lluvias largas y algunos caminos se embarran.",
+   "it": "Da marzo a maggio ci sono le grandi piogge e alcune strade diventano fangose.",
+   "pt": "De março a maio chegam as chuvas longas e algumas estradas ficam enlameadas.",
+   "sw": "Machi hadi Mei ni masika, baadhi ya barabara huwa na matope."
+  },
+  "source": {
+   "name": "Tanzania National Parks (TANAPA) – Tarangire",
+   "url": "https://www.tanzaniaparks.go.tz/tarangire/about",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-udzungwa": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "why": {
+   "nl": "In het droge seizoen is reizen en wandelen het makkelijkst. Het park is het hele jaar open.",
+   "en": "The dry season is easiest for travel and hiking. The park is open all year.",
+   "de": "In der Trockenzeit sind Anreise und Wandern am einfachsten. Der Park ist ganzjährig geöffnet.",
+   "fr": "La saison sèche est la plus simple pour voyager et randonner. Le parc est ouvert toute l’année.",
+   "es": "La estación seca es la más fácil para viajar y caminar. El parque abre todo el año.",
+   "it": "La stagione secca è la più semplice per viaggiare e fare escursioni. Il parco è aperto tutto l’anno.",
+   "pt": "A estação seca é a mais fácil para viajar e caminhar. O parque está aberto todo o ano.",
+   "sw": "Kiangazi ni rahisi zaidi kwa kusafiri na kutembea. Hifadhi iko wazi mwaka mzima."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "Na regen zijn de rotsen bij de watervallen glad en is de stroming sterk.",
+   "en": "After rain, rocks at the waterfalls are slippery and currents strong.",
+   "de": "Nach Regen sind die Felsen an den Wasserfällen rutschig und die Strömung stark.",
+   "fr": "Après la pluie, les rochers des cascades sont glissants et le courant fort.",
+   "es": "Tras la lluvia, las rocas de las cascadas resbalan y la corriente es fuerte.",
+   "it": "Dopo la pioggia le rocce alle cascate sono scivolose e la corrente forte.",
+   "pt": "Depois da chuva, as rochas nas cascatas escorregam e a corrente é forte.",
+   "sw": "Baada ya mvua, miamba kwenye maporomoko huteleza na mkondo huwa mkali."
+  },
+  "source": {
+   "name": "Tanzania National Parks (TANAPA) – Udzungwa Mountains",
+   "url": "https://www.tanzaniaparks.go.tz/udzungwa/visitor-guide",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-usambara": {
+  "months": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "why": {
+   "nl": "Het koelere, droge seizoen: volgens Lonely Planet de ideale tijd om in de Usambara-bergen te wandelen.",
+   "en": "The cooler, drier season: according to Lonely Planet the ideal time for hiking in the Usambara Mountains.",
+   "de": "Die kühlere, trockene Zeit: laut Lonely Planet ideal zum Wandern in den Usambara-Bergen.",
+   "fr": "La saison plus fraîche et sèche : selon Lonely Planet, idéale pour randonner dans les monts Usambara.",
+   "es": "La estación más fresca y seca: según Lonely Planet, ideal para caminar por los montes Usambara.",
+   "it": "La stagione più fresca e secca: secondo Lonely Planet ideale per le escursioni nei monti Usambara.",
+   "pt": "A estação mais fresca e seca: segundo a Lonely Planet, ideal para caminhar nas montanhas Usambara.",
+   "sw": "Msimu wa baridi na ukavu: kwa mujibu wa Lonely Planet, wakati bora wa kutembea milima ya Usambara."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "Van maart tot en met mei zijn de paden te modderig om te wandelen.",
+   "en": "March to May the paths are too muddy for trekking.",
+   "de": "März bis Mai sind die Wege zum Wandern zu schlammig.",
+   "fr": "De mars à mai, les sentiers sont trop boueux pour randonner.",
+   "es": "De marzo a mayo los senderos están demasiado embarrados.",
+   "it": "Da marzo a maggio i sentieri sono troppo fangosi.",
+   "pt": "De março a maio os trilhos estão demasiado enlameados.",
+   "sw": "Machi hadi Mei njia huwa na matope mengi."
+  },
+  "source": {
+   "name": "Lonely Planet – Beste reistijd Tanzania",
+   "url": "https://www.lonelyplanet.com/articles/best-time-to-visit-tanzania",
+   "checked": "2026-10-19"
+  }
+ },
+ "tz-zanzibar": {
+  "months": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "why": {
+   "nl": "Droog weer en een rustige zee: volgens Rough Guides de beste tijd voor de kust en de eilanden.",
+   "en": "Dry skies and calm seas: according to Rough Guides the best time for the coast and islands.",
+   "de": "Trockenes Wetter und ruhige See: laut Rough Guides die beste Zeit für Küste und Inseln.",
+   "fr": "Temps sec et mer calme : selon Rough Guides, la meilleure période pour la côte et les îles.",
+   "es": "Tiempo seco y mar en calma: según Rough Guides, la mejor época para la costa y las islas.",
+   "it": "Tempo secco e mare calmo: secondo Rough Guides il periodo migliore per la costa e le isole.",
+   "pt": "Tempo seco e mar calmo: segundo a Rough Guides, a melhor altura para a costa e as ilhas.",
+   "sw": "Hali kavu na bahari tulivu: kwa mujibu wa Rough Guides, wakati bora kwa pwani na visiwa."
+  },
+  "also": null,
+  "avoid": {
+   "nl": "Half maart tot en met mei vallen de lange regens; dan sluiten sommige hotels. In november kunnen korte regens vallen.",
+   "en": "Mid-March to May brings the long rains, when some hotels close. Short rains can fall in November.",
+   "de": "Von Mitte März bis Mai fällt der große Regen, manche Hotels schließen dann. Im November kann es kurz regnen.",
+   "fr": "De mi-mars à mai, ce sont les grandes pluies et certains hôtels ferment. De courtes pluies peuvent tomber en novembre.",
+   "es": "De mediados de marzo a mayo llegan las lluvias largas y algunos hoteles cierran. En noviembre puede haber lluvias cortas.",
+   "it": "Da metà marzo a maggio ci sono le grandi piogge e alcuni hotel chiudono. A novembre possono cadere piogge brevi.",
+   "pt": "De meados de março a maio chegam as chuvas longas e alguns hotéis fecham. Em novembro podem cair chuvas curtas.",
+   "sw": "Katikati ya Machi hadi Mei ni mvua za masika na baadhi ya hoteli hufungwa. Mvua fupi zinaweza kunyesha Novemba."
+  },
+  "source": {
+   "name": "Rough Guides – Wanneer naar Tanzania",
+   "url": "https://www.roughguides.com/tanzania/when-to-go/",
+   "checked": "2026-10-19"
+  }
+ }
+}

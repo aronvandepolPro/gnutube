@@ -1,0 +1,2198 @@
+{
+ "_bron": "mledoze/countries via world-countries 5.1.0 (ODbL) en Natural Earth 1:50m (publiek domein).",
+ "refs": {
+  "nl": 41850,
+  "gb": 242900,
+  "de": 357114,
+  "fr": 551695,
+  "es": 505992,
+  "it": 301336,
+  "pt": 92090,
+  "tz": 945087
+ },
+ "facts": {
+  "tz": {
+   "flag": "🇹🇿",
+   "capitals": [
+    {
+     "en": "Dodoma"
+    }
+   ],
+   "population": {
+    "n": 58005463,
+    "year": 2019
+   },
+   "area": 945087,
+   "landlocked": false,
+   "borders": [
+    "bi",
+    "cd",
+    "ke",
+    "mw",
+    "mz",
+    "rw",
+    "ug",
+    "zm"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "swa",
+     "en": "Swahili"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "TZS",
+     "en": "Tanzanian shilling",
+     "symbol": "Sh"
+    }
+   ]
+  },
+  "ke": {
+   "flag": "🇰🇪",
+   "capitals": [
+    {
+     "en": "Nairobi",
+     "pt": "Nairóbi"
+    }
+   ],
+   "population": {
+    "n": 52573973,
+    "year": 2019
+   },
+   "area": 580367,
+   "landlocked": false,
+   "borders": [
+    "et",
+    "so",
+    "ss",
+    "tz",
+    "ug"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "swa",
+     "en": "Swahili"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "KES",
+     "en": "Kenyan shilling",
+     "symbol": "Sh"
+    }
+   ]
+  },
+  "ug": {
+   "flag": "🇺🇬",
+   "capitals": [
+    {
+     "en": "Kampala"
+    }
+   ],
+   "population": {
+    "n": 44269594,
+    "year": 2019
+   },
+   "area": 241550,
+   "landlocked": true,
+   "borders": [
+    "cd",
+    "ke",
+    "rw",
+    "ss",
+    "tz"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "swa",
+     "en": "Swahili"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "UGX",
+     "en": "Ugandan shilling",
+     "symbol": "Sh"
+    }
+   ]
+  },
+  "rw": {
+   "flag": "🇷🇼",
+   "capitals": [
+    {
+     "en": "Kigali"
+    }
+   ],
+   "population": {
+    "n": 12626950,
+    "year": 2019
+   },
+   "area": 26338,
+   "landlocked": true,
+   "borders": [
+    "bi",
+    "cd",
+    "tz",
+    "ug"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "en": "French"
+    },
+    {
+     "code": "kin",
+     "en": "Kinyarwanda"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "RWF",
+     "en": "Rwandan franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "bi": {
+   "flag": "🇧🇮",
+   "capitals": [
+    {
+     "en": "Gitega"
+    }
+   ],
+   "population": {
+    "n": 11530580,
+    "year": 2019
+   },
+   "area": 27834,
+   "landlocked": true,
+   "borders": [
+    "cd",
+    "rw",
+    "tz"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    },
+    {
+     "code": "run",
+     "en": "Kirundi"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "BIF",
+     "en": "Burundian franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "km": {
+   "flag": "🇰🇲",
+   "capitals": [
+    {
+     "en": "Moroni"
+    }
+   ],
+   "population": {
+    "n": 850886,
+    "year": 2019
+   },
+   "area": 1862,
+   "landlocked": false,
+   "borders": [],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    },
+    {
+     "code": "fra",
+     "en": "French"
+    },
+    {
+     "code": "zdj",
+     "en": "Comorian"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "KMF",
+     "en": "Comorian franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "dj": {
+   "flag": "🇩🇯",
+   "capitals": [
+    {
+     "en": "Djibouti",
+     "de": "Dschibuti",
+     "es": "Yibuti",
+     "it": "Gibuti"
+    }
+   ],
+   "population": {
+    "n": 973560,
+    "year": 2019
+   },
+   "area": 23200,
+   "landlocked": false,
+   "borders": [
+    "er",
+    "et",
+    "so"
+   ],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    },
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "DJF",
+     "en": "Djiboutian franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "er": {
+   "flag": "🇪🇷",
+   "capitals": [
+    {
+     "en": "Asmara"
+    }
+   ],
+   "population": {
+    "n": 6081196,
+    "year": 2020
+   },
+   "area": 117600,
+   "landlocked": false,
+   "borders": [
+    "dj",
+    "et",
+    "sd"
+   ],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    },
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "tir",
+     "en": "Tigrinya"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "ERN",
+     "en": "Eritrean nakfa",
+     "symbol": "Nfk"
+    }
+   ]
+  },
+  "et": {
+   "flag": "🇪🇹",
+   "capitals": [
+    {
+     "en": "Addis Ababa",
+     "nl": "Addis Abeba",
+     "de": "Addis Abeba",
+     "fr": "Addis-Abeba",
+     "es": "Adís Abeba",
+     "it": "Addis Abeba",
+     "pt": "Adis Abeba"
+    }
+   ],
+   "population": {
+    "n": 112078730,
+    "year": 2019
+   },
+   "area": 1104300,
+   "landlocked": true,
+   "borders": [
+    "dj",
+    "er",
+    "ke",
+    "so",
+    "ss",
+    "sd"
+   ],
+   "languages": [
+    {
+     "code": "amh",
+     "en": "Amharic"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "ETB",
+     "en": "Ethiopian birr",
+     "symbol": "Br"
+    }
+   ]
+  },
+  "mg": {
+   "flag": "🇲🇬",
+   "capitals": [
+    {
+     "en": "Antananarivo"
+    }
+   ],
+   "population": {
+    "n": 26969307,
+    "year": 2019
+   },
+   "area": 587041,
+   "landlocked": false,
+   "borders": [],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    },
+    {
+     "code": "mlg",
+     "en": "Malagasy"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "MGA",
+     "en": "Malagasy ariary",
+     "symbol": "Ar"
+    }
+   ]
+  },
+  "mu": {
+   "flag": "🇲🇺",
+   "capitals": [
+    {
+     "en": "Port Louis",
+     "fr": "Port-Louis"
+    }
+   ],
+   "population": {
+    "n": 1265711,
+    "year": 2019
+   },
+   "area": 2040,
+   "landlocked": false,
+   "borders": [],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "en": "French"
+    },
+    {
+     "code": "mfe",
+     "en": "Mauritian Creole"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "MUR",
+     "en": "Mauritian rupee",
+     "symbol": "₨"
+    }
+   ]
+  },
+  "sc": {
+   "flag": "🇸🇨",
+   "capitals": [
+    {
+     "en": "Victoria"
+    }
+   ],
+   "population": {
+    "n": 97625,
+    "year": 2019
+   },
+   "area": 452,
+   "landlocked": false,
+   "borders": [],
+   "languages": [
+    {
+     "code": "crs",
+     "en": "Seychellois Creole"
+    },
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "SCR",
+     "en": "Seychellois rupee",
+     "symbol": "₨"
+    }
+   ]
+  },
+  "so": {
+   "flag": "🇸🇴",
+   "capitals": [
+    {
+     "en": "Mogadishu",
+     "de": "Mogadischu",
+     "fr": "Mogadiscio",
+     "es": "Mogadiscio",
+     "it": "Mogadiscio",
+     "pt": "Mogadíscio"
+    }
+   ],
+   "population": {
+    "n": 10192317.3,
+    "year": 2019
+   },
+   "area": 637657,
+   "landlocked": false,
+   "borders": [
+    "dj",
+    "et",
+    "ke"
+   ],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    },
+    {
+     "code": "som",
+     "en": "Somali"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "SOS",
+     "en": "Somali shilling",
+     "symbol": "Sh"
+    }
+   ]
+  },
+  "ss": {
+   "flag": "🇸🇸",
+   "capitals": [
+    {
+     "en": "Juba",
+     "nl": "Djoeba",
+     "fr": "Djouba",
+     "es": "Yuba",
+     "it": "Giuba"
+    }
+   ],
+   "population": {
+    "n": 11062113,
+    "year": 2019
+   },
+   "area": 619745,
+   "landlocked": true,
+   "borders": [
+    "cf",
+    "cd",
+    "et",
+    "ke",
+    "sd",
+    "ug"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "SSP",
+     "en": "South Sudanese pound",
+     "symbol": "£"
+    }
+   ]
+  },
+  "za": {
+   "flag": "🇿🇦",
+   "capitals": [
+    {
+     "en": "Pretoria",
+     "pt": "Pretória"
+    },
+    {
+     "en": "Bloemfontein"
+    },
+    {
+     "en": "Cape Town",
+     "nl": "Kaapstad",
+     "de": "Kapstadt",
+     "fr": "Le Cap",
+     "es": "Ciudad del Cabo",
+     "it": "Città del Capo",
+     "pt": "Cidade do Cabo"
+    }
+   ],
+   "population": {
+    "n": 58558270,
+    "year": 2019
+   },
+   "area": 1221037,
+   "landlocked": false,
+   "borders": [
+    "bw",
+    "ls",
+    "mz",
+    "na",
+    "sz",
+    "zw"
+   ],
+   "languages": [
+    {
+     "code": "afr",
+     "en": "Afrikaans"
+    },
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "nbl",
+     "en": "Southern Ndebele"
+    },
+    {
+     "code": "nso",
+     "en": "Northern Sotho"
+    },
+    {
+     "code": "sot",
+     "en": "Southern Sotho"
+    },
+    {
+     "code": "ssw",
+     "en": "Swazi"
+    },
+    {
+     "code": "tsn",
+     "en": "Tswana"
+    },
+    {
+     "code": "tso",
+     "en": "Tsonga"
+    },
+    {
+     "code": "ven",
+     "en": "Venda"
+    },
+    {
+     "code": "xho",
+     "en": "Xhosa"
+    },
+    {
+     "code": "zul",
+     "en": "Zulu"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "ZAR",
+     "en": "South African rand",
+     "symbol": "R"
+    }
+   ]
+  },
+  "bw": {
+   "flag": "🇧🇼",
+   "capitals": [
+    {
+     "en": "Gaborone"
+    }
+   ],
+   "population": {
+    "n": 2303697,
+    "year": 2019
+   },
+   "area": 582000,
+   "landlocked": true,
+   "borders": [
+    "na",
+    "za",
+    "zm",
+    "zw"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "tsn",
+     "en": "Tswana"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "BWP",
+     "en": "Botswana pula",
+     "symbol": "P"
+    }
+   ]
+  },
+  "na": {
+   "flag": "🇳🇦",
+   "capitals": [
+    {
+     "en": "Windhoek"
+    }
+   ],
+   "population": {
+    "n": 2494530,
+    "year": 2019
+   },
+   "area": 825615,
+   "landlocked": false,
+   "borders": [
+    "ao",
+    "bw",
+    "za",
+    "zm"
+   ],
+   "languages": [
+    {
+     "code": "afr",
+     "en": "Afrikaans"
+    },
+    {
+     "code": "deu",
+     "en": "German"
+    },
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "her",
+     "en": "Herero"
+    },
+    {
+     "code": "hgm",
+     "en": "Khoekhoe"
+    },
+    {
+     "code": "kwn",
+     "en": "Kwangali"
+    },
+    {
+     "code": "loz",
+     "en": "Lozi"
+    },
+    {
+     "code": "ndo",
+     "en": "Ndonga"
+    },
+    {
+     "code": "tsn",
+     "en": "Tswana"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "NAD",
+     "en": "Namibian dollar",
+     "symbol": "$"
+    },
+    {
+     "code": "ZAR",
+     "en": "South African rand",
+     "symbol": "R"
+    }
+   ]
+  },
+  "zm": {
+   "flag": "🇿🇲",
+   "capitals": [
+    {
+     "en": "Lusaka",
+     "pt": "Lusaca"
+    }
+   ],
+   "population": {
+    "n": 17861030,
+    "year": 2019
+   },
+   "area": 752612,
+   "landlocked": true,
+   "borders": [
+    "ao",
+    "bw",
+    "cd",
+    "mw",
+    "mz",
+    "na",
+    "tz",
+    "zw"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "ZMW",
+     "en": "Zambian kwacha",
+     "symbol": "ZK"
+    }
+   ]
+  },
+  "zw": {
+   "flag": "🇿🇼",
+   "capitals": [
+    {
+     "en": "Harare"
+    }
+   ],
+   "population": {
+    "n": 14645468,
+    "year": 2019
+   },
+   "area": 390757,
+   "landlocked": true,
+   "borders": [
+    "bw",
+    "mz",
+    "za",
+    "zm"
+   ],
+   "languages": [
+    {
+     "code": "bwg",
+     "en": "Chibarwe"
+    },
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "kck",
+     "en": "Kalanga"
+    },
+    {
+     "code": "khi",
+     "en": "Khoisan"
+    },
+    {
+     "code": "ndc",
+     "en": "Ndau"
+    },
+    {
+     "code": "nde",
+     "en": "Northern Ndebele"
+    },
+    {
+     "code": "nya",
+     "en": "Chewa"
+    },
+    {
+     "code": "sna",
+     "en": "Shona"
+    },
+    {
+     "code": "sot",
+     "en": "Sotho"
+    },
+    {
+     "code": "toi",
+     "en": "Tonga"
+    },
+    {
+     "code": "tsn",
+     "en": "Tswana"
+    },
+    {
+     "code": "tso",
+     "en": "Tsonga"
+    },
+    {
+     "code": "ven",
+     "en": "Venda"
+    },
+    {
+     "code": "xho",
+     "en": "Xhosa"
+    },
+    {
+     "code": "zib",
+     "en": "Zimbabwean Sign Language"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "BWP",
+     "en": "Botswana pula",
+     "symbol": "P"
+    },
+    {
+     "code": "CNY",
+     "en": "Chinese yuan",
+     "symbol": "¥"
+    },
+    {
+     "code": "EUR",
+     "en": "Euro",
+     "symbol": "€"
+    },
+    {
+     "code": "GBP",
+     "en": "British pound",
+     "symbol": "£"
+    },
+    {
+     "code": "INR",
+     "en": "Indian rupee",
+     "symbol": "₹"
+    },
+    {
+     "code": "JPY",
+     "en": "Japanese yen",
+     "symbol": "¥"
+    },
+    {
+     "code": "USD",
+     "en": "United States dollar",
+     "symbol": "$"
+    },
+    {
+     "code": "ZAR",
+     "en": "South African rand",
+     "symbol": "Rs"
+    },
+    {
+     "code": "ZWB",
+     "en": "Zimbabwean bonds",
+     "symbol": "$"
+    }
+   ]
+  },
+  "ao": {
+   "flag": "🇦🇴",
+   "capitals": [
+    {
+     "en": "Luanda"
+    }
+   ],
+   "population": {
+    "n": 31825295,
+    "year": 2019
+   },
+   "area": 1246700,
+   "landlocked": false,
+   "borders": [
+    "cg",
+    "cd",
+    "zm",
+    "na"
+   ],
+   "languages": [
+    {
+     "code": "por",
+     "en": "Portuguese"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "AOA",
+     "en": "Angolan kwanza",
+     "symbol": "Kz"
+    }
+   ]
+  },
+  "sz": {
+   "flag": "🇸🇿",
+   "capitals": [
+    {
+     "en": "Lobamba"
+    }
+   ],
+   "population": {
+    "n": 1148130,
+    "year": 2019
+   },
+   "area": 17364,
+   "landlocked": true,
+   "borders": [
+    "mz",
+    "za"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "ssw",
+     "en": "Swazi"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "SZL",
+     "en": "Swazi lilangeni",
+     "symbol": "L"
+    },
+    {
+     "code": "ZAR",
+     "en": "South African rand",
+     "symbol": "R"
+    }
+   ]
+  },
+  "ls": {
+   "flag": "🇱🇸",
+   "capitals": [
+    {
+     "en": "Maseru"
+    }
+   ],
+   "population": {
+    "n": 2125268,
+    "year": 2019
+   },
+   "area": 30355,
+   "landlocked": true,
+   "borders": [
+    "za"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "sot",
+     "en": "Sotho"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "LSL",
+     "en": "Lesotho loti",
+     "symbol": "L"
+    },
+    {
+     "code": "ZAR",
+     "en": "South African rand",
+     "symbol": "R"
+    }
+   ]
+  },
+  "mw": {
+   "flag": "🇲🇼",
+   "capitals": [
+    {
+     "en": "Lilongwe",
+     "es": "Lilongüe"
+    }
+   ],
+   "population": {
+    "n": 18628747,
+    "year": 2019
+   },
+   "area": 118484,
+   "landlocked": true,
+   "borders": [
+    "mz",
+    "tz",
+    "zm"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "nya",
+     "en": "Chewa"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "MWK",
+     "en": "Malawian kwacha",
+     "symbol": "MK"
+    }
+   ]
+  },
+  "mz": {
+   "flag": "🇲🇿",
+   "capitals": [
+    {
+     "en": "Maputo"
+    }
+   ],
+   "population": {
+    "n": 30366036,
+    "year": 2019
+   },
+   "area": 801590,
+   "landlocked": false,
+   "borders": [
+    "mw",
+    "za",
+    "sz",
+    "tz",
+    "zm",
+    "zw"
+   ],
+   "languages": [
+    {
+     "code": "por",
+     "en": "Portuguese"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "MZN",
+     "en": "Mozambican metical",
+     "symbol": "MT"
+    }
+   ]
+  },
+  "ga": {
+   "flag": "🇬🇦",
+   "capitals": [
+    {
+     "en": "Libreville"
+    }
+   ],
+   "population": {
+    "n": 2172579,
+    "year": 2019
+   },
+   "area": 267668,
+   "landlocked": false,
+   "borders": [
+    "cm",
+    "cg",
+    "gq"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XAF",
+     "en": "Central African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "cm": {
+   "flag": "🇨🇲",
+   "capitals": [
+    {
+     "en": "Yaoundé",
+     "es": "Yaundé"
+    }
+   ],
+   "population": {
+    "n": 25876380,
+    "year": 2019
+   },
+   "area": 475442,
+   "landlocked": false,
+   "borders": [
+    "cf",
+    "td",
+    "cg",
+    "gq",
+    "ga",
+    "ng"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XAF",
+     "en": "Central African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "cf": {
+   "flag": "🇨🇫",
+   "capitals": [
+    {
+     "en": "Bangui"
+    }
+   ],
+   "population": {
+    "n": 4745185,
+    "year": 2019
+   },
+   "area": 622984,
+   "landlocked": true,
+   "borders": [
+    "cm",
+    "td",
+    "cd",
+    "cg",
+    "ss",
+    "sd"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    },
+    {
+     "code": "sag",
+     "en": "Sango"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XAF",
+     "en": "Central African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "cg": {
+   "flag": "🇨🇬",
+   "capitals": [
+    {
+     "en": "Brazzaville",
+     "pt": "Brazavile"
+    }
+   ],
+   "population": {
+    "n": 5380508,
+    "year": 2019
+   },
+   "area": 342000,
+   "landlocked": false,
+   "borders": [
+    "ao",
+    "cm",
+    "cf",
+    "cd",
+    "ga"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    },
+    {
+     "code": "kon",
+     "en": "Kikongo"
+    },
+    {
+     "code": "lin",
+     "en": "Lingala"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XAF",
+     "en": "Central African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "cd": {
+   "flag": "🇨🇩",
+   "capitals": [
+    {
+     "en": "Kinshasa",
+     "es": "Kinsasa"
+    }
+   ],
+   "population": {
+    "n": 86790567,
+    "year": 2019
+   },
+   "area": 2344858,
+   "landlocked": false,
+   "borders": [
+    "ao",
+    "bi",
+    "cf",
+    "cg",
+    "rw",
+    "ss",
+    "tz",
+    "ug",
+    "zm"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    },
+    {
+     "code": "kon",
+     "en": "Kikongo"
+    },
+    {
+     "code": "lin",
+     "en": "Lingala"
+    },
+    {
+     "code": "lua",
+     "en": "Tshiluba"
+    },
+    {
+     "code": "swa",
+     "en": "Swahili"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "CDF",
+     "en": "Congolese franc",
+     "symbol": "FC"
+    }
+   ]
+  },
+  "gq": {
+   "flag": "🇬🇶",
+   "capitals": [
+    {
+     "en": "Malabo"
+    }
+   ],
+   "population": {
+    "n": 1355986,
+    "year": 2019
+   },
+   "area": 28051,
+   "landlocked": false,
+   "borders": [
+    "cm",
+    "ga"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    },
+    {
+     "code": "por",
+     "en": "Portuguese"
+    },
+    {
+     "code": "spa",
+     "en": "Spanish"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XAF",
+     "en": "Central African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "st": {
+   "flag": "🇸🇹",
+   "capitals": [
+    {
+     "en": "São Tomé",
+     "nl": "Sao Tomé",
+     "es": "Santo Tomé"
+    }
+   ],
+   "population": {
+    "n": 215056,
+    "year": 2019
+   },
+   "area": 964,
+   "landlocked": false,
+   "borders": [],
+   "languages": [
+    {
+     "code": "por",
+     "en": "Portuguese"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "STN",
+     "en": "São Tomé and Príncipe dobra",
+     "symbol": "Db"
+    }
+   ]
+  },
+  "td": {
+   "flag": "🇹🇩",
+   "capitals": [
+    {
+     "en": "N'Djamena",
+     "nl": "Ndjamena",
+     "de": "N’Djamena",
+     "fr": "N'Djaména",
+     "es": "Yamena",
+     "it": "N’Djamena",
+     "pt": "Jamena"
+    }
+   ],
+   "population": {
+    "n": 15946876,
+    "year": 2019
+   },
+   "area": 1284000,
+   "landlocked": true,
+   "borders": [
+    "cm",
+    "cf",
+    "ly",
+    "ne",
+    "ng",
+    "sd"
+   ],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    },
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XAF",
+     "en": "Central African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "bj": {
+   "flag": "🇧🇯",
+   "capitals": [
+    {
+     "en": "Porto-Novo",
+     "es": "Porto Novo"
+    }
+   ],
+   "population": {
+    "n": 11801151,
+    "year": 2019
+   },
+   "area": 112622,
+   "landlocked": false,
+   "borders": [
+    "bf",
+    "ne",
+    "ng",
+    "tg"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XOF",
+     "en": "West African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "bf": {
+   "flag": "🇧🇫",
+   "capitals": [
+    {
+     "en": "Ouagadougou",
+     "es": "Uagadugú"
+    }
+   ],
+   "population": {
+    "n": 20321378,
+    "year": 2019
+   },
+   "area": 272967,
+   "landlocked": true,
+   "borders": [
+    "bj",
+    "ci",
+    "gh",
+    "ml",
+    "ne",
+    "tg"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XOF",
+     "en": "West African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "gm": {
+   "flag": "🇬🇲",
+   "capitals": [
+    {
+     "en": "Banjul"
+    }
+   ],
+   "population": {
+    "n": 2347706,
+    "year": 2019
+   },
+   "area": 10689,
+   "landlocked": false,
+   "borders": [
+    "sn"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "GMD",
+     "en": "dalasi",
+     "symbol": "D"
+    }
+   ]
+  },
+  "gh": {
+   "flag": "🇬🇭",
+   "capitals": [
+    {
+     "en": "Accra",
+     "es": "Acra",
+     "pt": "Acra"
+    }
+   ],
+   "population": {
+    "n": 30417856,
+    "year": 2019
+   },
+   "area": 238533,
+   "landlocked": false,
+   "borders": [
+    "bf",
+    "ci",
+    "tg"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "GHS",
+     "en": "Ghanaian cedi",
+     "symbol": "₵"
+    }
+   ]
+  },
+  "gn": {
+   "flag": "🇬🇳",
+   "capitals": [
+    {
+     "en": "Conakry",
+     "es": "Conakri",
+     "pt": "Conacri"
+    }
+   ],
+   "population": {
+    "n": 12771246,
+    "year": 2019
+   },
+   "area": 245857,
+   "landlocked": false,
+   "borders": [
+    "ci",
+    "gw",
+    "lr",
+    "ml",
+    "sn",
+    "sl"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "GNF",
+     "en": "Guinean franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "gw": {
+   "flag": "🇬🇼",
+   "capitals": [
+    {
+     "en": "Bissau",
+     "es": "Bisáu"
+    }
+   ],
+   "population": {
+    "n": 1920922,
+    "year": 2019
+   },
+   "area": 36125,
+   "landlocked": false,
+   "borders": [
+    "gn",
+    "sn"
+   ],
+   "languages": [
+    {
+     "code": "por",
+     "en": "Portuguese"
+    },
+    {
+     "code": "pov",
+     "en": "Upper Guinea Creole"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XOF",
+     "en": "West African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "ci": {
+   "flag": "🇨🇮",
+   "capitals": [
+    {
+     "en": "Yamoussoukro",
+     "es": "Yamusukro"
+    }
+   ],
+   "population": {
+    "n": 25716544,
+    "year": 2019
+   },
+   "area": 322463,
+   "landlocked": false,
+   "borders": [
+    "bf",
+    "gh",
+    "gn",
+    "lr",
+    "ml"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XOF",
+     "en": "West African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "cv": {
+   "flag": "🇨🇻",
+   "capitals": [
+    {
+     "en": "Praia"
+    }
+   ],
+   "population": {
+    "n": 549935,
+    "year": 2019
+   },
+   "area": 4033,
+   "landlocked": false,
+   "borders": [],
+   "languages": [
+    {
+     "code": "por",
+     "en": "Portuguese"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "CVE",
+     "en": "Cape Verdean escudo",
+     "symbol": "Esc"
+    }
+   ]
+  },
+  "lr": {
+   "flag": "🇱🇷",
+   "capitals": [
+    {
+     "en": "Monrovia",
+     "pt": "Monróvia"
+    }
+   ],
+   "population": {
+    "n": 4937374,
+    "year": 2019
+   },
+   "area": 111369,
+   "landlocked": false,
+   "borders": [
+    "gn",
+    "ci",
+    "sl"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "LRD",
+     "en": "Liberian dollar",
+     "symbol": "$"
+    }
+   ]
+  },
+  "ml": {
+   "flag": "🇲🇱",
+   "capitals": [
+    {
+     "en": "Bamako"
+    }
+   ],
+   "population": {
+    "n": 19658031,
+    "year": 2019
+   },
+   "area": 1240192,
+   "landlocked": true,
+   "borders": [
+    "dz",
+    "bf",
+    "gn",
+    "ci",
+    "mr",
+    "ne",
+    "sn"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XOF",
+     "en": "West African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "mr": {
+   "flag": "🇲🇷",
+   "capitals": [
+    {
+     "en": "Nouakchott",
+     "es": "Nuakchot"
+    }
+   ],
+   "population": {
+    "n": 4525696,
+    "year": 2019
+   },
+   "area": 1030700,
+   "landlocked": false,
+   "borders": [
+    "dz",
+    "ml",
+    "sn",
+    "eh"
+   ],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "MRU",
+     "en": "Mauritanian ouguiya",
+     "symbol": "UM"
+    }
+   ]
+  },
+  "ne": {
+   "flag": "🇳🇪",
+   "capitals": [
+    {
+     "en": "Niamey",
+     "nl": "Maradi",
+     "de": "Maradi",
+     "fr": "Maradi",
+     "es": "Maradi",
+     "it": "Maradi",
+     "pt": "Maradi"
+    }
+   ],
+   "population": {
+    "n": 23310715,
+    "year": 2019
+   },
+   "area": 1267000,
+   "landlocked": true,
+   "borders": [
+    "dz",
+    "bj",
+    "bf",
+    "td",
+    "ly",
+    "ml",
+    "ng"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XOF",
+     "en": "West African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "ng": {
+   "flag": "🇳🇬",
+   "capitals": [
+    {
+     "en": "Abuja",
+     "es": "Abuya"
+    }
+   ],
+   "population": {
+    "n": 200963599,
+    "year": 2019
+   },
+   "area": 923768,
+   "landlocked": false,
+   "borders": [
+    "bj",
+    "cm",
+    "td",
+    "ne"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "NGN",
+     "en": "Nigerian naira",
+     "symbol": "₦"
+    }
+   ]
+  },
+  "sn": {
+   "flag": "🇸🇳",
+   "capitals": [
+    {
+     "en": "Dakar"
+    }
+   ],
+   "population": {
+    "n": 16296364,
+    "year": 2019
+   },
+   "area": 196722,
+   "landlocked": false,
+   "borders": [
+    "gm",
+    "gn",
+    "gw",
+    "ml",
+    "mr"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XOF",
+     "en": "West African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "sl": {
+   "flag": "🇸🇱",
+   "capitals": [
+    {
+     "en": "Freetown"
+    }
+   ],
+   "population": {
+    "n": 7813215,
+    "year": 2019
+   },
+   "area": 71740,
+   "landlocked": false,
+   "borders": [
+    "gn",
+    "lr"
+   ],
+   "languages": [
+    {
+     "code": "eng",
+     "en": "English"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "SLL",
+     "en": "Sierra Leonean leone",
+     "symbol": "Le"
+    }
+   ]
+  },
+  "tg": {
+   "flag": "🇹🇬",
+   "capitals": [
+    {
+     "en": "Lomé"
+    }
+   ],
+   "population": {
+    "n": 8082366,
+    "year": 2019
+   },
+   "area": 56785,
+   "landlocked": false,
+   "borders": [
+    "bj",
+    "bf",
+    "gh"
+   ],
+   "languages": [
+    {
+     "code": "fra",
+     "en": "French"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "XOF",
+     "en": "West African CFA franc",
+     "symbol": "Fr"
+    }
+   ]
+  },
+  "dz": {
+   "flag": "🇩🇿",
+   "capitals": [
+    {
+     "en": "Algiers",
+     "de": "Algier",
+     "fr": "Alger",
+     "es": "Argel",
+     "it": "Algeri",
+     "pt": "Argel"
+    }
+   ],
+   "population": {
+    "n": 43053054,
+    "year": 2019
+   },
+   "area": 2381741,
+   "landlocked": false,
+   "borders": [
+    "tn",
+    "ly",
+    "ne",
+    "eh",
+    "mr",
+    "ml",
+    "ma"
+   ],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "DZD",
+     "en": "Algerian dinar",
+     "symbol": "د.ج"
+    }
+   ]
+  },
+  "eg": {
+   "flag": "🇪🇬",
+   "capitals": [
+    {
+     "en": "Cairo",
+     "nl": "Caïro",
+     "de": "Kairo",
+     "fr": "Le Caire",
+     "es": "El Cairo",
+     "it": "Il Cairo"
+    }
+   ],
+   "population": {
+    "n": 100388073,
+    "year": 2019
+   },
+   "area": 1002450,
+   "landlocked": false,
+   "borders": [
+    "il",
+    "ly",
+    "ps",
+    "sd"
+   ],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "EGP",
+     "en": "Egyptian pound",
+     "symbol": "£"
+    }
+   ]
+  },
+  "ly": {
+   "flag": "🇱🇾",
+   "capitals": [
+    {
+     "en": "Tripoli",
+     "de": "Tripolis",
+     "es": "Trípoli",
+     "pt": "Trípoli"
+    }
+   ],
+   "population": {
+    "n": 6777452,
+    "year": 2019
+   },
+   "area": 1759540,
+   "landlocked": false,
+   "borders": [
+    "dz",
+    "td",
+    "eg",
+    "ne",
+    "sd",
+    "tn"
+   ],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "LYD",
+     "en": "Libyan dinar",
+     "symbol": "ل.د"
+    }
+   ]
+  },
+  "ma": {
+   "flag": "🇲🇦",
+   "capitals": [
+    {
+     "en": "Rabat"
+    }
+   ],
+   "population": {
+    "n": 36471769,
+    "year": 2019
+   },
+   "area": 446550,
+   "landlocked": false,
+   "borders": [
+    "dz",
+    "eh",
+    "es"
+   ],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    },
+    {
+     "code": "ber",
+     "en": "Berber"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "MAD",
+     "en": "Moroccan dirham",
+     "symbol": "د.م."
+    }
+   ]
+  },
+  "sd": {
+   "flag": "🇸🇩",
+   "capitals": [
+    {
+     "en": "Khartoum",
+     "nl": "Khartoem",
+     "de": "Khartum",
+     "es": "Jartum",
+     "it": "Khartum",
+     "pt": "Cartum"
+    }
+   ],
+   "population": {
+    "n": 42813238,
+    "year": 2019
+   },
+   "area": 1886068,
+   "landlocked": false,
+   "borders": [
+    "cf",
+    "td",
+    "eg",
+    "er",
+    "et",
+    "ly",
+    "ss"
+   ],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    },
+    {
+     "code": "eng",
+     "en": "English"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "SDG",
+     "en": "Sudanese pound",
+     "symbol": "PT"
+    }
+   ]
+  },
+  "tn": {
+   "flag": "🇹🇳",
+   "capitals": [
+    {
+     "en": "Tunis",
+     "es": "Túnez",
+     "it": "Tunisi",
+     "pt": "Tunes"
+    }
+   ],
+   "population": {
+    "n": 11694719,
+    "year": 2019
+   },
+   "area": 163610,
+   "landlocked": false,
+   "borders": [
+    "dz",
+    "ly"
+   ],
+   "languages": [
+    {
+     "code": "ara",
+     "en": "Arabic"
+    }
+   ],
+   "currencies": [
+    {
+     "code": "TND",
+     "en": "Tunisian dinar",
+     "symbol": "د.ت"
+    }
+   ]
+  }
+ }
+}

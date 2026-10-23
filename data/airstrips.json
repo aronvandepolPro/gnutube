@@ -1,0 +1,479 @@
+{
+ "_bron": "Coördinaten: open data van OurAirports (davidmegginson.github.io/ourairports-data, publiek domein), per vliegveld de OurAirports-code in 'ident'. Maatschappijen alleen waar ze in hun eigen dienstregeling staan (zie 'airline_sources'). Gecontroleerd op 2026-10-17. Niet opgenomen: Mwiba en Chem Chem (geen coördinaten), en dubbelzinnige namen (Singita, Dolly, Upper/Lower Selous).",
+ "airfields": [
+  {
+   "key": "arusha",
+   "name": "Arusha Airport",
+   "group": "hub",
+   "iata": "ARK",
+   "icao": "HTAR",
+   "lat": -3.36779,
+   "lon": 36.6333,
+   "ident": "HTAR",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Regional Air",
+    "As Salaam Air"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://regionaltanzania.com/wp-content/uploads/sites/6/2026/05/RAS-timetable-2026.pdf",
+    "https://www.assalaamair.co.tz/our-routes/zanzibar-to-arusha/"
+   ]
+  },
+  {
+   "key": "kilimanjaro",
+   "name": "Kilimanjaro International Airport",
+   "group": "hub",
+   "iata": "JRO",
+   "icao": "HTKJ",
+   "lat": -3.42705,
+   "lon": 37.07353,
+   "ident": "HTKJ",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Regional Air"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://regionaltanzania.com/wp-content/uploads/sites/6/2026/05/RAS-timetable-2026.pdf"
+   ]
+  },
+  {
+   "key": "dar",
+   "name": "Julius Nyerere International Airport",
+   "group": "hub",
+   "iata": "DAR",
+   "icao": "HTDA",
+   "lat": -6.8735,
+   "lon": 39.20729,
+   "ident": "HTDA",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Safari Air Link",
+    "As Salaam Air"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf",
+    "https://www.assalaamair.co.tz/our-routes/dar-es-salaam-to-zanzibar/"
+   ]
+  },
+  {
+   "key": "zanzibar",
+   "name": "Abeid Amani Karume International Airport",
+   "group": "hub",
+   "iata": "ZNZ",
+   "icao": "HTZA",
+   "lat": -6.22202,
+   "lon": 39.2249,
+   "ident": "HTZA",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Regional Air",
+    "Safari Air Link",
+    "As Salaam Air"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://regionaltanzania.com/wp-content/uploads/sites/6/2026/05/RAS-timetable-2026.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf",
+    "https://www.assalaamair.co.tz/our-routes/zanzibar-to-dar-es-salaam/"
+   ]
+  },
+  {
+   "key": "iringa",
+   "name": "Iringa Airport (Nduli)",
+   "group": "hub",
+   "iata": "IRI",
+   "icao": "HTIR",
+   "lat": -7.66863,
+   "lon": 35.7521,
+   "ident": "HTIR",
+   "airlines": [
+    "Auric",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "mpanda",
+   "name": "Mpanda Airport",
+   "group": "hub",
+   "iata": "NPY",
+   "icao": "HTMP",
+   "lat": -6.35537,
+   "lon": 31.08412,
+   "ident": "HTMP",
+   "airlines": [],
+   "airline_sources": []
+  },
+  {
+   "key": "seronera",
+   "name": "Seronera Airstrip",
+   "group": "north",
+   "iata": "SEU",
+   "icao": "HTSN",
+   "lat": -2.45806,
+   "lon": 34.8225,
+   "ident": "HTSN",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Regional Air",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://regionaltanzania.com/wp-content/uploads/sites/6/2026/05/RAS-timetable-2026.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "lake_manyara",
+   "name": "Lake Manyara Airport",
+   "group": "north",
+   "iata": "LKY",
+   "icao": "HTLM",
+   "lat": -3.37631,
+   "lon": 35.8183,
+   "ident": "HTLM",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Regional Air",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://regionaltanzania.com/wp-content/uploads/sites/6/2026/05/RAS-timetable-2026.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "kogatende",
+   "name": "Kogatende Airstrip",
+   "group": "north",
+   "iata": null,
+   "icao": null,
+   "lat": -1.5684,
+   "lon": 34.88693,
+   "ident": "TZ-0018",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Regional Air",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://regionaltanzania.com/wp-content/uploads/sites/6/2026/05/RAS-timetable-2026.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "lamai",
+   "name": "Lamai Airport",
+   "group": "north",
+   "iata": null,
+   "icao": null,
+   "lat": -1.56174,
+   "lon": 34.70204,
+   "ident": "TZ-0124",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "lobo",
+   "name": "Lobo Airstrip",
+   "group": "north",
+   "iata": null,
+   "icao": null,
+   "lat": -2.00987,
+   "lon": 35.1591,
+   "ident": "TZ-0020",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Regional Air",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://regionaltanzania.com/wp-content/uploads/sites/6/2026/05/RAS-timetable-2026.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "grumeti",
+   "name": "Grumeti (OurAirports: Kirawira B Aerodrome)",
+   "group": "north",
+   "iata": "GTZ",
+   "icao": "HTGR",
+   "lat": -2.16083,
+   "lon": 34.22556,
+   "ident": "HTGR",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "sasakwa",
+   "name": "Sasakwa Airstrip (Singita Grumeti)",
+   "group": "north",
+   "iata": null,
+   "icao": null,
+   "lat": -2.07312,
+   "lon": 34.51024,
+   "ident": "TZ-0016",
+   "airlines": [
+    "Auric",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "fort_ikoma",
+   "name": "Fort Ikoma Airport",
+   "group": "north",
+   "iata": null,
+   "icao": "HTFI",
+   "lat": -2.0801,
+   "lon": 34.62952,
+   "ident": "TZ-0026",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "ndutu",
+   "name": "Ndutu Airport",
+   "group": "north",
+   "iata": null,
+   "icao": "HTND",
+   "lat": -3.03071,
+   "lon": 34.98847,
+   "ident": "TZ-0024",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Regional Air",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://regionaltanzania.com/wp-content/uploads/sites/6/2026/05/RAS-timetable-2026.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "kleins_camp",
+   "name": "Klein's Camp Airport",
+   "group": "north",
+   "iata": null,
+   "icao": "HTKC",
+   "lat": -1.77544,
+   "lon": 35.27828,
+   "ident": "TZ-0123",
+   "airlines": [],
+   "airline_sources": []
+  },
+  {
+   "key": "kuro",
+   "name": "Kuro Airport (Tarangire)",
+   "group": "north",
+   "iata": null,
+   "icao": null,
+   "lat": -4.00792,
+   "lon": 36.0761,
+   "ident": "TZ-0027",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "tarime",
+   "name": "Tarime Airport",
+   "group": "north",
+   "iata": null,
+   "icao": null,
+   "lat": -1.29388,
+   "lon": 34.42043,
+   "ident": "TZ-0117",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Regional Air"
+   ],
+   "airline_sources": [
+    "https://coastal.co.tz/wp-content/uploads/2025/07/Coastal-Schedule-2023-2027-updated-JUNE-2025.pdf",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://regionaltanzania.com/wp-content/uploads/sites/6/2026/05/RAS-timetable-2026.pdf"
+   ]
+  },
+  {
+   "key": "ruaha_msembe",
+   "name": "Msembe Airstrip (Ruaha)",
+   "group": "south",
+   "iata": null,
+   "icao": "HTMR",
+   "lat": -7.68481,
+   "lon": 34.92228,
+   "ident": "TZ-0028",
+   "airlines": [
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "ruaha_jongomero",
+   "name": "Jongomero Airstrip (Ruaha)",
+   "group": "south",
+   "iata": null,
+   "icao": null,
+   "lat": -7.89493,
+   "lon": 34.58082,
+   "ident": "TZ-0017",
+   "airlines": [
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "siwandu",
+   "name": "Siwandu Airport (Nyerere NP)",
+   "group": "south",
+   "iata": null,
+   "icao": "HTZW",
+   "lat": -7.6847,
+   "lon": 38.13673,
+   "ident": "TZ-0054",
+   "airlines": [
+    "Coastal",
+    "Auric",
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://booking.coastal.co.tz/Destinations/Selous",
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf",
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "mikumi",
+   "name": "Mikumi (Kikoboga Airstrip)",
+   "group": "south",
+   "iata": null,
+   "icao": "HTMK",
+   "lat": -7.33343,
+   "lon": 37.11636,
+   "ident": "HTMK",
+   "airlines": [
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "ifakara",
+   "name": "Ifakara Airport",
+   "group": "south",
+   "iata": null,
+   "icao": null,
+   "lat": -8.06488,
+   "lon": 36.69811,
+   "ident": "TZ-0012",
+   "airlines": [
+    "Auric"
+   ],
+   "airline_sources": [
+    "https://storage.aerocrs.com/8/system/15%20June%202025%20to%2031%20Dec%202026%20Ver.%201.5%20Rack%20Rate.pdf"
+   ]
+  },
+  {
+   "key": "katavi_iku",
+   "name": "Iku Airport (Katavi)",
+   "group": "west",
+   "iata": null,
+   "icao": null,
+   "lat": -6.90863,
+   "lon": 31.16641,
+   "ident": "TZ-0015",
+   "airlines": [
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  },
+  {
+   "key": "mahale",
+   "name": "Mahale Airstrip",
+   "group": "west",
+   "iata": null,
+   "icao": "HTML",
+   "lat": -6.01291,
+   "lon": 29.76694,
+   "ident": "HTML",
+   "airlines": [
+    "Safari Air Link"
+   ],
+   "airline_sources": [
+    "https://b-cdn.springnest.com/media/doc/12f/sal_rack_rates_2026_-_2027.pdf"
+   ]
+  }
+ ]
+}

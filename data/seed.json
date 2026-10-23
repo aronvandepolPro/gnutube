@@ -1,0 +1,7042 @@
+{
+ "_note": "Gegenereerd uit het prototype. Niet geverifieerd: laat controleren door mensen met lokale kennis. Reisadviezen zijn voorlopig en moeten worden getoetst aan een officiële bron.",
+ "regions": [
+  {
+   "id": "east",
+   "name": {
+    "nl": "Oost-Afrika",
+    "en": "East Africa",
+    "de": "Ostafrika",
+    "fr": "Afrique de l’Est",
+    "es": "África Oriental",
+    "it": "Africa orientale",
+    "pt": "África Oriental",
+    "sw": "Afrika Mashariki"
+   }
+  },
+  {
+   "id": "south",
+   "name": {
+    "nl": "Zuidelijk Afrika",
+    "en": "Southern Africa",
+    "de": "Südliches Afrika",
+    "fr": "Afrique australe",
+    "es": "África Austral",
+    "it": "Africa australe",
+    "pt": "África Austral",
+    "sw": "Kusini mwa Afrika"
+   }
+  },
+  {
+   "id": "central",
+   "name": {
+    "nl": "Centraal-Afrika",
+    "en": "Central Africa",
+    "de": "Zentralafrika",
+    "fr": "Afrique centrale",
+    "es": "África Central",
+    "it": "Africa centrale",
+    "pt": "África Central",
+    "sw": "Afrika ya Kati"
+   }
+  },
+  {
+   "id": "west",
+   "name": {
+    "nl": "West-Afrika",
+    "en": "West Africa",
+    "de": "Westafrika",
+    "fr": "Afrique de l’Ouest",
+    "es": "África Occidental",
+    "it": "Africa occidentale",
+    "pt": "África Ocidental",
+    "sw": "Afrika Magharibi"
+   }
+  },
+  {
+   "id": "north",
+   "name": {
+    "nl": "Noord-Afrika",
+    "en": "North Africa",
+    "de": "Nordafrika",
+    "fr": "Afrique du Nord",
+    "es": "África del Norte",
+    "it": "Africa settentrionale",
+    "pt": "Norte de África",
+    "sw": "Afrika Kaskazini"
+   }
+  }
+ ],
+ "countries": [
+  {
+   "id": "tz",
+   "regionId": "east",
+   "name": {
+    "nl": "Tanzania",
+    "en": "Tanzania",
+    "de": "Tansania",
+    "fr": "Tanzanie",
+    "es": "Tanzania",
+    "it": "Tanzania",
+    "pt": "Tanzânia",
+    "sw": "Tanzania"
+   },
+   "airport": "Kilimanjaro Airport",
+   "advisory": null
+  },
+  {
+   "id": "ke",
+   "regionId": "east",
+   "name": {
+    "nl": "Kenia",
+    "en": "Kenya",
+    "de": "Kenia",
+    "fr": "Kenya",
+    "es": "Kenia",
+    "it": "Kenya",
+    "pt": "Quénia",
+    "sw": "Kenya"
+   },
+   "airport": "Nairobi",
+   "advisory": null
+  },
+  {
+   "id": "ug",
+   "regionId": "east",
+   "name": {
+    "nl": "Oeganda",
+    "en": "Uganda",
+    "de": "Uganda",
+    "fr": "Ouganda",
+    "es": "Uganda",
+    "it": "Uganda",
+    "pt": "Uganda",
+    "sw": "Uganda"
+   },
+   "airport": "Entebbe",
+   "advisory": null
+  },
+  {
+   "id": "rw",
+   "regionId": "east",
+   "name": {
+    "nl": "Rwanda",
+    "en": "Rwanda",
+    "de": "Ruanda",
+    "fr": "Rwanda",
+    "es": "Ruanda",
+    "it": "Ruanda",
+    "pt": "Ruanda",
+    "sw": "Rwanda"
+   },
+   "airport": "Kigali",
+   "advisory": null
+  },
+  {
+   "id": "bi",
+   "regionId": "east",
+   "name": {
+    "nl": "Burundi",
+    "en": "Burundi",
+    "de": "Burundi",
+    "fr": "Burundi",
+    "es": "Burundi",
+    "it": "Burundi",
+    "pt": "Burundi",
+    "sw": "Burundi"
+   },
+   "airport": "Bujumbura",
+   "advisory": null
+  },
+  {
+   "id": "km",
+   "regionId": "east",
+   "name": {
+    "nl": "Comoren",
+    "en": "Comoros",
+    "de": "Komoren",
+    "fr": "Comores",
+    "es": "Comoras",
+    "it": "Comore",
+    "pt": "Comores",
+    "sw": "Komoro"
+   },
+   "airport": "Moroni",
+   "advisory": null
+  },
+  {
+   "id": "dj",
+   "regionId": "east",
+   "name": {
+    "nl": "Djibouti",
+    "en": "Djibouti",
+    "de": "Dschibuti",
+    "fr": "Djibouti",
+    "es": "Yibuti",
+    "it": "Gibuti",
+    "pt": "Djibuti",
+    "sw": "Jibuti"
+   },
+   "airport": "Djibouti",
+   "advisory": null
+  },
+  {
+   "id": "er",
+   "regionId": "east",
+   "name": {
+    "nl": "Eritrea",
+    "en": "Eritrea",
+    "de": "Eritrea",
+    "fr": "Érythrée",
+    "es": "Eritrea",
+    "it": "Eritrea",
+    "pt": "Eritreia",
+    "sw": "Eritrea"
+   },
+   "airport": "Asmara",
+   "advisory": null
+  },
+  {
+   "id": "et",
+   "regionId": "east",
+   "name": {
+    "nl": "Ethiopië",
+    "en": "Ethiopia",
+    "de": "Äthiopien",
+    "fr": "Éthiopie",
+    "es": "Etiopía",
+    "it": "Etiopia",
+    "pt": "Etiópia",
+    "sw": "Ethiopia"
+   },
+   "airport": "Addis Abeba",
+   "advisory": null
+  },
+  {
+   "id": "mg",
+   "regionId": "east",
+   "name": {
+    "nl": "Madagaskar",
+    "en": "Madagascar",
+    "de": "Madagaskar",
+    "fr": "Madagascar",
+    "es": "Madagascar",
+    "it": "Madagascar",
+    "pt": "Madagáscar",
+    "sw": "Madagaska"
+   },
+   "airport": "Antananarivo",
+   "advisory": null
+  },
+  {
+   "id": "mu",
+   "regionId": "east",
+   "name": {
+    "nl": "Mauritius",
+    "en": "Mauritius",
+    "de": "Mauritius",
+    "fr": "Maurice",
+    "es": "Mauricio",
+    "it": "Mauritius",
+    "pt": "Maurícia",
+    "sw": "Morisi"
+   },
+   "airport": "Mauritius",
+   "advisory": null
+  },
+  {
+   "id": "sc",
+   "regionId": "east",
+   "name": {
+    "nl": "Seychellen",
+    "en": "Seychelles",
+    "de": "Seychellen",
+    "fr": "Seychelles",
+    "es": "Seychelles",
+    "it": "Seychelles",
+    "pt": "Seicheles",
+    "sw": "Shelisheli"
+   },
+   "airport": "Mahé",
+   "advisory": null
+  },
+  {
+   "id": "so",
+   "regionId": "east",
+   "name": {
+    "nl": "Somalië",
+    "en": "Somalia",
+    "de": "Somalia",
+    "fr": "Somalie",
+    "es": "Somalia",
+    "it": "Somalia",
+    "pt": "Somália",
+    "sw": "Somalia"
+   },
+   "airport": "Mogadishu",
+   "advisory": "avoid"
+  },
+  {
+   "id": "ss",
+   "regionId": "east",
+   "name": {
+    "nl": "Zuid-Soedan",
+    "en": "South Sudan",
+    "de": "Südsudan",
+    "fr": "Soudan du Sud",
+    "es": "Sudán del Sur",
+    "it": "Sud Sudan",
+    "pt": "Sudão do Sul",
+    "sw": "Sudan Kusini"
+   },
+   "airport": "Juba",
+   "advisory": "avoid"
+  },
+  {
+   "id": "za",
+   "regionId": "south",
+   "name": {
+    "nl": "Zuid-Afrika",
+    "en": "South Africa",
+    "de": "Südafrika",
+    "fr": "Afrique du Sud",
+    "es": "Sudáfrica",
+    "it": "Sudafrica",
+    "pt": "África do Sul",
+    "sw": "Afrika Kusini"
+   },
+   "airport": "Johannesburg",
+   "advisory": null
+  },
+  {
+   "id": "bw",
+   "regionId": "south",
+   "name": {
+    "nl": "Botswana",
+    "en": "Botswana",
+    "de": "Botswana",
+    "fr": "Botswana",
+    "es": "Botsuana",
+    "it": "Botswana",
+    "pt": "Botsuana",
+    "sw": "Botswana"
+   },
+   "airport": "Maun",
+   "advisory": null
+  },
+  {
+   "id": "na",
+   "regionId": "south",
+   "name": {
+    "nl": "Namibië",
+    "en": "Namibia",
+    "de": "Namibia",
+    "fr": "Namibie",
+    "es": "Namibia",
+    "it": "Namibia",
+    "pt": "Namíbia",
+    "sw": "Namibia"
+   },
+   "airport": "Windhoek",
+   "advisory": null
+  },
+  {
+   "id": "zm",
+   "regionId": "south",
+   "name": {
+    "nl": "Zambia",
+    "en": "Zambia",
+    "de": "Sambia",
+    "fr": "Zambie",
+    "es": "Zambia",
+    "it": "Zambia",
+    "pt": "Zâmbia",
+    "sw": "Zambia"
+   },
+   "airport": "Lusaka",
+   "advisory": null
+  },
+  {
+   "id": "zw",
+   "regionId": "south",
+   "name": {
+    "nl": "Zimbabwe",
+    "en": "Zimbabwe",
+    "de": "Simbabwe",
+    "fr": "Zimbabwe",
+    "es": "Zimbabue",
+    "it": "Zimbabwe",
+    "pt": "Zimbabué",
+    "sw": "Zimbabwe"
+   },
+   "airport": "Victoria Falls",
+   "advisory": null
+  },
+  {
+   "id": "ao",
+   "regionId": "south",
+   "name": {
+    "nl": "Angola",
+    "en": "Angola",
+    "de": "Angola",
+    "fr": "Angola",
+    "es": "Angola",
+    "it": "Angola",
+    "pt": "Angola",
+    "sw": "Angola"
+   },
+   "airport": "Luanda",
+   "advisory": null
+  },
+  {
+   "id": "sz",
+   "regionId": "south",
+   "name": {
+    "nl": "Eswatini",
+    "en": "Eswatini",
+    "de": "Eswatini",
+    "fr": "Eswatini",
+    "es": "Esuatini",
+    "it": "Eswatini",
+    "pt": "Essuatíni",
+    "sw": "Eswatini"
+   },
+   "airport": "Manzini",
+   "advisory": null
+  },
+  {
+   "id": "ls",
+   "regionId": "south",
+   "name": {
+    "nl": "Lesotho",
+    "en": "Lesotho",
+    "de": "Lesotho",
+    "fr": "Lesotho",
+    "es": "Lesoto",
+    "it": "Lesotho",
+    "pt": "Lesoto",
+    "sw": "Lesotho"
+   },
+   "airport": "Maseru",
+   "advisory": null
+  },
+  {
+   "id": "mw",
+   "regionId": "south",
+   "name": {
+    "nl": "Malawi",
+    "en": "Malawi",
+    "de": "Malawi",
+    "fr": "Malawi",
+    "es": "Malaui",
+    "it": "Malawi",
+    "pt": "Malawi",
+    "sw": "Malawi"
+   },
+   "airport": "Lilongwe",
+   "advisory": null
+  },
+  {
+   "id": "mz",
+   "regionId": "south",
+   "name": {
+    "nl": "Mozambique",
+    "en": "Mozambique",
+    "de": "Mosambik",
+    "fr": "Mozambique",
+    "es": "Mozambique",
+    "it": "Mozambico",
+    "pt": "Moçambique",
+    "sw": "Msumbiji"
+   },
+   "airport": "Maputo",
+   "advisory": null
+  },
+  {
+   "id": "ga",
+   "regionId": "central",
+   "name": {
+    "nl": "Gabon",
+    "en": "Gabon",
+    "de": "Gabun",
+    "fr": "Gabon",
+    "es": "Gabón",
+    "it": "Gabon",
+    "pt": "Gabão",
+    "sw": "Gabon"
+   },
+   "airport": "Libreville",
+   "advisory": null
+  },
+  {
+   "id": "cm",
+   "regionId": "central",
+   "name": {
+    "nl": "Kameroen",
+    "en": "Cameroon",
+    "de": "Kamerun",
+    "fr": "Cameroun",
+    "es": "Camerún",
+    "it": "Camerun",
+    "pt": "Camarões",
+    "sw": "Kamerun"
+   },
+   "airport": "Douala",
+   "advisory": null
+  },
+  {
+   "id": "cf",
+   "regionId": "central",
+   "name": {
+    "nl": "Centraal-Afrikaanse Republiek",
+    "en": "Central African Republic",
+    "de": "Zentralafrikanische Republik",
+    "fr": "République centrafricaine",
+    "es": "República Centroafricana",
+    "it": "Repubblica Centrafricana",
+    "pt": "República Centro-Africana",
+    "sw": "Jamhuri ya Afrika ya Kati"
+   },
+   "airport": "Bangui",
+   "advisory": "avoid"
+  },
+  {
+   "id": "cg",
+   "regionId": "central",
+   "name": {
+    "nl": "Congo-Brazzaville",
+    "en": "Republic of the Congo",
+    "de": "Republik Kongo",
+    "fr": "République du Congo",
+    "es": "República del Congo",
+    "it": "Repubblica del Congo",
+    "pt": "República do Congo",
+    "sw": "Jamhuri ya Kongo"
+   },
+   "airport": "Brazzaville",
+   "advisory": null
+  },
+  {
+   "id": "cd",
+   "regionId": "central",
+   "name": {
+    "nl": "DR Congo",
+    "en": "DR Congo",
+    "de": "DR Kongo",
+    "fr": "RD Congo",
+    "es": "R. D. del Congo",
+    "it": "RD del Congo",
+    "pt": "RD Congo",
+    "sw": "Jamhuri ya Kidemokrasia ya Kongo"
+   },
+   "airport": "Kinshasa",
+   "advisory": null
+  },
+  {
+   "id": "gq",
+   "regionId": "central",
+   "name": {
+    "nl": "Equatoriaal-Guinea",
+    "en": "Equatorial Guinea",
+    "de": "Äquatorialguinea",
+    "fr": "Guinée équatoriale",
+    "es": "Guinea Ecuatorial",
+    "it": "Guinea Equatoriale",
+    "pt": "Guiné Equatorial",
+    "sw": "Guinea ya Ikweta"
+   },
+   "airport": "Malabo",
+   "advisory": null
+  },
+  {
+   "id": "st",
+   "regionId": "central",
+   "name": {
+    "nl": "Sao Tomé en Principe",
+    "en": "São Tomé and Príncipe",
+    "de": "São Tomé und Príncipe",
+    "fr": "Sao Tomé-et-Principe",
+    "es": "Santo Tomé y Príncipe",
+    "it": "São Tomé e Príncipe",
+    "pt": "São Tomé e Príncipe",
+    "sw": "São Tomé na Príncipe"
+   },
+   "airport": "São Tomé",
+   "advisory": null
+  },
+  {
+   "id": "td",
+   "regionId": "central",
+   "name": {
+    "nl": "Tsjaad",
+    "en": "Chad",
+    "de": "Tschad",
+    "fr": "Tchad",
+    "es": "Chad",
+    "it": "Ciad",
+    "pt": "Chade",
+    "sw": "Chad"
+   },
+   "airport": "N’Djamena",
+   "advisory": "avoid"
+  },
+  {
+   "id": "bj",
+   "regionId": "west",
+   "name": {
+    "nl": "Benin",
+    "en": "Benin",
+    "de": "Benin",
+    "fr": "Bénin",
+    "es": "Benín",
+    "it": "Benin",
+    "pt": "Benim",
+    "sw": "Benin"
+   },
+   "airport": "Cotonou",
+   "advisory": null
+  },
+  {
+   "id": "bf",
+   "regionId": "west",
+   "name": {
+    "nl": "Burkina Faso",
+    "en": "Burkina Faso",
+    "de": "Burkina Faso",
+    "fr": "Burkina Faso",
+    "es": "Burkina Faso",
+    "it": "Burkina Faso",
+    "pt": "Burquina Faso",
+    "sw": "Burkina Faso"
+   },
+   "airport": "Ouagadougou",
+   "advisory": "avoid"
+  },
+  {
+   "id": "gm",
+   "regionId": "west",
+   "name": {
+    "nl": "Gambia",
+    "en": "The Gambia",
+    "de": "Gambia",
+    "fr": "Gambie",
+    "es": "Gambia",
+    "it": "Gambia",
+    "pt": "Gâmbia",
+    "sw": "Gambia"
+   },
+   "airport": "Banjul",
+   "advisory": null
+  },
+  {
+   "id": "gh",
+   "regionId": "west",
+   "name": {
+    "nl": "Ghana",
+    "en": "Ghana",
+    "de": "Ghana",
+    "fr": "Ghana",
+    "es": "Ghana",
+    "it": "Ghana",
+    "pt": "Gana",
+    "sw": "Ghana"
+   },
+   "airport": "Accra",
+   "advisory": null
+  },
+  {
+   "id": "gn",
+   "regionId": "west",
+   "name": {
+    "nl": "Guinee",
+    "en": "Guinea",
+    "de": "Guinea",
+    "fr": "Guinée",
+    "es": "Guinea",
+    "it": "Guinea",
+    "pt": "Guiné",
+    "sw": "Guinea"
+   },
+   "airport": "Conakry",
+   "advisory": null
+  },
+  {
+   "id": "gw",
+   "regionId": "west",
+   "name": {
+    "nl": "Guinee-Bissau",
+    "en": "Guinea-Bissau",
+    "de": "Guinea-Bissau",
+    "fr": "Guinée-Bissau",
+    "es": "Guinea-Bisáu",
+    "it": "Guinea-Bissau",
+    "pt": "Guiné-Bissau",
+    "sw": "Guinea-Bissau"
+   },
+   "airport": "Bissau",
+   "advisory": null
+  },
+  {
+   "id": "ci",
+   "regionId": "west",
+   "name": {
+    "nl": "Ivoorkust",
+    "en": "Côte d’Ivoire",
+    "de": "Elfenbeinküste",
+    "fr": "Côte d’Ivoire",
+    "es": "Costa de Marfil",
+    "it": "Costa d’Avorio",
+    "pt": "Costa do Marfim",
+    "sw": "Côte d’Ivoire"
+   },
+   "airport": "Abidjan",
+   "advisory": null
+  },
+  {
+   "id": "cv",
+   "regionId": "west",
+   "name": {
+    "nl": "Kaapverdië",
+    "en": "Cape Verde",
+    "de": "Kap Verde",
+    "fr": "Cap-Vert",
+    "es": "Cabo Verde",
+    "it": "Capo Verde",
+    "pt": "Cabo Verde",
+    "sw": "Cape Verde"
+   },
+   "airport": "Sal",
+   "advisory": null
+  },
+  {
+   "id": "lr",
+   "regionId": "west",
+   "name": {
+    "nl": "Liberia",
+    "en": "Liberia",
+    "de": "Liberia",
+    "fr": "Liberia",
+    "es": "Liberia",
+    "it": "Liberia",
+    "pt": "Libéria",
+    "sw": "Liberia"
+   },
+   "airport": "Monrovia",
+   "advisory": null
+  },
+  {
+   "id": "ml",
+   "regionId": "west",
+   "name": {
+    "nl": "Mali",
+    "en": "Mali",
+    "de": "Mali",
+    "fr": "Mali",
+    "es": "Malí",
+    "it": "Mali",
+    "pt": "Mali",
+    "sw": "Mali"
+   },
+   "airport": "Bamako",
+   "advisory": "avoid"
+  },
+  {
+   "id": "mr",
+   "regionId": "west",
+   "name": {
+    "nl": "Mauritanië",
+    "en": "Mauritania",
+    "de": "Mauretanien",
+    "fr": "Mauritanie",
+    "es": "Mauritania",
+    "it": "Mauritania",
+    "pt": "Mauritânia",
+    "sw": "Mauritania"
+   },
+   "airport": "Nouakchott",
+   "advisory": null
+  },
+  {
+   "id": "ne",
+   "regionId": "west",
+   "name": {
+    "nl": "Niger",
+    "en": "Niger",
+    "de": "Niger",
+    "fr": "Niger",
+    "es": "Níger",
+    "it": "Niger",
+    "pt": "Níger",
+    "sw": "Niger"
+   },
+   "airport": "Niamey",
+   "advisory": "avoid"
+  },
+  {
+   "id": "ng",
+   "regionId": "west",
+   "name": {
+    "nl": "Nigeria",
+    "en": "Nigeria",
+    "de": "Nigeria",
+    "fr": "Nigeria",
+    "es": "Nigeria",
+    "it": "Nigeria",
+    "pt": "Nigéria",
+    "sw": "Nigeria"
+   },
+   "airport": "Lagos",
+   "advisory": null
+  },
+  {
+   "id": "sn",
+   "regionId": "west",
+   "name": {
+    "nl": "Senegal",
+    "en": "Senegal",
+    "de": "Senegal",
+    "fr": "Sénégal",
+    "es": "Senegal",
+    "it": "Senegal",
+    "pt": "Senegal",
+    "sw": "Senegal"
+   },
+   "airport": "Dakar",
+   "advisory": null
+  },
+  {
+   "id": "sl",
+   "regionId": "west",
+   "name": {
+    "nl": "Sierra Leone",
+    "en": "Sierra Leone",
+    "de": "Sierra Leone",
+    "fr": "Sierra Leone",
+    "es": "Sierra Leona",
+    "it": "Sierra Leone",
+    "pt": "Serra Leoa",
+    "sw": "Sierra Leone"
+   },
+   "airport": "Freetown",
+   "advisory": null
+  },
+  {
+   "id": "tg",
+   "regionId": "west",
+   "name": {
+    "nl": "Togo",
+    "en": "Togo",
+    "de": "Togo",
+    "fr": "Togo",
+    "es": "Togo",
+    "it": "Togo",
+    "pt": "Togo",
+    "sw": "Togo"
+   },
+   "airport": "Lomé",
+   "advisory": null
+  },
+  {
+   "id": "dz",
+   "regionId": "north",
+   "name": {
+    "nl": "Algerije",
+    "en": "Algeria",
+    "de": "Algerien",
+    "fr": "Algérie",
+    "es": "Argelia",
+    "it": "Algeria",
+    "pt": "Argélia",
+    "sw": "Algeria"
+   },
+   "airport": "Algiers",
+   "advisory": null
+  },
+  {
+   "id": "eg",
+   "regionId": "north",
+   "name": {
+    "nl": "Egypte",
+    "en": "Egypt",
+    "de": "Ägypten",
+    "fr": "Égypte",
+    "es": "Egipto",
+    "it": "Egitto",
+    "pt": "Egito",
+    "sw": "Misri"
+   },
+   "airport": "Hurghada",
+   "advisory": null
+  },
+  {
+   "id": "ly",
+   "regionId": "north",
+   "name": {
+    "nl": "Libië",
+    "en": "Libya",
+    "de": "Libyen",
+    "fr": "Libye",
+    "es": "Libia",
+    "it": "Libia",
+    "pt": "Líbia",
+    "sw": "Libya"
+   },
+   "airport": "Tripoli",
+   "advisory": "avoid"
+  },
+  {
+   "id": "ma",
+   "regionId": "north",
+   "name": {
+    "nl": "Marokko",
+    "en": "Morocco",
+    "de": "Marokko",
+    "fr": "Maroc",
+    "es": "Marruecos",
+    "it": "Marocco",
+    "pt": "Marrocos",
+    "sw": "Moroko"
+   },
+   "airport": "Marrakech",
+   "advisory": null
+  },
+  {
+   "id": "sd",
+   "regionId": "north",
+   "name": {
+    "nl": "Soedan",
+    "en": "Sudan",
+    "de": "Sudan",
+    "fr": "Soudan",
+    "es": "Sudán",
+    "it": "Sudan",
+    "pt": "Sudão",
+    "sw": "Sudan"
+   },
+   "airport": "Khartoum",
+   "advisory": "avoid"
+  },
+  {
+   "id": "tn",
+   "regionId": "north",
+   "name": {
+    "nl": "Tunesië",
+    "en": "Tunisia",
+    "de": "Tunesien",
+    "fr": "Tunisie",
+    "es": "Túnez",
+    "it": "Tunisia",
+    "pt": "Tunísia",
+    "sw": "Tunisia"
+   },
+   "airport": "Tunis",
+   "advisory": null
+  }
+ ],
+ "destinations": [
+  {
+   "id": "tz-arusha",
+   "countryId": "tz",
+   "name": "Arusha National Park",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Bos, meer en Mount Meru",
+    "en": "Forest, lakes and Mount Meru",
+    "de": "Wald, Seen und Mount Meru",
+    "fr": "Forêt, lacs et mont Meru",
+    "es": "Bosque, lagos y el monte Meru",
+    "it": "Foresta, laghi e Monte Meru",
+    "pt": "Floresta, lagos e o Monte Meru",
+    "sw": "Msitu, maziwa na Mlima Meru"
+   },
+   "lat": -3.25,
+   "lon": 36.85,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "tz-tarangire",
+   "countryId": "tz",
+   "name": "Tarangire",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Olifanten en baobabs",
+    "en": "Elephants and baobabs",
+    "de": "Elefanten und Baobabs",
+    "fr": "Éléphants et baobabs",
+    "es": "Elefantes y baobabs",
+    "it": "Elefanti e baobab",
+    "pt": "Elefantes e embondeiros",
+    "sw": "Tembo na mibuyu"
+   },
+   "lat": -3.9,
+   "lon": 36,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tz-manyara",
+   "countryId": "tz",
+   "name": "Lake Manyara",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Meer, bos en vogels",
+    "en": "Lake, forest and birds",
+    "de": "See, Wald und Vögel",
+    "fr": "Lac, forêt et oiseaux",
+    "es": "Lago, bosque y aves",
+    "it": "Lago, foresta e uccelli",
+    "pt": "Lago, floresta e aves",
+    "sw": "Ziwa, msitu na ndege"
+   },
+   "lat": -3.5,
+   "lon": 35.8,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tz-ngorongoro",
+   "countryId": "tz",
+   "name": "Ngorongoro",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Een krater vol wild",
+    "en": "A crater full of wildlife",
+    "de": "Ein Krater voller Wildtiere",
+    "fr": "Un cratère plein de faune",
+    "es": "Un cráter lleno de fauna",
+    "it": "Un cratere pieno di animali",
+    "pt": "Uma cratera cheia de vida selvagem",
+    "sw": "Kreta iliyojaa wanyamapori"
+   },
+   "lat": -3.2,
+   "lon": 35.5,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tz-serengeti",
+   "countryId": "tz",
+   "name": "Serengeti",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Vlaktes en de grote trek",
+    "en": "Plains and the great migration",
+    "de": "Ebenen und die große Migration",
+    "fr": "Plaines et la grande migration",
+    "es": "Llanuras y la gran migración",
+    "it": "Pianure e la grande migrazione",
+    "pt": "Planícies e a grande migração",
+    "sw": "Nyanda na uhamaji mkuu"
+   },
+   "lat": -2.3,
+   "lon": 34.8,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tz-zanzibar",
+   "countryId": "tz",
+   "name": "Zanzibar",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Witte stranden en Stone Town",
+    "en": "White beaches and Stone Town",
+    "de": "Weiße Strände und Stone Town",
+    "fr": "Plages blanches et Stone Town",
+    "es": "Playas blancas y Stone Town",
+    "it": "Spiagge bianche e Stone Town",
+    "pt": "Praias brancas e Stone Town",
+    "sw": "Fukwe nyeupe na Mji Mkongwe"
+   },
+   "lat": -6.1,
+   "lon": 39.3,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tz-mafia",
+   "countryId": "tz",
+   "name": "Mafia",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Rustig eiland, rijk koraal",
+    "en": "Quiet island, rich coral",
+    "de": "Ruhige Insel, reiche Korallen",
+    "fr": "Île calme, corail riche",
+    "es": "Isla tranquila, coral abundante",
+    "it": "Isola tranquilla, coralli ricchi",
+    "pt": "Ilha tranquila, coral rico",
+    "sw": "Kisiwa tulivu, matumbawe tele"
+   },
+   "lat": -7.9,
+   "lon": 39.7,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tz-pemba",
+   "countryId": "tz",
+   "name": "Pemba",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Groen eiland, diepe duikplekken",
+    "en": "Green island, deep dive sites",
+    "de": "Grüne Insel, tiefe Tauchplätze",
+    "fr": "Île verte, plongées profondes",
+    "es": "Isla verde, inmersiones profundas",
+    "it": "Isola verde, immersioni profonde",
+    "pt": "Ilha verde, mergulhos profundos",
+    "sw": "Kisiwa kijani, maeneo ya kupiga mbizi kwa kina"
+   },
+   "lat": -5.1,
+   "lon": 39.8,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tz-kilimanjaro",
+   "countryId": "tz",
+   "name": "Kilimanjaro",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Hoogste berg van Afrika",
+    "en": "Africa’s highest mountain",
+    "de": "Höchster Berg Afrikas",
+    "fr": "Plus haut sommet d’Afrique",
+    "es": "La montaña más alta de África",
+    "it": "La montagna più alta d’Africa",
+    "pt": "A montanha mais alta de África",
+    "sw": "Mlima mrefu zaidi Afrika"
+   },
+   "lat": -3.07,
+   "lon": 37.35,
+   "defaultNights": 5,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "tz-ruaha",
+   "countryId": "tz",
+   "name": "Ruaha",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Wild en ongerept",
+    "en": "Wild and untouched",
+    "de": "Wild und unberührt",
+    "fr": "Sauvage et préservé",
+    "es": "Salvaje e intacto",
+    "it": "Selvaggio e incontaminato",
+    "pt": "Selvagem e intocado",
+    "sw": "Pori na halijaguswa"
+   },
+   "lat": -7.6,
+   "lon": 34.9,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tz-nyerere",
+   "countryId": "tz",
+   "name": "Nyerere (Selous)",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Rivieren en meren vol wild",
+    "en": "Rivers and lakes full of game",
+    "de": "Flüsse und Seen voller Tiere",
+    "fr": "Rivières et lacs pleins de faune",
+    "es": "Ríos y lagos llenos de fauna",
+    "it": "Fiumi e laghi pieni di fauna",
+    "pt": "Rios e lagos cheios de fauna",
+    "sw": "Mito na maziwa yenye wanyama tele"
+   },
+   "lat": -8.3,
+   "lon": 37.9,
+   "defaultNights": 3,
+   "canFly": true,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tz-mahale",
+   "countryId": "tz",
+   "name": "Mahale",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Chimpansees aan het meer",
+    "en": "Chimps by the lake",
+    "de": "Schimpansen am See",
+    "fr": "Chimpanzés au bord du lac",
+    "es": "Chimpancés junto al lago",
+    "it": "Scimpanzé in riva al lago",
+    "pt": "Chimpanzés junto ao lago",
+    "sw": "Sokwe kando ya ziwa"
+   },
+   "lat": -6.1,
+   "lon": 29.8,
+   "defaultNights": 3,
+   "canFly": true,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ke-amboseli",
+   "countryId": "ke",
+   "name": "Amboseli",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Olifanten met zicht op de Kilimanjaro",
+    "en": "Elephants with Kilimanjaro views",
+    "de": "Elefanten mit Kilimandscharo-Blick",
+    "fr": "Éléphants face au Kilimandjaro",
+    "es": "Elefantes con vistas al Kilimanjaro",
+    "it": "Elefanti con vista sul Kilimanjaro",
+    "pt": "Elefantes com vista para o Kilimanjaro",
+    "sw": "Tembo wakitazama Kilimanjaro"
+   },
+   "lat": -2.65,
+   "lon": 37.25,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "ke-tsavo",
+   "countryId": "ke",
+   "name": "Tsavo",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Uitgestrekte wildernis",
+    "en": "Vast wilderness",
+    "de": "Weite Wildnis",
+    "fr": "Vaste nature sauvage",
+    "es": "Naturaleza salvaje inmensa",
+    "it": "Natura selvaggia sconfinata",
+    "pt": "Vasta natureza selvagem",
+    "sw": "Pori kubwa lisilo na mwisho"
+   },
+   "lat": -3,
+   "lon": 38.5,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ke-samburu",
+   "countryId": "ke",
+   "name": "Samburu",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Het droge noorden",
+    "en": "The dry north",
+    "de": "Der trockene Norden",
+    "fr": "Le nord aride",
+    "es": "El norte árido",
+    "it": "Il nord arido",
+    "pt": "O norte árido",
+    "sw": "Kaskazini kame"
+   },
+   "lat": 0.6,
+   "lon": 37.5,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ke-mara",
+   "countryId": "ke",
+   "name": "Masai Mara",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Open savanne en de grote trek",
+    "en": "Open savanna and the great migration",
+    "de": "Offene Savanne und die große Migration",
+    "fr": "Savane ouverte et grande migration",
+    "es": "Sabana abierta y la gran migración",
+    "it": "Savana aperta e la grande migrazione",
+    "pt": "Savana aberta e a grande migração",
+    "sw": "Savana wazi na uhamaji mkuu"
+   },
+   "lat": -1.5,
+   "lon": 35.1,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ke-lamu",
+   "countryId": "ke",
+   "name": "Lamu",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Oude Swahili-stad en dhows",
+    "en": "Old Swahili town and dhows",
+    "de": "Alte Swahili-Stadt und Dhaus",
+    "fr": "Vieille ville swahilie et boutres",
+    "es": "Antigua ciudad suajili y dhows",
+    "it": "Antica città swahili e dhow",
+    "pt": "Velha cidade suaíli e dhows",
+    "sw": "Mji wa kale wa Kiswahili na majahazi"
+   },
+   "lat": -2.27,
+   "lon": 40.9,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ke-diani",
+   "countryId": "ke",
+   "name": "Diani",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Lang wit strand aan de kust",
+    "en": "Long white beach on the coast",
+    "de": "Langer weißer Strand an der Küste",
+    "fr": "Longue plage blanche sur la côte",
+    "es": "Larga playa blanca en la costa",
+    "it": "Lunga spiaggia bianca sulla costa",
+    "pt": "Longa praia branca na costa",
+    "sw": "Ufukwe mrefu mweupe pwani"
+   },
+   "lat": -4.3,
+   "lon": 39.58,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ke-nakuru",
+   "countryId": "ke",
+   "name": "Lake Nakuru",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Meer met neushoorns",
+    "en": "Lake with rhinos",
+    "de": "See mit Nashörnern",
+    "fr": "Lac et rhinocéros",
+    "es": "Lago con rinocerontes",
+    "it": "Lago con rinoceronti",
+    "pt": "Lago com rinocerontes",
+    "sw": "Ziwa lenye vifaru"
+   },
+   "lat": -0.36,
+   "lon": 36.08,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ke-mtkenya",
+   "countryId": "ke",
+   "name": "Mount Kenya",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Tweede berg van Afrika",
+    "en": "Africa’s second peak",
+    "de": "Zweithöchster Berg Afrikas",
+    "fr": "Deuxième sommet d’Afrique",
+    "es": "La segunda cumbre de África",
+    "it": "La seconda vetta d’Africa",
+    "pt": "O segundo pico de África",
+    "sw": "Kilele cha pili kwa urefu Afrika"
+   },
+   "lat": -0.15,
+   "lon": 37.31,
+   "defaultNights": 4,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "ke-nairobi",
+   "countryId": "ke",
+   "name": "Nairobi",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Stad met een eigen nationaal park",
+    "en": "City with its own national park",
+    "de": "Stadt mit eigenem Nationalpark",
+    "fr": "Ville avec son parc national",
+    "es": "Ciudad con su propio parque nacional",
+    "it": "Città con un parco nazionale tutto suo",
+    "pt": "Cidade com parque nacional próprio",
+    "sw": "Jiji lenye hifadhi yake ya taifa"
+   },
+   "lat": -1.29,
+   "lon": 36.82,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ug-bwindi",
+   "countryId": "ug",
+   "name": "Bwindi",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Berggorilla’s in het regenwoud",
+    "en": "Mountain gorillas in the rainforest",
+    "de": "Berggorillas im Regenwald",
+    "fr": "Gorilles de montagne en forêt tropicale",
+    "es": "Gorilas de montaña en la selva",
+    "it": "Gorilla di montagna nella foresta pluviale",
+    "pt": "Gorilas-das-montanhas na floresta tropical",
+    "sw": "Sokwe-mtu wa milimani msituni"
+   },
+   "lat": -1,
+   "lon": 29.7,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ug-queen",
+   "countryId": "ug",
+   "name": "Queen Elizabeth",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Savanne en het Kazinga-kanaal",
+    "en": "Savanna and the Kazinga Channel",
+    "de": "Savanne und Kazinga-Kanal",
+    "fr": "Savane et canal de Kazinga",
+    "es": "Sabana y el canal de Kazinga",
+    "it": "Savana e il canale Kazinga",
+    "pt": "Savana e o Canal de Kazinga",
+    "sw": "Savana na Mfereji wa Kazinga"
+   },
+   "lat": -0.2,
+   "lon": 30,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ug-murchison",
+   "countryId": "ug",
+   "name": "Murchison Falls",
+   "kind": "safari",
+   "tagline": {
+    "nl": "De Nijl door een smalle kloof",
+    "en": "The Nile through a narrow gorge",
+    "de": "Der Nil durch eine enge Schlucht",
+    "fr": "Le Nil dans une gorge étroite",
+    "es": "El Nilo por un estrecho desfiladero",
+    "it": "Il Nilo in una gola stretta",
+    "pt": "O Nilo por um desfiladeiro estreito",
+    "sw": "Mto Nile kupitia korongo jembamba"
+   },
+   "lat": 2.25,
+   "lon": 31.8,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ug-kidepo",
+   "countryId": "ug",
+   "name": "Kidepo",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Afgelegen savanne",
+    "en": "Remote savanna",
+    "de": "Abgelegene Savanne",
+    "fr": "Savane isolée",
+    "es": "Sabana remota",
+    "it": "Savana remota",
+    "pt": "Savana remota",
+    "sw": "Savana ya mbali"
+   },
+   "lat": 3.9,
+   "lon": 33.85,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ug-jinja",
+   "countryId": "ug",
+   "name": "Jinja",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Bron van de Nijl",
+    "en": "Source of the Nile",
+    "de": "Quelle des Nils",
+    "fr": "Source du Nil",
+    "es": "Nacimiento del Nilo",
+    "it": "La sorgente del Nilo",
+    "pt": "A nascente do Nilo",
+    "sw": "Chanzo cha Mto Nile"
+   },
+   "lat": 0.43,
+   "lon": 33.2,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "rw-volcanoes",
+   "countryId": "rw",
+   "name": "Volcanoes",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Gorilla’s op de vulkanen",
+    "en": "Gorillas on the volcanoes",
+    "de": "Gorillas an den Vulkanen",
+    "fr": "Gorilles sur les volcans",
+    "es": "Gorilas en los volcanes",
+    "it": "Gorilla sui vulcani",
+    "pt": "Gorilas nos vulcões",
+    "sw": "Sokwe-mtu kwenye volkano"
+   },
+   "lat": -1.45,
+   "lon": 29.5,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "rw-nyungwe",
+   "countryId": "rw",
+   "name": "Nyungwe",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Regenwoud en chimpansees",
+    "en": "Rainforest and chimpanzees",
+    "de": "Regenwald und Schimpansen",
+    "fr": "Forêt tropicale et chimpanzés",
+    "es": "Selva y chimpancés",
+    "it": "Foresta pluviale e scimpanzé",
+    "pt": "Floresta tropical e chimpanzés",
+    "sw": "Msitu wa mvua na sokwe"
+   },
+   "lat": -2.5,
+   "lon": 29.2,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "rw-akagera",
+   "countryId": "rw",
+   "name": "Akagera",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Savanne en meren",
+    "en": "Savanna and lakes",
+    "de": "Savanne und Seen",
+    "fr": "Savane et lacs",
+    "es": "Sabana y lagos",
+    "it": "Savana e laghi",
+    "pt": "Savana e lagos",
+    "sw": "Savana na maziwa"
+   },
+   "lat": -1.9,
+   "lon": 30.7,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "rw-kivu",
+   "countryId": "rw",
+   "name": "Kivumeer",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Rustig meer tussen heuvels",
+    "en": "Calm lake among hills",
+    "de": "Ruhiger See zwischen Hügeln",
+    "fr": "Lac paisible entre collines",
+    "es": "Lago sereno entre colinas",
+    "it": "Lago calmo tra le colline",
+    "pt": "Lago calmo entre colinas",
+    "sw": "Ziwa tulivu kati ya vilima"
+   },
+   "lat": -2,
+   "lon": 29.25,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "rw-kigali",
+   "countryId": "rw",
+   "name": "Kigali",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Schone, groene hoofdstad",
+    "en": "Clean, green capital",
+    "de": "Saubere, grüne Hauptstadt",
+    "fr": "Capitale propre et verte",
+    "es": "Capital limpia y verde",
+    "it": "Capitale pulita e verde",
+    "pt": "Capital limpa e verde",
+    "sw": "Mji mkuu safi na wa kijani"
+   },
+   "lat": -1.95,
+   "lon": 30.06,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "bi-tanganyika",
+   "countryId": "bi",
+   "name": "Tanganyikameer",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Strand aan een diep meer",
+    "en": "Beach on a deep lake",
+    "de": "Strand an einem tiefen See",
+    "fr": "Plage sur un lac profond",
+    "es": "Playa en un lago profundo",
+    "it": "Spiaggia su un lago profondo",
+    "pt": "Praia num lago profundo",
+    "sw": "Ufukwe kwenye ziwa lenye kina kirefu"
+   },
+   "lat": -3.4,
+   "lon": 29.35,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "bi-kibira",
+   "countryId": "bi",
+   "name": "Kibira",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Bergregenwoud",
+    "en": "Montane rainforest",
+    "de": "Bergregenwald",
+    "fr": "Forêt de montagne",
+    "es": "Selva de montaña",
+    "it": "Foresta pluviale di montagna",
+    "pt": "Floresta tropical de montanha",
+    "sw": "Msitu wa mvua wa milimani"
+   },
+   "lat": -2.9,
+   "lon": 29.5,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "bi-rusizi",
+   "countryId": "bi",
+   "name": "Rusizi",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Delta met nijlpaarden",
+    "en": "Delta with hippos",
+    "de": "Delta mit Flusspferden",
+    "fr": "Delta aux hippopotames",
+    "es": "Delta con hipopótamos",
+    "it": "Delta con ippopotami",
+    "pt": "Delta com hipopótamos",
+    "sw": "Delta yenye viboko"
+   },
+   "lat": -3.3,
+   "lon": 29.27,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "km-grandecomore",
+   "countryId": "km",
+   "name": "Grande Comore",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Vulkaan en zwart strand",
+    "en": "Volcano and black beach",
+    "de": "Vulkan und schwarzer Strand",
+    "fr": "Volcan et plage noire",
+    "es": "Volcán y playa negra",
+    "it": "Vulcano e spiaggia nera",
+    "pt": "Vulcão e praia negra",
+    "sw": "Volkano na ufukwe mweusi"
+   },
+   "lat": -11.7,
+   "lon": 43.3,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "km-moheli",
+   "countryId": "km",
+   "name": "Mohéli",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Marinepark en schildpadden",
+    "en": "Marine park and turtles",
+    "de": "Meerespark und Schildkröten",
+    "fr": "Parc marin et tortues",
+    "es": "Parque marino y tortugas",
+    "it": "Parco marino e tartarughe",
+    "pt": "Parque marinho e tartarugas",
+    "sw": "Hifadhi ya bahari na kasa"
+   },
+   "lat": -12.3,
+   "lon": 43.75,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "km-anjouan",
+   "countryId": "km",
+   "name": "Anjouan",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Groene bergen en watervallen",
+    "en": "Green mountains and waterfalls",
+    "de": "Grüne Berge und Wasserfälle",
+    "fr": "Montagnes vertes et cascades",
+    "es": "Montañas verdes y cascadas",
+    "it": "Montagne verdi e cascate",
+    "pt": "Montanhas verdes e cascatas",
+    "sw": "Milima ya kijani na maporomoko"
+   },
+   "lat": -12.2,
+   "lon": 44.4,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "dj-assal",
+   "countryId": "dj",
+   "name": "Lac Assal",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Zoutmeer, laagste punt van Afrika",
+    "en": "Salt lake, lowest point in Africa",
+    "de": "Salzsee, tiefster Punkt Afrikas",
+    "fr": "Lac salé, point le plus bas d’Afrique",
+    "es": "Lago salado, el punto más bajo de África",
+    "it": "Lago salato, punto più basso d’Africa",
+    "pt": "Lago salgado, o ponto mais baixo de África",
+    "sw": "Ziwa la chumvi, sehemu ya chini kabisa Afrika"
+   },
+   "lat": 11.65,
+   "lon": 42.4,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "dj-tadjoura",
+   "countryId": "dj",
+   "name": "Golf van Tadjoura",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Walvishaaien in het seizoen",
+    "en": "Whale sharks in season",
+    "de": "Walhaie in der Saison",
+    "fr": "Requins-baleines en saison",
+    "es": "Tiburones ballena en temporada",
+    "it": "Squali balena in stagione",
+    "pt": "Tubarões-baleia na época",
+    "sw": "Papa nyangumi kwa msimu"
+   },
+   "lat": 11.8,
+   "lon": 43,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "dj-abbe",
+   "countryId": "dj",
+   "name": "Lac Abbé",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Kalkschoorstenen bij zonsopkomst",
+    "en": "Limestone chimneys at sunrise",
+    "de": "Kalkschlote bei Sonnenaufgang",
+    "fr": "Cheminées calcaires à l’aube",
+    "es": "Chimeneas de caliza al amanecer",
+    "it": "Camini calcarei all’alba",
+    "pt": "Chaminés de calcário ao nascer do sol",
+    "sw": "Mabomba ya chokaa wakati wa macheo"
+   },
+   "lat": 11.15,
+   "lon": 41.8,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "er-asmara",
+   "countryId": "er",
+   "name": "Asmara",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Modernistische architectuur",
+    "en": "Modernist architecture",
+    "de": "Modernistische Architektur",
+    "fr": "Architecture moderniste",
+    "es": "Arquitectura modernista",
+    "it": "Architettura modernista",
+    "pt": "Arquitetura modernista",
+    "sw": "Usanifu wa kisasa wa zamani"
+   },
+   "lat": 15.33,
+   "lon": 38.93,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "er-massawa",
+   "countryId": "er",
+   "name": "Massawa",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Oude havenstad",
+    "en": "Old port town",
+    "de": "Alte Hafenstadt",
+    "fr": "Vieux port",
+    "es": "Antigua ciudad portuaria",
+    "it": "Antica città portuale",
+    "pt": "Antiga cidade portuária",
+    "sw": "Mji wa bandari wa kale"
+   },
+   "lat": 15.6,
+   "lon": 39.45,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "er-dahlak",
+   "countryId": "er",
+   "name": "Dahlak-eilanden",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Afgelegen koraaleilanden",
+    "en": "Remote coral islands",
+    "de": "Abgelegene Koralleninseln",
+    "fr": "Îles coralliennes isolées",
+    "es": "Remotas islas de coral",
+    "it": "Remote isole coralline",
+    "pt": "Ilhas de coral remotas",
+    "sw": "Visiwa vya matumbawe vya mbali"
+   },
+   "lat": 15.7,
+   "lon": 40.2,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "et-simien",
+   "countryId": "et",
+   "name": "Simiengebergte",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Ruige bergen en gelada’s",
+    "en": "Rugged peaks and geladas",
+    "de": "Schroffe Berge und Dscheladas",
+    "fr": "Montagnes et géladas",
+    "es": "Cumbres escarpadas y geladas",
+    "it": "Vette aspre e gelada",
+    "pt": "Picos agrestes e geladas",
+    "sw": "Vilele vikali na nyani gelada"
+   },
+   "lat": 13.2,
+   "lon": 38,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": "avoid"
+  },
+  {
+   "id": "et-lalibela",
+   "countryId": "et",
+   "name": "Lalibela",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Uit rots gehouwen kerken",
+    "en": "Rock-hewn churches",
+    "de": "Felsenkirchen",
+    "fr": "Églises taillées dans la roche",
+    "es": "Iglesias excavadas en la roca",
+    "it": "Chiese scavate nella roccia",
+    "pt": "Igrejas escavadas na rocha",
+    "sw": "Makanisa yaliyochongwa mwambani"
+   },
+   "lat": 12.03,
+   "lon": 39.04,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": "avoid"
+  },
+  {
+   "id": "et-bale",
+   "countryId": "et",
+   "name": "Bale-gebergte",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Hoogvlakte met Ethiopische wolven",
+    "en": "Plateau with Ethiopian wolves",
+    "de": "Hochebene mit Äthiopischen Wölfen",
+    "fr": "Plateau et loups d’Éthiopie",
+    "es": "Meseta con lobos etíopes",
+    "it": "Altopiano con lupi etiopi",
+    "pt": "Planalto com lobos-etíopes",
+    "sw": "Uwanda wenye mbwa-mwitu wa Ethiopia"
+   },
+   "lat": 6.8,
+   "lon": 39.75,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "et-danakil",
+   "countryId": "et",
+   "name": "Danakil",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Zoutvlaktes en vulkanen",
+    "en": "Salt flats and volcanoes",
+    "de": "Salzebenen und Vulkane",
+    "fr": "Plaines de sel et volcans",
+    "es": "Salinas y volcanes",
+    "it": "Distese di sale e vulcani",
+    "pt": "Planícies de sal e vulcões",
+    "sw": "Tambarare za chumvi na volkano"
+   },
+   "lat": 14.2,
+   "lon": 40.3,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": "avoid"
+  },
+  {
+   "id": "mg-nosybe",
+   "countryId": "mg",
+   "name": "Nosy Be",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Tropisch eiland met koraal",
+    "en": "Tropical island with coral",
+    "de": "Tropische Insel mit Korallen",
+    "fr": "Île tropicale et corail",
+    "es": "Isla tropical con coral",
+    "it": "Isola tropicale con coralli",
+    "pt": "Ilha tropical com coral",
+    "sw": "Kisiwa cha kitropiki chenye matumbawe"
+   },
+   "lat": -13.3,
+   "lon": 48.3,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mg-saintemarie",
+   "countryId": "mg",
+   "name": "Île Sainte-Marie",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Rustig eiland, bultruggen in het seizoen",
+    "en": "Quiet island, humpbacks in season",
+    "de": "Ruhige Insel, Buckelwale in der Saison",
+    "fr": "Île calme, baleines en saison",
+    "es": "Isla tranquila, ballenas jorobadas en temporada",
+    "it": "Isola tranquilla, megattere in stagione",
+    "pt": "Ilha tranquila, jubartes na época",
+    "sw": "Kisiwa tulivu, nyangumi kwa msimu"
+   },
+   "lat": -17,
+   "lon": 49.85,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mg-tsingy",
+   "countryId": "mg",
+   "name": "Tsingy de Bemaraha",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Grillige kalkrotsen",
+    "en": "Jagged limestone forest",
+    "de": "Zerklüftete Kalksteinnadeln",
+    "fr": "Forêt de calcaire acéré",
+    "es": "Bosque de agujas de caliza",
+    "it": "Foresta di guglie calcaree",
+    "pt": "Floresta de calcário recortado",
+    "sw": "Msitu wa miamba ya chokaa iliyochongoka"
+   },
+   "lat": -18.7,
+   "lon": 44.7,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mg-baobab",
+   "countryId": "mg",
+   "name": "Allée des Baobabs",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Laan van reuzenbomen",
+    "en": "Avenue of giant trees",
+    "de": "Allee der Riesenbäume",
+    "fr": "Allée d’arbres géants",
+    "es": "Avenida de árboles gigantes",
+    "it": "Viale di alberi giganti",
+    "pt": "Avenida de árvores gigantes",
+    "sw": "Njia ya miti mikubwa"
+   },
+   "lat": -20.25,
+   "lon": 44.42,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mg-andasibe",
+   "countryId": "mg",
+   "name": "Andasibe",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Regenwoud met indri’s",
+    "en": "Rainforest with indris",
+    "de": "Regenwald mit Indris",
+    "fr": "Forêt tropicale et indris",
+    "es": "Selva con indris",
+    "it": "Foresta pluviale con indri",
+    "pt": "Floresta tropical com indris",
+    "sw": "Msitu wa mvua wenye indri"
+   },
+   "lat": -18.93,
+   "lon": 48.42,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mu-mauritius",
+   "countryId": "mu",
+   "name": "Mauritius",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Lagunes en bergen",
+    "en": "Lagoons and mountains",
+    "de": "Lagunen und Berge",
+    "fr": "Lagons et montagnes",
+    "es": "Lagunas y montañas",
+    "it": "Lagune e montagne",
+    "pt": "Lagoas e montanhas",
+    "sw": "Mabwawa ya pwani na milima"
+   },
+   "lat": -20.25,
+   "lon": 57.55,
+   "defaultNights": 4,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mu-lemorne",
+   "countryId": "mu",
+   "name": "Le Morne",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Berg aan de lagune",
+    "en": "Mountain by the lagoon",
+    "de": "Berg an der Lagune",
+    "fr": "Montagne et lagon",
+    "es": "Montaña junto a la laguna",
+    "it": "Montagna sulla laguna",
+    "pt": "Montanha junto à lagoa",
+    "sw": "Mlima kando ya bwawa la pwani"
+   },
+   "lat": -20.45,
+   "lon": 57.32,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "sc-mahe",
+   "countryId": "sc",
+   "name": "Mahé",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Bergen en baaien",
+    "en": "Mountains and bays",
+    "de": "Berge und Buchten",
+    "fr": "Montagnes et baies",
+    "es": "Montañas y bahías",
+    "it": "Montagne e baie",
+    "pt": "Montanhas e baías",
+    "sw": "Milima na ghuba"
+   },
+   "lat": -4.65,
+   "lon": 55.45,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "sc-praslin",
+   "countryId": "sc",
+   "name": "Praslin",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Palmbos en witte stranden",
+    "en": "Palm forest and white beaches",
+    "de": "Palmenwald und weiße Strände",
+    "fr": "Forêt de palmiers et plages blanches",
+    "es": "Palmerales y playas blancas",
+    "it": "Foresta di palme e spiagge bianche",
+    "pt": "Palmeiral e praias brancas",
+    "sw": "Msitu wa mitende na fukwe nyeupe"
+   },
+   "lat": -4.32,
+   "lon": 55.73,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "sc-ladigue",
+   "countryId": "sc",
+   "name": "La Digue",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Granietrotsen en fietsen",
+    "en": "Granite boulders and bicycles",
+    "de": "Granitfelsen und Fahrräder",
+    "fr": "Rochers de granit et vélos",
+    "es": "Rocas de granito y bicicletas",
+    "it": "Massi di granito e biciclette",
+    "pt": "Rochedos de granito e bicicletas",
+    "sw": "Miamba ya graniti na baiskeli"
+   },
+   "lat": -4.36,
+   "lon": 55.84,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "so-laasgeel",
+   "countryId": "so",
+   "name": "Laas Geel",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Oude rotsschilderingen",
+    "en": "Ancient rock art",
+    "de": "Alte Felsmalereien",
+    "fr": "Art rupestre ancien",
+    "es": "Arte rupestre antiguo",
+    "it": "Antica arte rupestre",
+    "pt": "Arte rupestre antiga",
+    "sw": "Michoro ya kale miambani"
+   },
+   "lat": 9.78,
+   "lon": 44.47,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "so-berbera",
+   "countryId": "so",
+   "name": "Berbera",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Kust aan de Golf van Aden",
+    "en": "Gulf of Aden coast",
+    "de": "Küste am Golf von Aden",
+    "fr": "Côte du golfe d’Aden",
+    "es": "Costa del golfo de Adén",
+    "it": "Costa sul Golfo di Aden",
+    "pt": "Costa do Golfo de Áden",
+    "sw": "Pwani ya Ghuba ya Aden"
+   },
+   "lat": 10.44,
+   "lon": 45,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ss-boma",
+   "countryId": "ss",
+   "name": "Boma",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Grote dierentrek, heel afgelegen",
+    "en": "Vast migration, very remote",
+    "de": "Große Tierwanderung, abgelegen",
+    "fr": "Grande migration, très isolé",
+    "es": "Gran migración, muy remota",
+    "it": "Grande migrazione, molto remota",
+    "pt": "Grande migração, muito remota",
+    "sw": "Uhamaji mkubwa, mbali sana"
+   },
+   "lat": 6.5,
+   "lon": 34,
+   "defaultNights": 3,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ss-nile",
+   "countryId": "ss",
+   "name": "Witte Nijl",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Rivierlandschap bij Juba",
+    "en": "River landscape near Juba",
+    "de": "Flusslandschaft bei Juba",
+    "fr": "Paysage fluvial près de Juba",
+    "es": "Paisaje fluvial cerca de Yuba",
+    "it": "Paesaggio fluviale vicino a Juba",
+    "pt": "Paisagem fluvial perto de Juba",
+    "sw": "Mandhari ya mto karibu na Juba"
+   },
+   "lat": 4.85,
+   "lon": 31.6,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-pilanesberg",
+   "countryId": "za",
+   "name": "Pilanesberg",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Dicht bij Johannesburg",
+    "en": "Close to Johannesburg",
+    "de": "Nahe Johannesburg",
+    "fr": "Près de Johannesburg",
+    "es": "Cerca de Johannesburgo",
+    "it": "Vicino a Johannesburg",
+    "pt": "Perto de Joanesburgo",
+    "sw": "Karibu na Johannesburg"
+   },
+   "lat": -25.25,
+   "lon": 27.1,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-kruger",
+   "countryId": "za",
+   "name": "Kruger",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Groot park, veel wild",
+    "en": "Huge park, abundant wildlife",
+    "de": "Riesiger Park, viele Tiere",
+    "fr": "Immense parc, faune abondante",
+    "es": "Parque enorme, fauna abundante",
+    "it": "Parco immenso, fauna abbondante",
+    "pt": "Parque enorme, fauna abundante",
+    "sw": "Hifadhi kubwa, wanyamapori tele"
+   },
+   "lat": -24,
+   "lon": 31.5,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-sabisand",
+   "countryId": "za",
+   "name": "Sabi Sand",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Privéreservaat naast Kruger",
+    "en": "Private reserve beside Kruger",
+    "de": "Privatreservat neben Kruger",
+    "fr": "Réserve privée près de Kruger",
+    "es": "Reserva privada junto a Kruger",
+    "it": "Riserva privata accanto al Kruger",
+    "pt": "Reserva privada junto ao Kruger",
+    "sw": "Hifadhi binafsi kando ya Kruger"
+   },
+   "lat": -24.8,
+   "lon": 31.45,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-madikwe",
+   "countryId": "za",
+   "name": "Madikwe",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Wildreservaat bij Botswana",
+    "en": "Game reserve by Botswana",
+    "de": "Wildreservat nahe Botswana",
+    "fr": "Réserve près du Botswana",
+    "es": "Reserva de fauna junto a Botsuana",
+    "it": "Riserva al confine col Botswana",
+    "pt": "Reserva de caça junto ao Botsuana",
+    "sw": "Hifadhi ya wanyama karibu na Botswana"
+   },
+   "lat": -24.8,
+   "lon": 26.3,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-addo",
+   "countryId": "za",
+   "name": "Addo Elephant",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Olifanten dicht bij de kust",
+    "en": "Elephants near the coast",
+    "de": "Elefanten nahe der Küste",
+    "fr": "Éléphants près de la côte",
+    "es": "Elefantes cerca de la costa",
+    "it": "Elefanti vicino alla costa",
+    "pt": "Elefantes perto da costa",
+    "sw": "Tembo karibu na pwani"
+   },
+   "lat": -33.45,
+   "lon": 25.75,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-kgalagadi",
+   "countryId": "za",
+   "name": "Kgalagadi",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Rode duinen en roofdieren",
+    "en": "Red dunes and predators",
+    "de": "Rote Dünen und Raubtiere",
+    "fr": "Dunes rouges et prédateurs",
+    "es": "Dunas rojas y depredadores",
+    "it": "Dune rosse e predatori",
+    "pt": "Dunas vermelhas e predadores",
+    "sw": "Matuta mekundu na wanyama wawindaji"
+   },
+   "lat": -25.8,
+   "lon": 20.6,
+   "defaultNights": 3,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-hluhluwe",
+   "countryId": "za",
+   "name": "Hluhluwe-iMfolozi",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Neushoorns in de heuvels",
+    "en": "Rhinos in the hills",
+    "de": "Nashörner in den Hügeln",
+    "fr": "Rhinocéros dans les collines",
+    "es": "Rinocerontes en las colinas",
+    "it": "Rinoceronti tra le colline",
+    "pt": "Rinocerontes nas colinas",
+    "sw": "Vifaru vilimani"
+   },
+   "lat": -28.2,
+   "lon": 31.95,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-isimangaliso",
+   "countryId": "za",
+   "name": "iSimangaliso",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Wetland en kust",
+    "en": "Wetland and coast",
+    "de": "Feuchtgebiet und Küste",
+    "fr": "Zone humide et côte",
+    "es": "Humedal y costa",
+    "it": "Zone umide e costa",
+    "pt": "Zona húmida e costa",
+    "sw": "Ardhi oevu na pwani"
+   },
+   "lat": -27.8,
+   "lon": 32.55,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-capetown",
+   "countryId": "za",
+   "name": "Kaapstad",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Tafelberg en zee",
+    "en": "Table Mountain and sea",
+    "de": "Tafelberg und Meer",
+    "fr": "Montagne de la Table et mer",
+    "es": "Montaña de la Mesa y mar",
+    "it": "Table Mountain e mare",
+    "pt": "Table Mountain e mar",
+    "sw": "Table Mountain na bahari"
+   },
+   "lat": -33.92,
+   "lon": 18.42,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-winelands",
+   "countryId": "za",
+   "name": "Kaapse wijnlanden",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Wijngaarden en bergen",
+    "en": "Vineyards and mountains",
+    "de": "Weinberge und Berge",
+    "fr": "Vignobles et montagnes",
+    "es": "Viñedos y montañas",
+    "it": "Vigneti e montagne",
+    "pt": "Vinhas e montanhas",
+    "sw": "Mashamba ya mizabibu na milima"
+   },
+   "lat": -33.93,
+   "lon": 18.86,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-gardenroute",
+   "countryId": "za",
+   "name": "Garden Route",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Kustroute met bossen",
+    "en": "Coastal route with forests",
+    "de": "Küstenroute mit Wäldern",
+    "fr": "Route côtière et forêts",
+    "es": "Ruta costera con bosques",
+    "it": "Strada costiera tra le foreste",
+    "pt": "Rota costeira com florestas",
+    "sw": "Njia ya pwani yenye misitu"
+   },
+   "lat": -34.03,
+   "lon": 23.05,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "za-drakensberg",
+   "countryId": "za",
+   "name": "Drakensberg",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Hoge bergen en rotskunst",
+    "en": "High peaks and rock art",
+    "de": "Hohe Berge und Felskunst",
+    "fr": "Hauts sommets et art rupestre",
+    "es": "Altas cumbres y arte rupestre",
+    "it": "Alte vette e arte rupestre",
+    "pt": "Picos altos e arte rupestre",
+    "sw": "Vilele virefu na michoro miambani"
+   },
+   "lat": -29.1,
+   "lon": 29.4,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "bw-okavango",
+   "countryId": "bw",
+   "name": "Okavango",
+   "kind": "safari",
+   "tagline": {
+    "nl": "De delta per mokoro",
+    "en": "The delta by mokoro",
+    "de": "Das Delta im Mokoro",
+    "fr": "Le delta en mokoro",
+    "es": "El delta en mokoro",
+    "it": "Il delta in mokoro",
+    "pt": "O delta de mokoro",
+    "sw": "Delta kwa mokoro"
+   },
+   "lat": -19.3,
+   "lon": 22.8,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "bw-kalahari",
+   "countryId": "bw",
+   "name": "Central Kalahari",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Woestijn en stilte",
+    "en": "Desert and silence",
+    "de": "Wüste und Stille",
+    "fr": "Désert et silence",
+    "es": "Desierto y silencio",
+    "it": "Deserto e silenzio",
+    "pt": "Deserto e silêncio",
+    "sw": "Jangwa na ukimya"
+   },
+   "lat": -21.5,
+   "lon": 23.8,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "bw-chobe",
+   "countryId": "bw",
+   "name": "Chobe",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Olifanten langs de rivier",
+    "en": "Elephants along the river",
+    "de": "Elefanten am Fluss",
+    "fr": "Éléphants le long du fleuve",
+    "es": "Elefantes a lo largo del río",
+    "it": "Elefanti lungo il fiume",
+    "pt": "Elefantes ao longo do rio",
+    "sw": "Tembo kando ya mto"
+   },
+   "lat": -18.6,
+   "lon": 24.4,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "na-sossusvlei",
+   "countryId": "na",
+   "name": "Sossusvlei",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Rode duinen",
+    "en": "Red dunes",
+    "de": "Rote Dünen",
+    "fr": "Dunes rouges",
+    "es": "Dunas rojas",
+    "it": "Dune rosse",
+    "pt": "Dunas vermelhas",
+    "sw": "Matuta mekundu ya mchanga"
+   },
+   "lat": -24.7,
+   "lon": 15.3,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "na-damaraland",
+   "countryId": "na",
+   "name": "Damaraland",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Rotsen en woestijnolifanten",
+    "en": "Rocks and desert elephants",
+    "de": "Felsen und Wüstenelefanten",
+    "fr": "Rochers et éléphants du désert",
+    "es": "Rocas y elefantes del desierto",
+    "it": "Rocce ed elefanti del deserto",
+    "pt": "Rochas e elefantes do deserto",
+    "sw": "Miamba na tembo wa jangwani"
+   },
+   "lat": -20.5,
+   "lon": 14.4,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "na-etosha",
+   "countryId": "na",
+   "name": "Etosha",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Zoutpan en drinkplaatsen",
+    "en": "Salt pan and waterholes",
+    "de": "Salzpfanne und Wasserlöcher",
+    "fr": "Pan salé et points d’eau",
+    "es": "Salar y abrevaderos",
+    "it": "Salina e pozze d’acqua",
+    "pt": "Salina e bebedouros",
+    "sw": "Tambarare ya chumvi na vidimbwi vya maji"
+   },
+   "lat": -18.9,
+   "lon": 16,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "zm-kafue",
+   "countryId": "zm",
+   "name": "Kafue",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Groot en ongerept",
+    "en": "Vast and untouched",
+    "de": "Weit und unberührt",
+    "fr": "Vaste et préservé",
+    "es": "Inmenso e intacto",
+    "it": "Immenso e incontaminato",
+    "pt": "Vasto e intocado",
+    "sw": "Kubwa na halijaguswa"
+   },
+   "lat": -15,
+   "lon": 26,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "zm-lowerzambezi",
+   "countryId": "zm",
+   "name": "Lower Zambezi",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Kano op de Zambezi",
+    "en": "Canoeing the Zambezi",
+    "de": "Kanu auf dem Sambesi",
+    "fr": "Canoë sur le Zambèze",
+    "es": "En canoa por el Zambeze",
+    "it": "In canoa sullo Zambesi",
+    "pt": "De canoa pelo Zambeze",
+    "sw": "Kupiga kasia kwenye Zambezi"
+   },
+   "lat": -15.6,
+   "lon": 29.5,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "zm-luangwa",
+   "countryId": "zm",
+   "name": "South Luangwa",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Wandelsafari’s",
+    "en": "Walking safaris",
+    "de": "Wandersafaris",
+    "fr": "Safaris à pied",
+    "es": "Safaris a pie",
+    "it": "Safari a piedi",
+    "pt": "Safaris a pé",
+    "sw": "Safari za kutembea kwa miguu"
+   },
+   "lat": -13.1,
+   "lon": 31.6,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "zw-falls",
+   "countryId": "zw",
+   "name": "Victoria Falls",
+   "kind": "safari",
+   "tagline": {
+    "nl": "De watervallen",
+    "en": "The falls",
+    "de": "Die Wasserfälle",
+    "fr": "Les chutes",
+    "es": "Las cataratas",
+    "it": "Le cascate",
+    "pt": "As cataratas",
+    "sw": "Maporomoko"
+   },
+   "lat": -17.9,
+   "lon": 25.85,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "zw-hwange",
+   "countryId": "zw",
+   "name": "Hwange",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Grote olifantenkuddes",
+    "en": "Large elephant herds",
+    "de": "Große Elefantenherden",
+    "fr": "Grands troupeaux d’éléphants",
+    "es": "Grandes manadas de elefantes",
+    "it": "Grandi branchi di elefanti",
+    "pt": "Grandes manadas de elefantes",
+    "sw": "Makundi makubwa ya tembo"
+   },
+   "lat": -18.9,
+   "lon": 26.5,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "zw-mana",
+   "countryId": "zw",
+   "name": "Mana Pools",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Langs de Zambezi",
+    "en": "Along the Zambezi",
+    "de": "Am Sambesi",
+    "fr": "Le long du Zambèze",
+    "es": "A orillas del Zambeze",
+    "it": "Lungo lo Zambesi",
+    "pt": "Ao longo do Zambeze",
+    "sw": "Kando ya Zambezi"
+   },
+   "lat": -15.9,
+   "lon": 29.4,
+   "defaultNights": 2,
+   "canFly": true,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "zw-matobo",
+   "countryId": "zw",
+   "name": "Matobo",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Granieten heuvels en neushoorns",
+    "en": "Granite hills and rhinos",
+    "de": "Granithügel und Nashörner",
+    "fr": "Collines de granit et rhinocéros",
+    "es": "Colinas de granito y rinocerontes",
+    "it": "Colline di granito e rinoceronti",
+    "pt": "Colinas de granito e rinocerontes",
+    "sw": "Vilima vya graniti na vifaru"
+   },
+   "lat": -20.55,
+   "lon": 28.5,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "zw-greatzim",
+   "countryId": "zw",
+   "name": "Groot-Zimbabwe",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Stenen stad uit de middeleeuwen",
+    "en": "Medieval stone city",
+    "de": "Mittelalterliche Steinstadt",
+    "fr": "Cité de pierre médiévale",
+    "es": "Ciudad medieval de piedra",
+    "it": "Città di pietra medievale",
+    "pt": "Cidade de pedra medieval",
+    "sw": "Mji wa mawe wa enzi za kati"
+   },
+   "lat": -20.27,
+   "lon": 30.93,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ao-kalandula",
+   "countryId": "ao",
+   "name": "Kalandula",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Brede watervallen",
+    "en": "Wide waterfalls",
+    "de": "Breite Wasserfälle",
+    "fr": "Larges chutes",
+    "es": "Cataratas anchas",
+    "it": "Cascate ampie",
+    "pt": "Quedas de água largas",
+    "sw": "Maporomoko mapana"
+   },
+   "lat": -9.07,
+   "lon": 16,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ao-iona",
+   "countryId": "ao",
+   "name": "Iona",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Woestijn aan de oceaan",
+    "en": "Desert by the ocean",
+    "de": "Wüste am Ozean",
+    "fr": "Désert au bord de l’océan",
+    "es": "Desierto junto al océano",
+    "it": "Deserto sull’oceano",
+    "pt": "Deserto junto ao oceano",
+    "sw": "Jangwa kando ya bahari"
+   },
+   "lat": -16.8,
+   "lon": 12.4,
+   "defaultNights": 3,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ao-luanda",
+   "countryId": "ao",
+   "name": "Luanda",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Hoofdstad aan de baai",
+    "en": "Capital on the bay",
+    "de": "Hauptstadt an der Bucht",
+    "fr": "Capitale sur la baie",
+    "es": "Capital junto a la bahía",
+    "it": "Capitale sulla baia",
+    "pt": "Capital à beira da baía",
+    "sw": "Mji mkuu kwenye ghuba"
+   },
+   "lat": -8.84,
+   "lon": 13.23,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "sz-hlane",
+   "countryId": "sz",
+   "name": "Hlane",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Koninklijk wildpark",
+    "en": "Royal game park",
+    "de": "Königlicher Wildpark",
+    "fr": "Parc royal",
+    "es": "Parque real de fauna",
+    "it": "Parco reale della fauna",
+    "pt": "Parque de caça real",
+    "sw": "Hifadhi ya kifalme ya wanyama"
+   },
+   "lat": -26.25,
+   "lon": 31.9,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "sz-mlilwane",
+   "countryId": "sz",
+   "name": "Mlilwane",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Wandelen en fietsen tussen wild",
+    "en": "Walk and cycle among game",
+    "de": "Wandern und Radeln zwischen Tieren",
+    "fr": "Marche et vélo parmi la faune",
+    "es": "A pie y en bici entre la fauna",
+    "it": "A piedi e in bici tra gli animali",
+    "pt": "A pé e de bicicleta entre a fauna",
+    "sw": "Tembea na endesha baiskeli kati ya wanyama"
+   },
+   "lat": -26.48,
+   "lon": 31.2,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "sz-malolotja",
+   "countryId": "sz",
+   "name": "Malolotja",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Hooggebergte en kloven",
+    "en": "Highlands and gorges",
+    "de": "Hochland und Schluchten",
+    "fr": "Hautes terres et gorges",
+    "es": "Tierras altas y desfiladeros",
+    "it": "Altopiani e gole",
+    "pt": "Terras altas e desfiladeiros",
+    "sw": "Nyanda za juu na makorongo"
+   },
+   "lat": -26.1,
+   "lon": 31.1,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "ls-sani",
+   "countryId": "ls",
+   "name": "Sani Pass",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Bergpas op grote hoogte",
+    "en": "High mountain pass",
+    "de": "Hoher Bergpass",
+    "fr": "Col de haute montagne",
+    "es": "Puerto de alta montaña",
+    "it": "Passo d’alta montagna",
+    "pt": "Passo de montanha em altitude",
+    "sw": "Njia ya mlima ya juu"
+   },
+   "lat": -29.58,
+   "lon": 29.29,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "ls-maletsunyane",
+   "countryId": "ls",
+   "name": "Maletsunyane",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Hoge waterval in de bergen",
+    "en": "Tall waterfall in the mountains",
+    "de": "Hoher Wasserfall in den Bergen",
+    "fr": "Haute cascade en montagne",
+    "es": "Alta cascada entre montañas",
+    "it": "Alta cascata tra le montagne",
+    "pt": "Cascata alta nas montanhas",
+    "sw": "Maporomoko marefu milimani"
+   },
+   "lat": -29.87,
+   "lon": 28.05,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "mw-liwonde",
+   "countryId": "mw",
+   "name": "Liwonde",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Rivier vol nijlpaarden",
+    "en": "River full of hippos",
+    "de": "Fluss voller Flusspferde",
+    "fr": "Rivière pleine d’hippopotames",
+    "es": "Río lleno de hipopótamos",
+    "it": "Fiume pieno di ippopotami",
+    "pt": "Rio cheio de hipopótamos",
+    "sw": "Mto uliojaa viboko"
+   },
+   "lat": -14.85,
+   "lon": 35.33,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mw-capemaclear",
+   "countryId": "mw",
+   "name": "Cape Maclear",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Helder meer met kleurrijke vissen",
+    "en": "Clear lake with colourful fish",
+    "de": "Klarer See mit bunten Fischen",
+    "fr": "Lac clair et poissons colorés",
+    "es": "Lago cristalino con peces de colores",
+    "it": "Lago limpido con pesci colorati",
+    "pt": "Lago límpido com peixes coloridos",
+    "sw": "Ziwa safi lenye samaki wa rangi"
+   },
+   "lat": -14.03,
+   "lon": 34.84,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mw-likoma",
+   "countryId": "mw",
+   "name": "Likoma",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Eiland in het meer",
+    "en": "Island in the lake",
+    "de": "Insel im See",
+    "fr": "Île sur le lac",
+    "es": "Una isla en el lago",
+    "it": "Un’isola nel lago",
+    "pt": "Uma ilha no lago",
+    "sw": "Kisiwa ndani ya ziwa"
+   },
+   "lat": -12.07,
+   "lon": 34.73,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mw-majete",
+   "countryId": "mw",
+   "name": "Majete",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Hersteld wildreservaat",
+    "en": "Restored game reserve",
+    "de": "Wiederbelebtes Wildreservat",
+    "fr": "Réserve restaurée",
+    "es": "Reserva de fauna restaurada",
+    "it": "Riserva naturale restaurata",
+    "pt": "Reserva de caça recuperada",
+    "sw": "Hifadhi ya wanyama iliyorejeshwa"
+   },
+   "lat": -15.95,
+   "lon": 34.7,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mz-bazaruto",
+   "countryId": "mz",
+   "name": "Bazaruto",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Eilanden, duinen en helder water",
+    "en": "Islands, dunes and clear water",
+    "de": "Inseln, Dünen und klares Wasser",
+    "fr": "Îles, dunes et eau claire",
+    "es": "Islas, dunas y aguas cristalinas",
+    "it": "Isole, dune e acqua limpida",
+    "pt": "Ilhas, dunas e água límpida",
+    "sw": "Visiwa, matuta na maji safi"
+   },
+   "lat": -21.6,
+   "lon": 35.45,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mz-ilha",
+   "countryId": "mz",
+   "name": "Ilha de Moçambique",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Historisch eiland en oude stad",
+    "en": "Historic island and old town",
+    "de": "Historische Insel und Altstadt",
+    "fr": "Île historique et vieille ville",
+    "es": "Isla histórica y casco antiguo",
+    "it": "Isola storica e città vecchia",
+    "pt": "Ilha histórica e cidade antiga",
+    "sw": "Kisiwa cha kihistoria na mji wa kale"
+   },
+   "lat": -15,
+   "lon": 40.7,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mz-gorongosa",
+   "countryId": "mz",
+   "name": "Gorongosa",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Hersteld nationaal park",
+    "en": "Restored national park",
+    "de": "Wiederbelebter Nationalpark",
+    "fr": "Parc national restauré",
+    "es": "Parque nacional restaurado",
+    "it": "Parco nazionale rinato",
+    "pt": "Parque nacional recuperado",
+    "sw": "Hifadhi ya taifa iliyorejeshwa"
+   },
+   "lat": -18.98,
+   "lon": 34.35,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mz-tofo",
+   "countryId": "mz",
+   "name": "Tofo",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Duiken en walvishaaien",
+    "en": "Diving and whale sharks",
+    "de": "Tauchen und Walhaie",
+    "fr": "Plongée et requins-baleines",
+    "es": "Buceo y tiburones ballena",
+    "it": "Immersioni e squali balena",
+    "pt": "Mergulho e tubarões-baleia",
+    "sw": "Kupiga mbizi na papa nyangumi"
+   },
+   "lat": -23.85,
+   "lon": 35.55,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ga-loango",
+   "countryId": "ga",
+   "name": "Loango",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Strand, bos en wild",
+    "en": "Beach, forest and wildlife",
+    "de": "Strand, Wald und Tiere",
+    "fr": "Plage, forêt et faune",
+    "es": "Playa, bosque y fauna",
+    "it": "Spiaggia, foresta e fauna",
+    "pt": "Praia, floresta e vida selvagem",
+    "sw": "Ufukwe, msitu na wanyamapori"
+   },
+   "lat": -2.2,
+   "lon": 9.6,
+   "defaultNights": 3,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ga-lope",
+   "countryId": "ga",
+   "name": "Lopé",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Savanne en regenwoud",
+    "en": "Savanna and rainforest",
+    "de": "Savanne und Regenwald",
+    "fr": "Savane et forêt tropicale",
+    "es": "Sabana y selva",
+    "it": "Savana e foresta pluviale",
+    "pt": "Savana e floresta tropical",
+    "sw": "Savana na msitu wa mvua"
+   },
+   "lat": -0.5,
+   "lon": 11.5,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "cm-kribi",
+   "countryId": "cm",
+   "name": "Kribi",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Strand en een waterval in zee",
+    "en": "Beach and a waterfall into the sea",
+    "de": "Strand und Wasserfall ins Meer",
+    "fr": "Plage et cascade dans la mer",
+    "es": "Playa y una cascada que cae al mar",
+    "it": "Spiaggia e una cascata nel mare",
+    "pt": "Praia e uma cascata para o mar",
+    "sw": "Ufukwe na maporomoko yanayoangukia baharini"
+   },
+   "lat": 2.94,
+   "lon": 9.91,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "cm-waza",
+   "countryId": "cm",
+   "name": "Waza",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Savanne in het noorden",
+    "en": "Savanna in the north",
+    "de": "Savanne im Norden",
+    "fr": "Savane du nord",
+    "es": "Sabana en el norte",
+    "it": "Savana nel nord",
+    "pt": "Savana no norte",
+    "sw": "Savana ya kaskazini"
+   },
+   "lat": 11.3,
+   "lon": 14.6,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": "avoid"
+  },
+  {
+   "id": "cm-mtcameroon",
+   "countryId": "cm",
+   "name": "Mount Cameroon",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Actieve vulkaan bij de kust",
+    "en": "Active volcano near the coast",
+    "de": "Aktiver Vulkan nahe der Küste",
+    "fr": "Volcan actif près de la côte",
+    "es": "Volcán activo cerca de la costa",
+    "it": "Vulcano attivo vicino alla costa",
+    "pt": "Vulcão ativo perto da costa",
+    "sw": "Volkano hai karibu na pwani"
+   },
+   "lat": 4.2,
+   "lon": 9.17,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": "avoid"
+  },
+  {
+   "id": "cf-dzangha",
+   "countryId": "cf",
+   "name": "Dzanga-Sangha",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Bosolifanten en gorilla’s",
+    "en": "Forest elephants and gorillas",
+    "de": "Waldelefanten und Gorillas",
+    "fr": "Éléphants de forêt et gorilles",
+    "es": "Elefantes de bosque y gorilas",
+    "it": "Elefanti di foresta e gorilla",
+    "pt": "Elefantes-da-floresta e gorilas",
+    "sw": "Tembo wa msituni na sokwe-mtu"
+   },
+   "lat": 2.9,
+   "lon": 16.3,
+   "defaultNights": 3,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "cg-odzala",
+   "countryId": "cg",
+   "name": "Odzala-Kokoua",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Laaglandgorilla’s in het oerwoud",
+    "en": "Lowland gorillas in the rainforest",
+    "de": "Flachlandgorillas im Regenwald",
+    "fr": "Gorilles des plaines en forêt",
+    "es": "Gorilas de llanura en la selva",
+    "it": "Gorilla di pianura nella foresta pluviale",
+    "pt": "Gorilas-das-planícies na floresta tropical",
+    "sw": "Sokwe-mtu wa tambarare msituni"
+   },
+   "lat": 0.6,
+   "lon": 14.9,
+   "defaultNights": 3,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "cg-pointenoire",
+   "countryId": "cg",
+   "name": "Pointe-Noire",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Strandstad aan de Atlantische kust",
+    "en": "Atlantic beach town",
+    "de": "Strandstadt am Atlantik",
+    "fr": "Ville balnéaire atlantique",
+    "es": "Ciudad de playa en el Atlántico",
+    "it": "Città di mare sull’Atlantico",
+    "pt": "Cidade balnear no Atlântico",
+    "sw": "Mji wa ufukwe wa Atlantiki"
+   },
+   "lat": -4.78,
+   "lon": 11.86,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "cd-virunga",
+   "countryId": "cd",
+   "name": "Virunga",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Berggorilla’s en vulkaan",
+    "en": "Mountain gorillas and volcano",
+    "de": "Berggorillas und Vulkan",
+    "fr": "Gorilles de montagne et volcan",
+    "es": "Gorilas de montaña y volcán",
+    "it": "Gorilla di montagna e vulcano",
+    "pt": "Gorilas-das-montanhas e vulcão",
+    "sw": "Sokwe-mtu wa milimani na volkano"
+   },
+   "lat": -1.4,
+   "lon": 29.3,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": "avoid"
+  },
+  {
+   "id": "cd-kahuzi",
+   "countryId": "cd",
+   "name": "Kahuzi-Biega",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Oostelijke laaglandgorilla’s",
+    "en": "Eastern lowland gorillas",
+    "de": "Östliche Flachlandgorillas",
+    "fr": "Gorilles des plaines de l’Est",
+    "es": "Gorilas orientales de llanura",
+    "it": "Gorilla orientali di pianura",
+    "pt": "Gorilas-das-planícies-orientais",
+    "sw": "Sokwe-mtu wa tambarare za mashariki"
+   },
+   "lat": -2.3,
+   "lon": 28.75,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": "avoid"
+  },
+  {
+   "id": "cd-kinshasa",
+   "countryId": "cd",
+   "name": "Kinshasa",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Muziek en markten",
+    "en": "Music and markets",
+    "de": "Musik und Märkte",
+    "fr": "Musique et marchés",
+    "es": "Música y mercados",
+    "it": "Musica e mercati",
+    "pt": "Música e mercados",
+    "sw": "Muziki na masoko"
+   },
+   "lat": -4.32,
+   "lon": 15.31,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "gq-bioko",
+   "countryId": "gq",
+   "name": "Bioko",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Vulkanisch eiland met regenwoud",
+    "en": "Volcanic island with rainforest",
+    "de": "Vulkaninsel mit Regenwald",
+    "fr": "Île volcanique et forêt",
+    "es": "Isla volcánica con selva",
+    "it": "Isola vulcanica con foresta pluviale",
+    "pt": "Ilha vulcânica com floresta tropical",
+    "sw": "Kisiwa cha volkano chenye msitu wa mvua"
+   },
+   "lat": 3.5,
+   "lon": 8.7,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "gq-montealen",
+   "countryId": "gq",
+   "name": "Monte Alén",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Diep oerwoud",
+    "en": "Deep rainforest",
+    "de": "Tiefer Regenwald",
+    "fr": "Forêt profonde",
+    "es": "Selva profunda",
+    "it": "Foresta pluviale profonda",
+    "pt": "Floresta tropical profunda",
+    "sw": "Msitu mnene wa mvua"
+   },
+   "lat": 1.6,
+   "lon": 10.3,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "st-saotome",
+   "countryId": "st",
+   "name": "São Tomé",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Regenwoud en cacao",
+    "en": "Rainforest and cocoa",
+    "de": "Regenwald und Kakao",
+    "fr": "Forêt tropicale et cacao",
+    "es": "Selva y cacao",
+    "it": "Foresta pluviale e cacao",
+    "pt": "Floresta tropical e cacau",
+    "sw": "Msitu wa mvua na kakao"
+   },
+   "lat": 0.25,
+   "lon": 6.6,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "st-principe",
+   "countryId": "st",
+   "name": "Príncipe",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Wild, groen en stil",
+    "en": "Wild, green and quiet",
+    "de": "Wild, grün und still",
+    "fr": "Sauvage, vert et calme",
+    "es": "Salvaje, verde y tranquila",
+    "it": "Selvaggia, verde e tranquilla",
+    "pt": "Selvagem, verde e tranquila",
+    "sw": "Pori, kijani na tulivu"
+   },
+   "lat": 1.6,
+   "lon": 7.4,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "td-zakouma",
+   "countryId": "td",
+   "name": "Zakouma",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Grote kuddes in de Sahel",
+    "en": "Big herds in the Sahel",
+    "de": "Große Herden im Sahel",
+    "fr": "Grands troupeaux au Sahel",
+    "es": "Grandes manadas en el Sahel",
+    "it": "Grandi mandrie nel Sahel",
+    "pt": "Grandes manadas no Sahel",
+    "sw": "Makundi makubwa katika Sahel"
+   },
+   "lat": 10.85,
+   "lon": 19.65,
+   "defaultNights": 3,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "td-ennedi",
+   "countryId": "td",
+   "name": "Ennedi",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Rotsbogen in de Sahara",
+    "en": "Rock arches in the Sahara",
+    "de": "Felsbögen in der Sahara",
+    "fr": "Arches rocheuses au Sahara",
+    "es": "Arcos de roca en el Sáhara",
+    "it": "Archi di roccia nel Sahara",
+    "pt": "Arcos de rocha no Sara",
+    "sw": "Matao ya miamba katika Sahara"
+   },
+   "lat": 17,
+   "lon": 22.5,
+   "defaultNights": 3,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "bj-pendjari",
+   "countryId": "bj",
+   "name": "Pendjari",
+   "kind": "safari",
+   "tagline": {
+    "nl": "West-Afrikaanse savanne",
+    "en": "West African savanna",
+    "de": "Westafrikanische Savanne",
+    "fr": "Savane d’Afrique de l’Ouest",
+    "es": "Sabana de África Occidental",
+    "it": "Savana dell’Africa occidentale",
+    "pt": "Savana da África Ocidental",
+    "sw": "Savana ya Afrika Magharibi"
+   },
+   "lat": 11.2,
+   "lon": 1.6,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": "avoid"
+  },
+  {
+   "id": "bj-ouidah",
+   "countryId": "bj",
+   "name": "Ouidah",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Geschiedenis en vodun-cultuur",
+    "en": "History and vodun culture",
+    "de": "Geschichte und Vodun-Kultur",
+    "fr": "Histoire et culture vaudou",
+    "es": "Historia y cultura vudú",
+    "it": "Storia e cultura vodun",
+    "pt": "História e cultura vodum",
+    "sw": "Historia na utamaduni wa vodun"
+   },
+   "lat": 6.36,
+   "lon": 2.08,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "bj-ganvie",
+   "countryId": "bj",
+   "name": "Ganvié",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Dorp op palen in een meer",
+    "en": "Stilt village on a lake",
+    "de": "Pfahldorf im See",
+    "fr": "Village sur pilotis",
+    "es": "Aldea sobre pilotes en un lago",
+    "it": "Villaggio su palafitte in un lago",
+    "pt": "Aldeia sobre estacas num lago",
+    "sw": "Kijiji cha nguzo juu ya ziwa"
+   },
+   "lat": 6.47,
+   "lon": 2.42,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "bf-sindou",
+   "countryId": "bf",
+   "name": "Sindou-pieken",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Grillige rotspieken",
+    "en": "Jagged rock peaks",
+    "de": "Zerklüftete Felsspitzen",
+    "fr": "Pics rocheux",
+    "es": "Picos de roca escarpados",
+    "it": "Picchi rocciosi frastagliati",
+    "pt": "Picos de rocha recortados",
+    "sw": "Vilele vya miamba vilivyochongoka"
+   },
+   "lat": 10.67,
+   "lon": -5.17,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "gm-river",
+   "countryId": "gm",
+   "name": "Gambiarivier",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Rivier met vogels en apen",
+    "en": "River with birds and primates",
+    "de": "Fluss mit Vögeln und Affen",
+    "fr": "Fleuve, oiseaux et primates",
+    "es": "Río con aves y primates",
+    "it": "Fiume con uccelli e primati",
+    "pt": "Rio com aves e primatas",
+    "sw": "Mto wenye ndege na nyani"
+   },
+   "lat": 13.6,
+   "lon": -14.9,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "gm-kololi",
+   "countryId": "gm",
+   "name": "Kololi",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Strand aan de Atlantische Oceaan",
+    "en": "Atlantic beach",
+    "de": "Atlantikstrand",
+    "fr": "Plage atlantique",
+    "es": "Playa en el Atlántico",
+    "it": "Spiaggia sull’Atlantico",
+    "pt": "Praia no Atlântico",
+    "sw": "Ufukwe wa Atlantiki"
+   },
+   "lat": 13.45,
+   "lon": -16.72,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "gh-mole",
+   "countryId": "gh",
+   "name": "Mole",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Olifanten bij de drinkplaats",
+    "en": "Elephants at the waterhole",
+    "de": "Elefanten am Wasserloch",
+    "fr": "Éléphants au point d’eau",
+    "es": "Elefantes en el abrevadero",
+    "it": "Elefanti alla pozza d’acqua",
+    "pt": "Elefantes no bebedouro",
+    "sw": "Tembo kwenye kidimbwi cha maji"
+   },
+   "lat": 9.45,
+   "lon": -1.85,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "gh-capecoast",
+   "countryId": "gh",
+   "name": "Cape Coast",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Forten en geschiedenis",
+    "en": "Forts and history",
+    "de": "Forts und Geschichte",
+    "fr": "Forts et histoire",
+    "es": "Fuertes e historia",
+    "it": "Forti e storia",
+    "pt": "Fortes e história",
+    "sw": "Ngome na historia"
+   },
+   "lat": 5.1,
+   "lon": -1.25,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "gh-kakum",
+   "countryId": "gh",
+   "name": "Kakum",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Boomtoppenpad in het regenwoud",
+    "en": "Canopy walkway in the rainforest",
+    "de": "Baumwipfelpfad im Regenwald",
+    "fr": "Passerelle dans la forêt",
+    "es": "Pasarela entre las copas de la selva",
+    "it": "Passerella tra le chiome della foresta",
+    "pt": "Passadiço nas copas da floresta tropical",
+    "sw": "Daraja la juu ya miti msituni"
+   },
+   "lat": 5.35,
+   "lon": -1.38,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "gn-fouta",
+   "countryId": "gn",
+   "name": "Fouta Djalon",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Hoogland met watervallen",
+    "en": "Highlands with waterfalls",
+    "de": "Hochland mit Wasserfällen",
+    "fr": "Plateaux et cascades",
+    "es": "Tierras altas con cascadas",
+    "it": "Altopiani con cascate",
+    "pt": "Terras altas com cascatas",
+    "sw": "Nyanda za juu zenye maporomoko"
+   },
+   "lat": 11.3,
+   "lon": -12.3,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "gn-loos",
+   "countryId": "gn",
+   "name": "Îles de Los",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Eilanden voor Conakry",
+    "en": "Islands off Conakry",
+    "de": "Inseln vor Conakry",
+    "fr": "Îles au large de Conakry",
+    "es": "Islas frente a Conakri",
+    "it": "Isole al largo di Conakry",
+    "pt": "Ilhas ao largo de Conacri",
+    "sw": "Visiwa karibu na Conakry"
+   },
+   "lat": 9.5,
+   "lon": -13.8,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "gw-bijagos",
+   "countryId": "gw",
+   "name": "Bijagós",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Archipel vol natuur",
+    "en": "Archipelago full of nature",
+    "de": "Archipel voller Natur",
+    "fr": "Archipel plein de nature",
+    "es": "Archipiélago lleno de naturaleza",
+    "it": "Arcipelago ricco di natura",
+    "pt": "Arquipélago cheio de natureza",
+    "sw": "Funguvisiwa lililojaa mazingira asilia"
+   },
+   "lat": 11.3,
+   "lon": -16,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ci-assinie",
+   "countryId": "ci",
+   "name": "Assinie",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Strand en lagune",
+    "en": "Beach and lagoon",
+    "de": "Strand und Lagune",
+    "fr": "Plage et lagune",
+    "es": "Playa y laguna",
+    "it": "Spiaggia e laguna",
+    "pt": "Praia e lagoa",
+    "sw": "Ufukwe na bwawa la pwani"
+   },
+   "lat": 5.13,
+   "lon": -3.3,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ci-tai",
+   "countryId": "ci",
+   "name": "Taï",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Oerwoud met chimpansees",
+    "en": "Rainforest with chimps",
+    "de": "Regenwald mit Schimpansen",
+    "fr": "Forêt et chimpanzés",
+    "es": "Selva con chimpancés",
+    "it": "Foresta pluviale con scimpanzé",
+    "pt": "Floresta tropical com chimpanzés",
+    "sw": "Msitu wa mvua wenye sokwe"
+   },
+   "lat": 5.75,
+   "lon": -7.1,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ci-grandbassam",
+   "countryId": "ci",
+   "name": "Grand-Bassam",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Koloniale oude stad",
+    "en": "Colonial old town",
+    "de": "Koloniale Altstadt",
+    "fr": "Vieille ville coloniale",
+    "es": "Casco antiguo colonial",
+    "it": "Città vecchia coloniale",
+    "pt": "Cidade velha colonial",
+    "sw": "Mji wa kale wa kikoloni"
+   },
+   "lat": 5.2,
+   "lon": -3.74,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "cv-sal",
+   "countryId": "cv",
+   "name": "Sal",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Wind, zon en zout",
+    "en": "Wind, sun and salt",
+    "de": "Wind, Sonne und Salz",
+    "fr": "Vent, soleil et sel",
+    "es": "Viento, sol y sal",
+    "it": "Vento, sole e sale",
+    "pt": "Vento, sol e sal",
+    "sw": "Upepo, jua na chumvi"
+   },
+   "lat": 16.7,
+   "lon": -22.95,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "cv-boavista",
+   "countryId": "cv",
+   "name": "Boa Vista",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Duinen en lege stranden",
+    "en": "Dunes and empty beaches",
+    "de": "Dünen und leere Strände",
+    "fr": "Dunes et plages désertes",
+    "es": "Dunas y playas vacías",
+    "it": "Dune e spiagge deserte",
+    "pt": "Dunas e praias desertas",
+    "sw": "Matuta na fukwe tupu"
+   },
+   "lat": 16.1,
+   "lon": -22.8,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "cv-santoantao",
+   "countryId": "cv",
+   "name": "Santo Antão",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Groene bergpaden",
+    "en": "Green mountain trails",
+    "de": "Grüne Bergpfade",
+    "fr": "Sentiers de montagne verts",
+    "es": "Senderos de montaña verdes",
+    "it": "Sentieri verdi di montagna",
+    "pt": "Trilhos verdes de montanha",
+    "sw": "Njia za milima ya kijani"
+   },
+   "lat": 17.07,
+   "lon": -25.17,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "lr-robertsport",
+   "countryId": "lr",
+   "name": "Robertsport",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Surfstrand",
+    "en": "Surf beach",
+    "de": "Surfstrand",
+    "fr": "Plage de surf",
+    "es": "Playa de surf",
+    "it": "Spiaggia da surf",
+    "pt": "Praia de surf",
+    "sw": "Ufukwe wa kuteleza mawimbini"
+   },
+   "lat": 6.75,
+   "lon": -11.37,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "lr-sapo",
+   "countryId": "lr",
+   "name": "Sapo",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Ongerept regenwoud",
+    "en": "Pristine rainforest",
+    "de": "Unberührter Regenwald",
+    "fr": "Forêt vierge",
+    "es": "Selva virgen",
+    "it": "Foresta pluviale incontaminata",
+    "pt": "Floresta tropical intocada",
+    "sw": "Msitu wa mvua ambao haujaguswa"
+   },
+   "lat": 5.4,
+   "lon": -8.6,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ml-djenne",
+   "countryId": "ml",
+   "name": "Djenné",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Grote lemen moskee",
+    "en": "Great mud mosque",
+    "de": "Große Lehmmoschee",
+    "fr": "Grande mosquée en terre",
+    "es": "Gran mezquita de barro",
+    "it": "La grande moschea di fango",
+    "pt": "A grande mesquita de barro",
+    "sw": "Msikiti mkuu wa udongo"
+   },
+   "lat": 13.9,
+   "lon": -4.55,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ml-dogon",
+   "countryId": "ml",
+   "name": "Dogonland",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Dorpen tegen de rotswand",
+    "en": "Villages on the cliffs",
+    "de": "Dörfer an der Felswand",
+    "fr": "Villages sur la falaise",
+    "es": "Aldeas en los acantilados",
+    "it": "Villaggi sulle falesie",
+    "pt": "Aldeias nas falésias",
+    "sw": "Vijiji kwenye majabali"
+   },
+   "lat": 14.35,
+   "lon": -3.6,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mr-arguin",
+   "countryId": "mr",
+   "name": "Banc d’Arguin",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Vogels, woestijn en zee",
+    "en": "Birds, desert and sea",
+    "de": "Vögel, Wüste und Meer",
+    "fr": "Oiseaux, désert et mer",
+    "es": "Aves, desierto y mar",
+    "it": "Uccelli, deserto e mare",
+    "pt": "Aves, deserto e mar",
+    "sw": "Ndege, jangwa na bahari"
+   },
+   "lat": 20.2,
+   "lon": -16.3,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "mr-chinguetti",
+   "countryId": "mr",
+   "name": "Chinguetti",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Woestijnstad met oude bibliotheken",
+    "en": "Desert town with old libraries",
+    "de": "Wüstenstadt mit alten Bibliotheken",
+    "fr": "Ville du désert et bibliothèques",
+    "es": "Ciudad del desierto con antiguas bibliotecas",
+    "it": "Città del deserto con antiche biblioteche",
+    "pt": "Cidade do deserto com bibliotecas antigas",
+    "sw": "Mji wa jangwani wenye maktaba za kale"
+   },
+   "lat": 20.46,
+   "lon": -12.36,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ne-agadez",
+   "countryId": "ne",
+   "name": "Agadez",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Lemen minaret in de Sahel",
+    "en": "Mud minaret in the Sahel",
+    "de": "Lehmminarett im Sahel",
+    "fr": "Minaret en terre au Sahel",
+    "es": "Minarete de barro en el Sahel",
+    "it": "Minareto di fango nel Sahel",
+    "pt": "Minarete de barro no Sahel",
+    "sw": "Mnara wa udongo katika Sahel"
+   },
+   "lat": 16.97,
+   "lon": 7.99,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ne-air",
+   "countryId": "ne",
+   "name": "Aïr en Ténéré",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Bergen en zandzee",
+    "en": "Mountains and sand sea",
+    "de": "Berge und Sandmeer",
+    "fr": "Montagnes et mer de sable",
+    "es": "Montañas y mar de arena",
+    "it": "Montagne e mare di sabbia",
+    "pt": "Montanhas e mar de areia",
+    "sw": "Milima na bahari ya mchanga"
+   },
+   "lat": 18.5,
+   "lon": 9,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ng-yankari",
+   "countryId": "ng",
+   "name": "Yankari",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Wild en warme bronnen",
+    "en": "Wildlife and warm springs",
+    "de": "Tiere und warme Quellen",
+    "fr": "Faune et sources chaudes",
+    "es": "Fauna y manantiales termales",
+    "it": "Fauna e sorgenti calde",
+    "pt": "Vida selvagem e nascentes quentes",
+    "sw": "Wanyamapori na chemchemi za maji moto"
+   },
+   "lat": 9.75,
+   "lon": 10.5,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": "avoid"
+  },
+  {
+   "id": "ng-lagos",
+   "countryId": "ng",
+   "name": "Lagos",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Bruisende stad aan de lagune",
+    "en": "Buzzing lagoon city",
+    "de": "Lebendige Lagunenstadt",
+    "fr": "Ville vibrante sur la lagune",
+    "es": "Vibrante ciudad de laguna",
+    "it": "Vivace città sulla laguna",
+    "pt": "Cidade vibrante na lagoa",
+    "sw": "Jiji changamfu la bwawa la pwani"
+   },
+   "lat": 6.45,
+   "lon": 3.4,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ng-obudu",
+   "countryId": "ng",
+   "name": "Obudu",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Plateau met kabelbaan",
+    "en": "Plateau with cable car",
+    "de": "Plateau mit Seilbahn",
+    "fr": "Plateau et téléphérique",
+    "es": "Meseta con teleférico",
+    "it": "Altopiano con funivia",
+    "pt": "Planalto com teleférico",
+    "sw": "Uwanda wenye gari la kamba"
+   },
+   "lat": 6.37,
+   "lon": 9.37,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "sn-saloum",
+   "countryId": "sn",
+   "name": "Sine-Saloum",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Mangroven en eilandjes",
+    "en": "Mangroves and islets",
+    "de": "Mangroven und Inselchen",
+    "fr": "Mangroves et îlots",
+    "es": "Manglares e islotes",
+    "it": "Mangrovie e isolotti",
+    "pt": "Mangais e ilhéus",
+    "sw": "Mikoko na visiwa vidogo"
+   },
+   "lat": 13.8,
+   "lon": -16.6,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "sn-goree",
+   "countryId": "sn",
+   "name": "Gorée",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Eiland vol geschiedenis",
+    "en": "Island full of history",
+    "de": "Insel voller Geschichte",
+    "fr": "Île chargée d’histoire",
+    "es": "Isla llena de historia",
+    "it": "Un’isola piena di storia",
+    "pt": "Ilha cheia de história",
+    "sw": "Kisiwa kilichojaa historia"
+   },
+   "lat": 14.67,
+   "lon": -17.4,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "sn-niokolo",
+   "countryId": "sn",
+   "name": "Niokolo-Koba",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Savanne en rivier",
+    "en": "Savanna and river",
+    "de": "Savanne und Fluss",
+    "fr": "Savane et fleuve",
+    "es": "Sabana y río",
+    "it": "Savana e fiume",
+    "pt": "Savana e rio",
+    "sw": "Savana na mto"
+   },
+   "lat": 13.07,
+   "lon": -13,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "sl-banana",
+   "countryId": "sl",
+   "name": "Bananeilanden",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Rustige eilanden",
+    "en": "Quiet islands",
+    "de": "Ruhige Inseln",
+    "fr": "Îles paisibles",
+    "es": "Islas tranquilas",
+    "it": "Isole tranquille",
+    "pt": "Ilhas tranquilas",
+    "sw": "Visiwa tulivu"
+   },
+   "lat": 8.12,
+   "lon": -13.2,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "sl-tiwai",
+   "countryId": "sl",
+   "name": "Tiwai",
+   "kind": "safari",
+   "tagline": {
+    "nl": "Rivier-eiland met apen",
+    "en": "River island with primates",
+    "de": "Flussinsel mit Affen",
+    "fr": "Île fluviale et primates",
+    "es": "Isla fluvial con primates",
+    "it": "Isola fluviale con primati",
+    "pt": "Ilha fluvial com primatas",
+    "sw": "Kisiwa cha mtoni chenye nyani"
+   },
+   "lat": 7.55,
+   "lon": -11.35,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tg-kpalime",
+   "countryId": "tg",
+   "name": "Kpalimé",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Groene heuvels en watervallen",
+    "en": "Green hills and waterfalls",
+    "de": "Grüne Hügel und Wasserfälle",
+    "fr": "Collines vertes et cascades",
+    "es": "Colinas verdes y cascadas",
+    "it": "Colline verdi e cascate",
+    "pt": "Colinas verdes e cascatas",
+    "sw": "Vilima vya kijani na maporomoko"
+   },
+   "lat": 6.9,
+   "lon": 0.63,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tg-koutammakou",
+   "countryId": "tg",
+   "name": "Koutammakou",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Lemen torenhuizen",
+    "en": "Mud tower houses",
+    "de": "Lehmturmhäuser",
+    "fr": "Maisons-tours en terre",
+    "es": "Casas-torre de barro",
+    "it": "Case-torre di fango",
+    "pt": "Casas-torre de barro",
+    "sw": "Nyumba za minara ya udongo"
+   },
+   "lat": 10.1,
+   "lon": 1.1,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": "avoid"
+  },
+  {
+   "id": "dz-tassili",
+   "countryId": "dz",
+   "name": "Tassili n’Ajjer",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Rotskunst in de Sahara",
+    "en": "Rock art in the Sahara",
+    "de": "Felskunst in der Sahara",
+    "fr": "Art rupestre au Sahara",
+    "es": "Arte rupestre en el Sáhara",
+    "it": "Arte rupestre nel Sahara",
+    "pt": "Arte rupestre no Sara",
+    "sw": "Michoro miambani katika Sahara"
+   },
+   "lat": 25.5,
+   "lon": 9,
+   "defaultNights": 3,
+   "canFly": true,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "dz-algiers",
+   "countryId": "dz",
+   "name": "Algiers",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Casbah aan zee",
+    "en": "Casbah by the sea",
+    "de": "Kasbah am Meer",
+    "fr": "Casbah sur la mer",
+    "es": "La casba junto al mar",
+    "it": "La Casbah sul mare",
+    "pt": "Casbá à beira-mar",
+    "sw": "Kasba kando ya bahari"
+   },
+   "lat": 36.6,
+   "lon": 3.06,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "dz-ghardaia",
+   "countryId": "dz",
+   "name": "Ghardaïa",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Woestijnsteden van de Mzab",
+    "en": "Desert towns of the Mzab",
+    "de": "Wüstenstädte des Mzab",
+    "fr": "Cités du Mzab",
+    "es": "Ciudades del desierto del Mzab",
+    "it": "Le città del deserto del Mzab",
+    "pt": "Cidades do deserto do Mzab",
+    "sw": "Miji ya jangwani ya Mzab"
+   },
+   "lat": 32.49,
+   "lon": 3.67,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "eg-redsea",
+   "countryId": "eg",
+   "name": "Hurghada",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Koraalriffen aan de Rode Zee",
+    "en": "Red Sea coral reefs",
+    "de": "Korallenriffe am Roten Meer",
+    "fr": "Récifs de la mer Rouge",
+    "es": "Arrecifes de coral del mar Rojo",
+    "it": "Barriere coralline del Mar Rosso",
+    "pt": "Recifes de coral do Mar Vermelho",
+    "sw": "Miamba ya matumbawe ya Bahari ya Shamu"
+   },
+   "lat": 27.25,
+   "lon": 33.8,
+   "defaultNights": 4,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "eg-cairo",
+   "countryId": "eg",
+   "name": "Caïro en Gizeh",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Piramides en musea",
+    "en": "Pyramids and museums",
+    "de": "Pyramiden und Museen",
+    "fr": "Pyramides et musées",
+    "es": "Pirámides y museos",
+    "it": "Piramidi e musei",
+    "pt": "Pirâmides e museus",
+    "sw": "Piramidi na makumbusho"
+   },
+   "lat": 29.98,
+   "lon": 31.13,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "eg-luxor",
+   "countryId": "eg",
+   "name": "Luxor",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Tempels aan de Nijl",
+    "en": "Temples on the Nile",
+    "de": "Tempel am Nil",
+    "fr": "Temples sur le Nil",
+    "es": "Templos a orillas del Nilo",
+    "it": "Templi sul Nilo",
+    "pt": "Templos no Nilo",
+    "sw": "Mahekalu kando ya Mto Nile"
+   },
+   "lat": 25.69,
+   "lon": 32.64,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "eg-siwa",
+   "countryId": "eg",
+   "name": "Siwa",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Oase in de Westelijke Woestijn",
+    "en": "Oasis in the Western Desert",
+    "de": "Oase in der Westlichen Wüste",
+    "fr": "Oasis du désert occidental",
+    "es": "Oasis en el Desierto Occidental",
+    "it": "Oasi nel Deserto Occidentale",
+    "pt": "Oásis no Deserto Ocidental",
+    "sw": "Oasisi katika Jangwa la Magharibi"
+   },
+   "lat": 29.2,
+   "lon": 25.52,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ly-leptis",
+   "countryId": "ly",
+   "name": "Leptis Magna",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Romeinse stad aan zee",
+    "en": "Roman city by the sea",
+    "de": "Römische Stadt am Meer",
+    "fr": "Cité romaine au bord de la mer",
+    "es": "Ciudad romana junto al mar",
+    "it": "Città romana sul mare",
+    "pt": "Cidade romana à beira-mar",
+    "sw": "Mji wa Kirumi kando ya bahari"
+   },
+   "lat": 32.64,
+   "lon": 14.29,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ly-acacus",
+   "countryId": "ly",
+   "name": "Acacus",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Rotskunst en duinen",
+    "en": "Rock art and dunes",
+    "de": "Felskunst und Dünen",
+    "fr": "Art rupestre et dunes",
+    "es": "Arte rupestre y dunas",
+    "it": "Arte rupestre e dune",
+    "pt": "Arte rupestre e dunas",
+    "sw": "Michoro miambani na matuta"
+   },
+   "lat": 24.8,
+   "lon": 10.6,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ma-marrakech",
+   "countryId": "ma",
+   "name": "Marrakech",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Medina en souks",
+    "en": "Medina and souks",
+    "de": "Medina und Souks",
+    "fr": "Médina et souks",
+    "es": "Medina y zocos",
+    "it": "Medina e souk",
+    "pt": "Medina e souks",
+    "sw": "Madina na masoko"
+   },
+   "lat": 31.63,
+   "lon": -7.99,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ma-merzouga",
+   "countryId": "ma",
+   "name": "Merzouga",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Duinen van de Sahara",
+    "en": "Sahara dunes",
+    "de": "Saharadünen",
+    "fr": "Dunes du Sahara",
+    "es": "Dunas del Sáhara",
+    "it": "Le dune del Sahara",
+    "pt": "Dunas do Sara",
+    "sw": "Matuta ya Sahara"
+   },
+   "lat": 31.1,
+   "lon": -4,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ma-atlas",
+   "countryId": "ma",
+   "name": "Hoge Atlas",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Bergdorpen en toppen",
+    "en": "Mountain villages and peaks",
+    "de": "Bergdörfer und Gipfel",
+    "fr": "Villages et sommets",
+    "es": "Aldeas de montaña y cumbres",
+    "it": "Villaggi di montagna e vette",
+    "pt": "Aldeias de montanha e picos",
+    "sw": "Vijiji vya milimani na vilele"
+   },
+   "lat": 31.06,
+   "lon": -7.91,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": true,
+   "advisory": null
+  },
+  {
+   "id": "ma-essaouira",
+   "countryId": "ma",
+   "name": "Essaouira",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Winderige havenstad",
+    "en": "Windy port town",
+    "de": "Windige Hafenstadt",
+    "fr": "Port venté",
+    "es": "Ventosa ciudad portuaria",
+    "it": "Città portuale ventosa",
+    "pt": "Cidade portuária ventosa",
+    "sw": "Mji wa bandari wenye upepo"
+   },
+   "lat": 31.51,
+   "lon": -9.77,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "ma-chefchaouen",
+   "countryId": "ma",
+   "name": "Chefchaouen",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Blauwe bergstad",
+    "en": "Blue mountain town",
+    "de": "Blaue Bergstadt",
+    "fr": "Ville bleue",
+    "es": "Pueblo azul de montaña",
+    "it": "La città blu di montagna",
+    "pt": "Vila azul na montanha",
+    "sw": "Mji wa milimani wa buluu"
+   },
+   "lat": 35.17,
+   "lon": -5.27,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "sd-meroe",
+   "countryId": "sd",
+   "name": "Meroë",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Piramides in de woestijn",
+    "en": "Pyramids in the desert",
+    "de": "Pyramiden in der Wüste",
+    "fr": "Pyramides dans le désert",
+    "es": "Pirámides en el desierto",
+    "it": "Piramidi nel deserto",
+    "pt": "Pirâmides no deserto",
+    "sw": "Piramidi jangwani"
+   },
+   "lat": 16.94,
+   "lon": 33.75,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "sd-sanganeb",
+   "countryId": "sd",
+   "name": "Sanganeb",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Koraalrif in de Rode Zee",
+    "en": "Red Sea coral reef",
+    "de": "Korallenriff im Roten Meer",
+    "fr": "Récif de la mer Rouge",
+    "es": "Arrecife de coral en el mar Rojo",
+    "it": "Barriera corallina nel Mar Rosso",
+    "pt": "Recife de coral no Mar Vermelho",
+    "sw": "Mwamba wa matumbawe wa Bahari ya Shamu"
+   },
+   "lat": 19.73,
+   "lon": 37.43,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tn-djerba",
+   "countryId": "tn",
+   "name": "Djerba",
+   "kind": "beach",
+   "tagline": {
+    "nl": "Eiland met witte dorpen",
+    "en": "Island with white villages",
+    "de": "Insel mit weißen Dörfern",
+    "fr": "Île aux villages blancs",
+    "es": "Isla de pueblos blancos",
+    "it": "Isola dai villaggi bianchi",
+    "pt": "Ilha de aldeias brancas",
+    "sw": "Kisiwa chenye vijiji vyeupe"
+   },
+   "lat": 33.8,
+   "lon": 10.9,
+   "defaultNights": 3,
+   "canFly": false,
+   "hasWater": true,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tn-sidibousaid",
+   "countryId": "tn",
+   "name": "Sidi Bou Said",
+   "kind": "culture",
+   "tagline": {
+    "nl": "Blauw-wit dorp aan zee",
+    "en": "Blue and white village by the sea",
+    "de": "Blau-weißes Dorf am Meer",
+    "fr": "Village bleu et blanc",
+    "es": "Pueblo azul y blanco junto al mar",
+    "it": "Villaggio bianco e blu sul mare",
+    "pt": "Aldeia azul e branca à beira-mar",
+    "sw": "Kijiji cha buluu na cheupe kando ya bahari"
+   },
+   "lat": 36.87,
+   "lon": 10.35,
+   "defaultNights": 1,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  },
+  {
+   "id": "tn-douz",
+   "countryId": "tn",
+   "name": "Douz",
+   "kind": "nature",
+   "tagline": {
+    "nl": "Poort naar de Sahara",
+    "en": "Gateway to the Sahara",
+    "de": "Tor zur Sahara",
+    "fr": "Porte du Sahara",
+    "es": "Puerta del Sáhara",
+    "it": "La porta del Sahara",
+    "pt": "Porta de entrada para o Sara",
+    "sw": "Lango la Sahara"
+   },
+   "lat": 33.46,
+   "lon": 9.02,
+   "defaultNights": 2,
+   "canFly": false,
+   "hasWater": false,
+   "mountain": false,
+   "advisory": null
+  }
+ ],
+ "activities": [
+  {
+   "id": "trek",
+   "name": {
+    "nl": "Meerdaagse trektocht",
+    "en": "Multi-day trek",
+    "de": "Mehrtägiges Trekking",
+    "fr": "Trek de plusieurs jours",
+    "es": "Trekking de varios días",
+    "it": "Trekking di più giorni",
+    "pt": "Caminhada de vários dias",
+    "sw": "Matembezi ya siku kadhaa"
+   }
+  },
+  {
+   "id": "climb",
+   "name": {
+    "nl": "Bergbeklimming",
+    "en": "Mountain climb",
+    "de": "Bergbesteigung",
+    "fr": "Ascension",
+    "es": "Ascenso a la montaña",
+    "it": "Scalata in montagna",
+    "pt": "Escalada de montanha",
+    "sw": "Kupanda mlima"
+   }
+  },
+  {
+   "id": "wine",
+   "name": {
+    "nl": "Wijnproeverij",
+    "en": "Wine tasting",
+    "de": "Weinprobe",
+    "fr": "Dégustation de vin",
+    "es": "Cata de vinos",
+    "it": "Degustazione di vini",
+    "pt": "Prova de vinhos",
+    "sw": "Kuonja mvinyo"
+   }
+  },
+  {
+   "id": "market",
+   "name": {
+    "nl": "Lokale markt",
+    "en": "Local market",
+    "de": "Lokaler Markt",
+    "fr": "Marché local",
+    "es": "Mercado local",
+    "it": "Mercato locale",
+    "pt": "Mercado local",
+    "sw": "Soko la wenyeji"
+   }
+  },
+  {
+   "id": "ruins",
+   "name": {
+    "nl": "Oude ruïnes en monumenten",
+    "en": "Ancient ruins and monuments",
+    "de": "Antike Ruinen und Denkmäler",
+    "fr": "Ruines et monuments anciens",
+    "es": "Ruinas y monumentos antiguos",
+    "it": "Rovine e monumenti antichi",
+    "pt": "Ruínas e monumentos antigos",
+    "sw": "Magofu na makumbusho ya kale"
+   }
+  },
+  {
+   "id": "desert",
+   "name": {
+    "nl": "Woestijntocht",
+    "en": "Desert excursion",
+    "de": "Wüstenausflug",
+    "fr": "Excursion dans le désert",
+    "es": "Excursión por el desierto",
+    "it": "Escursione nel deserto",
+    "pt": "Excursão ao deserto",
+    "sw": "Matembezi jangwani"
+   }
+  },
+  {
+   "id": "surf",
+   "name": {
+    "nl": "Surfen",
+    "en": "Surfing",
+    "de": "Surfen",
+    "fr": "Surf",
+    "es": "Surf",
+    "it": "Surf",
+    "pt": "Surf",
+    "sw": "Kuteleza mawimbini"
+   }
+  },
+  {
+   "id": "museum",
+   "name": {
+    "nl": "Musea",
+    "en": "Museums",
+    "de": "Museen",
+    "fr": "Musées",
+    "es": "Museos",
+    "it": "Musei",
+    "pt": "Museus",
+    "sw": "Makumbusho"
+   }
+  },
+  {
+   "id": "lake",
+   "name": {
+    "nl": "Zwemmen in het meer",
+    "en": "Lake swimming",
+    "de": "Baden im See",
+    "fr": "Baignade au lac",
+    "es": "Baño en el lago",
+    "it": "Nuotata nel lago",
+    "pt": "Banho no lago",
+    "sw": "Kuogelea ziwani"
+   }
+  },
+  {
+   "id": "raft",
+   "name": {
+    "nl": "Wildwaterraften",
+    "en": "White-water rafting",
+    "de": "Wildwasser-Rafting",
+    "fr": "Rafting",
+    "es": "Rafting en aguas bravas",
+    "it": "Rafting",
+    "pt": "Rafting em águas bravas",
+    "sw": "Kuendesha mashua kwenye maji ya kasi"
+   }
+  },
+  {
+   "id": "snorkel",
+   "name": {
+    "nl": "Snorkelen",
+    "en": "Snorkelling",
+    "de": "Schnorcheln",
+    "fr": "Snorkeling",
+    "es": "Esnórquel",
+    "it": "Snorkeling",
+    "pt": "Snorkeling",
+    "sw": "Kuzamia kwa snorkel"
+   }
+  },
+  {
+   "id": "dive",
+   "name": {
+    "nl": "Duiken",
+    "en": "Scuba diving",
+    "de": "Tauchen",
+    "fr": "Plongée",
+    "es": "Buceo",
+    "it": "Immersioni subacquee",
+    "pt": "Mergulho com garrafa",
+    "sw": "Kupiga mbizi kwa mitungi ya hewa"
+   }
+  },
+  {
+   "id": "dhow",
+   "name": {
+    "nl": "Dhowtocht bij zonsondergang",
+    "en": "Sunset dhow cruise",
+    "de": "Dhau-Fahrt bei Sonnenuntergang",
+    "fr": "Boutre au coucher du soleil",
+    "es": "Paseo en dhow al atardecer",
+    "it": "Giro in dhow al tramonto",
+    "pt": "Passeio de dhow ao pôr do sol",
+    "sw": "Safari ya jahazi wakati wa machweo"
+   }
+  },
+  {
+   "id": "oldtown",
+   "name": {
+    "nl": "Wandeling door de oude stad",
+    "en": "Old town walk",
+    "de": "Altstadtrundgang",
+    "fr": "Balade dans la vieille ville",
+    "es": "Paseo por el casco antiguo",
+    "it": "Passeggiata nella città vecchia",
+    "pt": "Passeio pela cidade velha",
+    "sw": "Matembezi katika mji wa kale"
+   }
+  },
+  {
+   "id": "spice",
+   "name": {
+    "nl": "Kruidentour",
+    "en": "Spice tour",
+    "de": "Gewürztour",
+    "fr": "Tour des épices",
+    "es": "Ruta de las especias",
+    "it": "Tour delle spezie",
+    "pt": "Rota das especiarias",
+    "sw": "Ziara ya viungo"
+   }
+  },
+  {
+   "id": "kite",
+   "name": {
+    "nl": "Kitesurfen",
+    "en": "Kitesurfing",
+    "de": "Kitesurfen",
+    "fr": "Kitesurf",
+    "es": "Kitesurf",
+    "it": "Kitesurf",
+    "pt": "Kitesurf",
+    "sw": "Kuteleza kwa kishada"
+   }
+  },
+  {
+   "id": "whaleshark",
+   "name": {
+    "nl": "Walvishaaien (seizoen)",
+    "en": "Whale sharks (seasonal)",
+    "de": "Walhaie (saisonal)",
+    "fr": "Requins-baleines (saison)",
+    "es": "Tiburones ballena (de temporada)",
+    "it": "Squali balena (stagionale)",
+    "pt": "Tubarões-baleia (sazonal)",
+    "sw": "Papa nyangumi (kwa msimu)"
+   }
+  },
+  {
+   "id": "turtles",
+   "name": {
+    "nl": "Zeeschildpadden (seizoen)",
+    "en": "Sea turtles (seasonal)",
+    "de": "Meeresschildkröten (saisonal)",
+    "fr": "Tortues marines (saison)",
+    "es": "Tortugas marinas (de temporada)",
+    "it": "Tartarughe marine (stagionale)",
+    "pt": "Tartarugas marinhas (sazonal)",
+    "sw": "Kasa wa baharini (kwa msimu)"
+   }
+  },
+  {
+   "id": "whales",
+   "name": {
+    "nl": "Bultruggen spotten (seizoen)",
+    "en": "Humpback whale watching (seasonal)",
+    "de": "Buckelwale beobachten (saisonal)",
+    "fr": "Observation des baleines (saison)",
+    "es": "Avistamiento de ballenas jorobadas (de temporada)",
+    "it": "Avvistamento di megattere (stagionale)",
+    "pt": "Observação de baleias-jubarte (sazonal)",
+    "sw": "Kutazama nyangumi wenye nundu (kwa msimu)"
+   }
+  },
+  {
+   "id": "catamaran",
+   "name": {
+    "nl": "Catamarantocht",
+    "en": "Catamaran trip",
+    "de": "Katamaranausflug",
+    "fr": "Sortie en catamaran",
+    "es": "Paseo en catamarán",
+    "it": "Gita in catamarano",
+    "pt": "Passeio de catamarã",
+    "sw": "Safari ya katamarani"
+   }
+  },
+  {
+   "id": "bike",
+   "name": {
+    "nl": "Fietsen over het eiland",
+    "en": "Cycling around the island",
+    "de": "Radtour über die Insel",
+    "fr": "Vélo sur l’île",
+    "es": "Vuelta a la isla en bicicleta",
+    "it": "In bici per l’isola",
+    "pt": "Volta à ilha de bicicleta",
+    "sw": "Kuendesha baiskeli kuzunguka kisiwa"
+   }
+  },
+  {
+   "id": "hop",
+   "name": {
+    "nl": "Eilandhoppen",
+    "en": "Island hopping",
+    "de": "Inselhopping",
+    "fr": "Saut d’île en île",
+    "es": "Recorrido por islas",
+    "it": "Giro delle isole",
+    "pt": "Saltar de ilha em ilha",
+    "sw": "Kuzuru visiwa kimoja baada ya kingine"
+   }
+  },
+  {
+   "id": "natwalk",
+   "name": {
+    "nl": "Natuurwandeling",
+    "en": "Nature walk",
+    "de": "Naturwanderung",
+    "fr": "Balade nature",
+    "es": "Paseo por la naturaleza",
+    "it": "Passeggiata nella natura",
+    "pt": "Caminhada na natureza",
+    "sw": "Matembezi ya kimazingira"
+   }
+  },
+  {
+   "id": "gd",
+   "name": {
+    "nl": "Game drive",
+    "en": "Game drive",
+    "de": "Pirschfahrt",
+    "fr": "Safari en 4x4",
+    "es": "Safari en vehículo",
+    "it": "Game drive",
+    "pt": "Game drive",
+    "sw": "Safari ya kutazama wanyama kwa gari"
+   }
+  },
+  {
+   "id": "balloon",
+   "name": {
+    "nl": "Luchtballonsafari",
+    "en": "Hot-air balloon safari",
+    "de": "Ballonsafari",
+    "fr": "Safari en montgolfière",
+    "es": "Safari en globo aerostático",
+    "it": "Safari in mongolfiera",
+    "pt": "Safari de balão de ar quente",
+    "sw": "Safari ya puto la hewa moto"
+   }
+  },
+  {
+   "id": "walk",
+   "name": {
+    "nl": "Wandelsafari",
+    "en": "Walking safari",
+    "de": "Wandersafari",
+    "fr": "Safari à pied",
+    "es": "Safari a pie",
+    "it": "Safari a piedi",
+    "pt": "Safari a pé",
+    "sw": "Safari ya kutembea kwa miguu"
+   }
+  },
+  {
+   "id": "night",
+   "name": {
+    "nl": "Nachtsafari",
+    "en": "Night drive",
+    "de": "Nachtpirsch",
+    "fr": "Safari de nuit",
+    "es": "Safari nocturno",
+    "it": "Safari notturno",
+    "pt": "Safari noturno",
+    "sw": "Safari ya usiku kwa gari"
+   }
+  },
+  {
+   "id": "boat",
+   "name": {
+    "nl": "Boottocht",
+    "en": "Boat safari",
+    "de": "Bootssafari",
+    "fr": "Safari en bateau",
+    "es": "Safari en barco",
+    "it": "Safari in barca",
+    "pt": "Safari de barco",
+    "sw": "Safari kwa boti"
+   }
+  },
+  {
+   "id": "canoe",
+   "name": {
+    "nl": "Kanotocht",
+    "en": "Canoe trip",
+    "de": "Kanutour",
+    "fr": "Excursion en canoë",
+    "es": "Paseo en canoa",
+    "it": "Gita in canoa",
+    "pt": "Passeio de canoa",
+    "sw": "Safari ya mtumbwi"
+   }
+  },
+  {
+   "id": "gorilla",
+   "name": {
+    "nl": "Gorillatrekking",
+    "en": "Gorilla trekking",
+    "de": "Gorilla-Trekking",
+    "fr": "Trek des gorilles",
+    "es": "Trekking de gorilas",
+    "it": "Trekking dei gorilla",
+    "pt": "Trekking de gorilas",
+    "sw": "Kufuatilia sokwe-mtu"
+   }
+  },
+  {
+   "id": "golden",
+   "name": {
+    "nl": "Goudapentrekking",
+    "en": "Golden monkey trekking",
+    "de": "Goldmeerkatzen-Trekking",
+    "fr": "Trek des singes dorés",
+    "es": "Trekking de monos dorados",
+    "it": "Trekking delle scimmie dorate",
+    "pt": "Trekking de macacos-dourados",
+    "sw": "Kufuatilia tumbili wa dhahabu"
+   }
+  },
+  {
+   "id": "chimp",
+   "name": {
+    "nl": "Chimpanseetrekking",
+    "en": "Chimp trekking",
+    "de": "Schimpansen-Trekking",
+    "fr": "Trek des chimpanzés",
+    "es": "Trekking de chimpancés",
+    "it": "Trekking degli scimpanzé",
+    "pt": "Trekking de chimpanzés",
+    "sw": "Kufuatilia sokwe"
+   }
+  },
+  {
+   "id": "canopy",
+   "name": {
+    "nl": "Boomtoppenpad",
+    "en": "Canopy walk",
+    "de": "Baumwipfelpfad",
+    "fr": "Passerelle dans la canopée",
+    "es": "Pasarela entre las copas",
+    "it": "Passerella tra le chiome",
+    "pt": "Passadiço nas copas das árvores",
+    "sw": "Matembezi juu ya miti"
+   }
+  },
+  {
+   "id": "mokoro",
+   "name": {
+    "nl": "Mokorotocht",
+    "en": "Mokoro trip",
+    "de": "Mokoro-Tour",
+    "fr": "Balade en mokoro",
+    "es": "Paseo en mokoro",
+    "it": "Gita in mokoro",
+    "pt": "Passeio de mokoro",
+    "sw": "Safari ya mokoro"
+   }
+  },
+  {
+   "id": "scenic",
+   "name": {
+    "nl": "Rondvlucht",
+    "en": "Scenic flight",
+    "de": "Rundflug",
+    "fr": "Survol panoramique",
+    "es": "Vuelo panorámico",
+    "it": "Volo panoramico",
+    "pt": "Voo panorâmico",
+    "sw": "Safari ya ndege ya kutazama mandhari"
+   }
+  },
+  {
+   "id": "heli",
+   "name": {
+    "nl": "Helikoptervlucht",
+    "en": "Helicopter flight",
+    "de": "Helikopterflug",
+    "fr": "Vol en hélicoptère",
+    "es": "Vuelo en helicóptero",
+    "it": "Volo in elicottero",
+    "pt": "Voo de helicóptero",
+    "sw": "Safari ya helikopta"
+   }
+  },
+  {
+   "id": "village",
+   "name": {
+    "nl": "Dorpsbezoek",
+    "en": "Village visit",
+    "de": "Dorfbesuch",
+    "fr": "Visite de village",
+    "es": "Visita a una aldea",
+    "it": "Visita a un villaggio",
+    "pt": "Visita a uma aldeia",
+    "sw": "Kutembelea kijiji"
+   }
+  },
+  {
+   "id": "crater",
+   "name": {
+    "nl": "Kraterafdaling",
+    "en": "Crater descent",
+    "de": "Kraterabfahrt",
+    "fr": "Descente dans le cratère",
+    "es": "Descenso al cráter",
+    "it": "Discesa nel cratere",
+    "pt": "Descida à cratera",
+    "sw": "Kushuka ndani ya kreta"
+   }
+  },
+  {
+   "id": "dune",
+   "name": {
+    "nl": "Duinbeklimming",
+    "en": "Dune climb",
+    "de": "Dünenbesteigung",
+    "fr": "Ascension des dunes",
+    "es": "Subida a las dunas",
+    "it": "Salita sulle dune",
+    "pt": "Subida às dunas",
+    "sw": "Kupanda tuta la mchanga"
+   }
+  },
+  {
+   "id": "rock",
+   "name": {
+    "nl": "Rotstekeningen",
+    "en": "Rock engravings",
+    "de": "Felsgravuren",
+    "fr": "Gravures rupestres",
+    "es": "Grabados rupestres",
+    "it": "Incisioni rupestri",
+    "pt": "Gravuras rupestres",
+    "sw": "Michoro ya kuchongwa miambani"
+   }
+  },
+  {
+   "id": "waterhole",
+   "name": {
+    "nl": "Verlichte drinkplaats",
+    "en": "Floodlit waterhole",
+    "de": "Beleuchtetes Wasserloch",
+    "fr": "Point d’eau éclairé",
+    "es": "Abrevadero iluminado",
+    "it": "Pozza d’acqua illuminata",
+    "pt": "Bebedouro iluminado",
+    "sw": "Kidimbwi cha maji chenye mwanga usiku"
+   }
+  },
+  {
+   "id": "falls",
+   "name": {
+    "nl": "Tocht naar de watervallen",
+    "en": "Guided tour of the falls",
+    "de": "Führung an den Fällen",
+    "fr": "Visite des chutes",
+    "es": "Visita guiada a las cataratas",
+    "it": "Visita guidata alle cascate",
+    "pt": "Visita guiada às cataratas",
+    "sw": "Ziara ya maporomoko kwa mwongozaji"
+   }
+  },
+  {
+   "id": "sunset",
+   "name": {
+    "nl": "Zonsondergangcruise",
+    "en": "Sunset cruise",
+    "de": "Sonnenuntergangsfahrt",
+    "fr": "Croisière au coucher du soleil",
+    "es": "Crucero al atardecer",
+    "it": "Crociera al tramonto",
+    "pt": "Cruzeiro ao pôr do sol",
+    "sw": "Safari ya boti wakati wa machweo"
+   }
+  },
+  {
+   "id": "fishing",
+   "name": {
+    "nl": "Vissen op tijgervis",
+    "en": "Tigerfish fishing",
+    "de": "Tigerfisch-Angeln",
+    "fr": "Pêche au poisson-tigre",
+    "es": "Pesca del pez tigre",
+    "it": "Pesca al pesce tigre",
+    "pt": "Pesca do peixe-tigre",
+    "sw": "Kuvua samaki aina ya tigerfish"
+   }
+  },
+  {
+   "id": "hike",
+   "name": {
+    "nl": "Wandeling naar de top",
+    "en": "Hike to the top",
+    "de": "Wanderung nach oben",
+    "fr": "Randonnée au sommet",
+    "es": "Caminata hasta la cima",
+    "it": "Escursione fino alla cima",
+    "pt": "Caminhada até ao cume",
+    "sw": "Kupanda hadi kileleni"
+   }
+  }
+ ],
+ "destinationActivities": [
+  {
+   "destinationId": "tz-arusha",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-arusha",
+   "activityId": "canoe",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-arusha",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-tarangire",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-tarangire",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-manyara",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-manyara",
+   "activityId": "canopy",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-ngorongoro",
+   "activityId": "crater",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-ngorongoro",
+   "activityId": "village",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-serengeti",
+   "activityId": "balloon",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-serengeti",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-zanzibar",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-zanzibar",
+   "activityId": "spice",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-zanzibar",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-zanzibar",
+   "activityId": "dhow",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-zanzibar",
+   "activityId": "kite",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-mafia",
+   "activityId": "whaleshark",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-mafia",
+   "activityId": "dive",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-mafia",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-pemba",
+   "activityId": "dive",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-pemba",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-pemba",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-kilimanjaro",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-kilimanjaro",
+   "activityId": "climb",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-ruaha",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-ruaha",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-nyerere",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-nyerere",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tz-mahale",
+   "activityId": "chimp",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-amboseli",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-amboseli",
+   "activityId": "village",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-tsavo",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-samburu",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-samburu",
+   "activityId": "village",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-mara",
+   "activityId": "balloon",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-mara",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-mara",
+   "activityId": "village",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-lamu",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-lamu",
+   "activityId": "dhow",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-diani",
+   "activityId": "kite",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-diani",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-diani",
+   "activityId": "dive",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-nakuru",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-mtkenya",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-mtkenya",
+   "activityId": "climb",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-nairobi",
+   "activityId": "museum",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ke-nairobi",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ug-bwindi",
+   "activityId": "gorilla",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ug-bwindi",
+   "activityId": "village",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ug-queen",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ug-queen",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ug-murchison",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ug-murchison",
+   "activityId": "hike",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ug-murchison",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ug-kidepo",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ug-jinja",
+   "activityId": "raft",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ug-jinja",
+   "activityId": "canoe",
+   "seasonal": false
+  },
+  {
+   "destinationId": "rw-volcanoes",
+   "activityId": "gorilla",
+   "seasonal": false
+  },
+  {
+   "destinationId": "rw-volcanoes",
+   "activityId": "golden",
+   "seasonal": false
+  },
+  {
+   "destinationId": "rw-nyungwe",
+   "activityId": "chimp",
+   "seasonal": false
+  },
+  {
+   "destinationId": "rw-nyungwe",
+   "activityId": "canopy",
+   "seasonal": false
+  },
+  {
+   "destinationId": "rw-akagera",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "rw-akagera",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "rw-kivu",
+   "activityId": "lake",
+   "seasonal": false
+  },
+  {
+   "destinationId": "rw-kivu",
+   "activityId": "canoe",
+   "seasonal": false
+  },
+  {
+   "destinationId": "rw-kigali",
+   "activityId": "museum",
+   "seasonal": false
+  },
+  {
+   "destinationId": "rw-kigali",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bi-tanganyika",
+   "activityId": "lake",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bi-tanganyika",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bi-kibira",
+   "activityId": "chimp",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bi-kibira",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bi-rusizi",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bi-rusizi",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "km-grandecomore",
+   "activityId": "climb",
+   "seasonal": false
+  },
+  {
+   "destinationId": "km-grandecomore",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "km-moheli",
+   "activityId": "turtles",
+   "seasonal": false
+  },
+  {
+   "destinationId": "km-moheli",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "km-anjouan",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "km-anjouan",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "dj-assal",
+   "activityId": "desert",
+   "seasonal": false
+  },
+  {
+   "destinationId": "dj-tadjoura",
+   "activityId": "whaleshark",
+   "seasonal": false
+  },
+  {
+   "destinationId": "dj-tadjoura",
+   "activityId": "dive",
+   "seasonal": false
+  },
+  {
+   "destinationId": "dj-abbe",
+   "activityId": "desert",
+   "seasonal": false
+  },
+  {
+   "destinationId": "er-asmara",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "er-asmara",
+   "activityId": "museum",
+   "seasonal": false
+  },
+  {
+   "destinationId": "er-massawa",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "er-dahlak",
+   "activityId": "dive",
+   "seasonal": false
+  },
+  {
+   "destinationId": "er-dahlak",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "et-simien",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "et-simien",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "et-lalibela",
+   "activityId": "ruins",
+   "seasonal": false
+  },
+  {
+   "destinationId": "et-bale",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "et-bale",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "et-danakil",
+   "activityId": "desert",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mg-nosybe",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mg-nosybe",
+   "activityId": "hop",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mg-nosybe",
+   "activityId": "whaleshark",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mg-saintemarie",
+   "activityId": "whales",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mg-saintemarie",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mg-tsingy",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mg-baobab",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mg-andasibe",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mg-andasibe",
+   "activityId": "night",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mu-mauritius",
+   "activityId": "catamaran",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mu-mauritius",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mu-mauritius",
+   "activityId": "kite",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mu-lemorne",
+   "activityId": "climb",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mu-lemorne",
+   "activityId": "kite",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sc-mahe",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sc-mahe",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sc-praslin",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sc-praslin",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sc-ladigue",
+   "activityId": "bike",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sc-ladigue",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "so-laasgeel",
+   "activityId": "ruins",
+   "seasonal": false
+  },
+  {
+   "destinationId": "so-berbera",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ss-boma",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ss-nile",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-pilanesberg",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-pilanesberg",
+   "activityId": "balloon",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-kruger",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-kruger",
+   "activityId": "night",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-kruger",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-sabisand",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-sabisand",
+   "activityId": "night",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-madikwe",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-addo",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-kgalagadi",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-hluhluwe",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-hluhluwe",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-isimangaliso",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-isimangaliso",
+   "activityId": "turtles",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-capetown",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-capetown",
+   "activityId": "museum",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-capetown",
+   "activityId": "hike",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-winelands",
+   "activityId": "wine",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-gardenroute",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-gardenroute",
+   "activityId": "whales",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-drakensberg",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "za-drakensberg",
+   "activityId": "rock",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bw-okavango",
+   "activityId": "mokoro",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bw-okavango",
+   "activityId": "scenic",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bw-okavango",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bw-kalahari",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bw-kalahari",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bw-chobe",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bw-chobe",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "na-sossusvlei",
+   "activityId": "dune",
+   "seasonal": false
+  },
+  {
+   "destinationId": "na-sossusvlei",
+   "activityId": "balloon",
+   "seasonal": false
+  },
+  {
+   "destinationId": "na-damaraland",
+   "activityId": "rock",
+   "seasonal": false
+  },
+  {
+   "destinationId": "na-damaraland",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "na-etosha",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "na-etosha",
+   "activityId": "waterhole",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zm-kafue",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zm-kafue",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zm-lowerzambezi",
+   "activityId": "canoe",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zm-lowerzambezi",
+   "activityId": "fishing",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zm-lowerzambezi",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zm-luangwa",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zm-luangwa",
+   "activityId": "night",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zw-falls",
+   "activityId": "falls",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zw-falls",
+   "activityId": "heli",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zw-falls",
+   "activityId": "sunset",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zw-hwange",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zw-hwange",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zw-mana",
+   "activityId": "canoe",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zw-mana",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zw-matobo",
+   "activityId": "rock",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zw-matobo",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "zw-greatzim",
+   "activityId": "ruins",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ao-kalandula",
+   "activityId": "falls",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ao-iona",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ao-iona",
+   "activityId": "desert",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ao-luanda",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ao-luanda",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sz-hlane",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sz-mlilwane",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sz-mlilwane",
+   "activityId": "bike",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sz-malolotja",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sz-malolotja",
+   "activityId": "canopy",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ls-sani",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ls-maletsunyane",
+   "activityId": "falls",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ls-maletsunyane",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mw-liwonde",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mw-liwonde",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mw-capemaclear",
+   "activityId": "lake",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mw-capemaclear",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mw-likoma",
+   "activityId": "lake",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mw-majete",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mz-bazaruto",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mz-bazaruto",
+   "activityId": "dhow",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mz-bazaruto",
+   "activityId": "dive",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mz-ilha",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mz-ilha",
+   "activityId": "dhow",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mz-gorongosa",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mz-tofo",
+   "activityId": "dive",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mz-tofo",
+   "activityId": "whaleshark",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ga-loango",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ga-loango",
+   "activityId": "whales",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ga-lope",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cm-kribi",
+   "activityId": "falls",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cm-kribi",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cm-waza",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cm-mtcameroon",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cm-mtcameroon",
+   "activityId": "climb",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cf-dzangha",
+   "activityId": "gorilla",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cg-odzala",
+   "activityId": "gorilla",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cg-odzala",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cg-pointenoire",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cd-virunga",
+   "activityId": "gorilla",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cd-virunga",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cd-kahuzi",
+   "activityId": "gorilla",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cd-kinshasa",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cd-kinshasa",
+   "activityId": "museum",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gq-bioko",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gq-bioko",
+   "activityId": "turtles",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gq-montealen",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "st-saotome",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "st-saotome",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "st-principe",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "st-principe",
+   "activityId": "turtles",
+   "seasonal": false
+  },
+  {
+   "destinationId": "td-zakouma",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "td-ennedi",
+   "activityId": "desert",
+   "seasonal": false
+  },
+  {
+   "destinationId": "td-ennedi",
+   "activityId": "rock",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bj-pendjari",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bj-ouidah",
+   "activityId": "museum",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bj-ouidah",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bj-ganvie",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "bf-sindou",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gm-river",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gm-kololi",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gh-mole",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gh-mole",
+   "activityId": "walk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gh-capecoast",
+   "activityId": "museum",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gh-capecoast",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gh-kakum",
+   "activityId": "canopy",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gn-fouta",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gn-fouta",
+   "activityId": "falls",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gn-loos",
+   "activityId": "hop",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gw-bijagos",
+   "activityId": "hop",
+   "seasonal": false
+  },
+  {
+   "destinationId": "gw-bijagos",
+   "activityId": "turtles",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ci-assinie",
+   "activityId": "surf",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ci-tai",
+   "activityId": "chimp",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ci-grandbassam",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cv-sal",
+   "activityId": "kite",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cv-sal",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cv-boavista",
+   "activityId": "turtles",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cv-boavista",
+   "activityId": "kite",
+   "seasonal": false
+  },
+  {
+   "destinationId": "cv-santoantao",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "lr-robertsport",
+   "activityId": "surf",
+   "seasonal": false
+  },
+  {
+   "destinationId": "lr-sapo",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ml-djenne",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ml-dogon",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ml-dogon",
+   "activityId": "village",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mr-arguin",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mr-chinguetti",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "mr-chinguetti",
+   "activityId": "desert",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ne-agadez",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ne-air",
+   "activityId": "desert",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ng-yankari",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ng-lagos",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ng-lagos",
+   "activityId": "museum",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ng-obudu",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sn-saloum",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sn-goree",
+   "activityId": "museum",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sn-niokolo",
+   "activityId": "gd",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sl-banana",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sl-tiwai",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sl-tiwai",
+   "activityId": "boat",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tg-kpalime",
+   "activityId": "natwalk",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tg-kpalime",
+   "activityId": "falls",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tg-koutammakou",
+   "activityId": "village",
+   "seasonal": false
+  },
+  {
+   "destinationId": "dz-tassili",
+   "activityId": "desert",
+   "seasonal": false
+  },
+  {
+   "destinationId": "dz-tassili",
+   "activityId": "rock",
+   "seasonal": false
+  },
+  {
+   "destinationId": "dz-algiers",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "dz-ghardaia",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "eg-redsea",
+   "activityId": "dive",
+   "seasonal": false
+  },
+  {
+   "destinationId": "eg-redsea",
+   "activityId": "snorkel",
+   "seasonal": false
+  },
+  {
+   "destinationId": "eg-cairo",
+   "activityId": "ruins",
+   "seasonal": false
+  },
+  {
+   "destinationId": "eg-cairo",
+   "activityId": "museum",
+   "seasonal": false
+  },
+  {
+   "destinationId": "eg-luxor",
+   "activityId": "ruins",
+   "seasonal": false
+  },
+  {
+   "destinationId": "eg-luxor",
+   "activityId": "balloon",
+   "seasonal": false
+  },
+  {
+   "destinationId": "eg-siwa",
+   "activityId": "desert",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ly-leptis",
+   "activityId": "ruins",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ly-acacus",
+   "activityId": "desert",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ly-acacus",
+   "activityId": "rock",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ma-marrakech",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ma-marrakech",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ma-merzouga",
+   "activityId": "desert",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ma-atlas",
+   "activityId": "trek",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ma-essaouira",
+   "activityId": "kite",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ma-essaouira",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "ma-chefchaouen",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sd-meroe",
+   "activityId": "ruins",
+   "seasonal": false
+  },
+  {
+   "destinationId": "sd-sanganeb",
+   "activityId": "dive",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tn-djerba",
+   "activityId": "market",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tn-sidibousaid",
+   "activityId": "oldtown",
+   "seasonal": false
+  },
+  {
+   "destinationId": "tn-douz",
+   "activityId": "desert",
+   "seasonal": false
+  }
+ ]
+}

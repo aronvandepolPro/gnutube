@@ -1,0 +1,4 @@
+{
+  "_uitleg": "Sponsoren in de rij op de homepage. Per sponsor: name (naam, ook als alt-tekst), logo (pad onder /public, bv. /sponsors/naam.svg; liefst een wit of lichtgekleurd logo op transparante achtergrond, SVG of PNG van minstens 400 px breed) en url (website van de sponsor). Leeg = de rij toont lege plekken met 'Sponsor worden'.",
+  "sponsors": []
+}

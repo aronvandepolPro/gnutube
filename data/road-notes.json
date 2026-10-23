@@ -1,0 +1,6 @@
+{
+  "_uitleg": "Kennis per traject, ingevuld door lokale gidsen of partners. Sleutel = 'plek-id>plek-id' of een vliegveldcode (JRO, DAR, ZNZ); geldt in beide richtingen. Velden: scenic = tekst per taal als het een mooie route is (bv. {\"nl\": \"…\", \"en\": \"…\"}); caution = tekst per taal als er iets is om op te letten; source = wie het aanleverde; checked = datum van controle (JJJJ-MM-DD). Verzin hier niets: alleen invullen met een echte bron.",
+  "_voorbeeld": {
+    "tz-arusha>tz-ngorongoro": { "scenic": { "nl": "…", "en": "…" }, "caution": null, "source": "Naam gids of partner", "checked": "2027-01-01" }
+  }
+}

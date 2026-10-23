@@ -1,0 +1,123 @@
+{
+  "_uitleg": "Soorten reis per plek. De eerste is de hoofdsoort (kleur, affiche, label); de rest zijn extra soorten waaronder de plek ook gevonden wordt. CONCEPT: door Claude ingedeeld, nog laten controleren door lokale kenners (vooral welke plekken 'strand' hebben).",
+  "tz-arusha": [
+    "safari",
+    "mountain"
+  ],
+  "tz-tarangire": [
+    "safari"
+  ],
+  "tz-manyara": [
+    "safari",
+    "lake"
+  ],
+  "tz-ngorongoro": [
+    "safari"
+  ],
+  "tz-serengeti": [
+    "safari"
+  ],
+  "tz-zanzibar": [
+    "island",
+    "beach",
+    "culture"
+  ],
+  "tz-mafia": [
+    "island",
+    "beach"
+  ],
+  "tz-pemba": [
+    "island",
+    "beach"
+  ],
+  "tz-kilimanjaro": [
+    "mountain",
+    "nature"
+  ],
+  "tz-ruaha": [
+    "safari"
+  ],
+  "tz-nyerere": [
+    "safari"
+  ],
+  "tz-mahale": [
+    "safari",
+    "nature",
+    "lake"
+  ],
+  "tz-natron": [
+    "nature",
+    "lake"
+  ],
+  "tz-mkomazi": [
+    "safari"
+  ],
+  "tz-olduvai": [
+    "culture"
+  ],
+  "tz-eyasi": [
+    "culture",
+    "nature",
+    "lake"
+  ],
+  "tz-usambara": [
+    "mountain",
+    "nature"
+  ],
+  "tz-kondoa": [
+    "culture"
+  ],
+  "tz-arushacity": [
+    "city",
+    "culture"
+  ],
+  "tz-udzungwa": [
+    "mountain",
+    "nature"
+  ],
+  "tz-mikumi": [
+    "safari"
+  ],
+  "tz-kitulo": [
+    "nature",
+    "mountain"
+  ],
+  "tz-matema": [
+    "beach",
+    "nature",
+    "lake"
+  ],
+  "tz-gombe": [
+    "nature",
+    "lake"
+  ],
+  "tz-katavi": [
+    "safari"
+  ],
+  "tz-rubondo": [
+    "island",
+    "nature",
+    "lake"
+  ],
+  "tz-stonetown": [
+    "culture",
+    "city",
+    "island"
+  ],
+  "tz-bagamoyo": [
+    "culture",
+    "beach"
+  ],
+  "tz-kilwa": [
+    "culture",
+    "island"
+  ],
+  "tz-saadani": [
+    "safari",
+    "beach"
+  ],
+  "tz-dar": [
+    "city",
+    "beach"
+  ]
+}

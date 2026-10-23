@@ -1,0 +1,4 @@
+{
+  "_uitleg": "Duur en prijs van activiteiten per plek, sleutel = 'plek-id:activiteit-id'. nights = aantal nachten dat de activiteit kost (null = onbekend, de activiteit past dan binnen het verblijf); price = prijs per persoon (null = onbekend); currency = valuta van de prijs; checked = bevestigd door een lokale partner. Vul aan met echte gegevens van operators; verzin geen prijzen.",
+  "tz-kilimanjaro:climb": { "nights": 6, "price": null, "currency": "EUR", "checked": false, "note": "CONCEPT: veel routes duren ongeveer 5 tot 9 dagen; laten bevestigen door een operator" }
+}
