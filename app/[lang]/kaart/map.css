@@ -1,0 +1,317 @@
+/* Punten op de kaart: gekleurde stip per soort reis, naam bij aanwijzen, gekozen of ingezoomd */
+.kt-pin {
+  /* Geen 'position' hier: MapLibre zet de punten zelf absoluut op hun plek */
+  display: block;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.kt-pin-dot {
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: var(--pin);
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(42, 31, 23, 0.35);
+  transition: transform 0.18s ease;
+}
+.kt-pin.is-advisory .kt-pin-dot {
+  border-color: #e0694a;
+}
+.kt-pin-label {
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 3px 10px;
+  font: 600 13px/1.3 var(--font-barlow), system-ui, sans-serif;
+  color: #2a1f17;
+  box-shadow: 0 2px 10px rgba(42, 31, 23, 0.18);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+.kt-pin:hover,
+.kt-pin:focus-visible,
+.kt-pin.is-active {
+  z-index: 3;
+}
+.kt-pin:hover .kt-pin-dot,
+.kt-pin:focus-visible .kt-pin-dot {
+  transform: scale(1.25);
+}
+.kt-pin:hover .kt-pin-label,
+.kt-pin:focus-visible .kt-pin-label,
+.kt-pin.is-active .kt-pin-label,
+.kt-map-labels .kt-pin-label {
+  opacity: 1;
+}
+.kt-pin.is-active .kt-pin-dot {
+  transform: scale(1.5);
+}
+.kt-pin.is-active::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 9999px;
+  background: var(--pin);
+  opacity: 0.35;
+  animation: kt-pin-pulse 1.8s ease-out infinite;
+}
+.kt-pin.is-hidden {
+  display: none;
+}
+@keyframes kt-pin-pulse {
+  from { transform: scale(0.6); opacity: 0.5; }
+  to { transform: scale(2.2); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .kt-pin.is-active::before { animation: none; }
+}
+
+/* Namen van meren */
+.kt-lake {
+  pointer-events: none;
+  font: italic 500 12px/1 var(--font-barlow), system-ui, sans-serif;
+  letter-spacing: 0.04em;
+  color: #3d7fa3;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.9);
+}
+
+/* Bediening van de kaart iets ronder en lichter */
+.kt-map .maplibregl-ctrl-group {
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(42, 31, 23, 0.15);
+}
+
+/* Buurlanden en oceaan */
+.kt-country {
+  pointer-events: none;
+  font: 600 11px/1 var(--font-barlow), system-ui, sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a8957e;
+}
+.kt-ocean {
+  pointer-events: none;
+  font: italic 500 14px/1 var(--font-barlow), system-ui, sans-serif;
+  letter-spacing: 0.2em;
+  color: #6aa5c4;
+  width: 90px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Steden en plaatsen: klein en rustig, zodat de Gnutube-plekken opvallen */
+.kt-town {
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font: 500 11.5px/1 var(--font-barlow), system-ui, sans-serif;
+  color: #6e5f52;
+  text-shadow: 0 0 3px #fff, 0 0 3px #fff;
+  white-space: nowrap;
+}
+.kt-town i {
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background: #8a7867;
+  box-shadow: 0 0 0 1.5px #fff;
+}
+.kt-town.is-capital span {
+  font-weight: 700;
+  color: #4a3b2f;
+}
+.kt-town.is-capital i {
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  box-shadow: 0 0 0 2.5px #5a4030;
+}
+.kt-map:not(.kt-z6) .kt-min-6,
+.kt-map:not(.kt-z7) .kt-min-7 {
+  display: none;
+}
+
+/* Bergtoppen */
+.kt-peak {
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font: 600 11px/1 var(--font-barlow), system-ui, sans-serif;
+  color: #7a5a3c;
+  text-shadow: 0 0 3px #fff, 0 0 3px #fff;
+  white-space: nowrap;
+}
+.kt-peak i {
+  font-style: normal;
+  font-size: 12px;
+  color: #8b6a4a;
+}
+
+/* Achtergrond achter de wereldbol: licht, met een zachte zonnige gloed */
+.kt-map {
+  background: radial-gradient(circle at 50% 45%, #fffaf3 0%, #f7ecdd 45%, #ecdcc6 100%);
+}
+
+/* Intro: tijdens de vlucht geen punten en namen, daarna ploppen de plekken één voor één op */
+.kt-intro .maplibregl-marker {
+  opacity: 0 !important;
+  pointer-events: none;
+}
+.kt-landed .kt-pin-dot {
+  animation: kt-pin-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) backwards;
+  animation-delay: calc(var(--i, 0) * 45ms);
+}
+.kt-landed .kt-town,
+.kt-landed .kt-peak,
+.kt-landed .kt-lake,
+.kt-landed .kt-country,
+.kt-landed .kt-ocean {
+  animation: kt-fade-in 0.8s ease both;
+}
+@keyframes kt-pin-pop {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+@keyframes kt-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Knop 'Zoom naar Tanzania': zacht binnenkomen */
+.kt-fly-home {
+  animation: kt-fly-in 0.35s ease both;
+}
+@keyframes kt-fly-in {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Ver uitgezoomd: alleen de wereldbol */
+.kt-far .maplibregl-marker {
+  opacity: 0 !important;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Kaart bij de zoekresultaten: plekken buiten je zoekopdracht klein en grijs, resultaten met naam */
+.kt-pin.is-muted .kt-pin-dot {
+  background: #c9bcac;
+  border-width: 2px;
+  transform: scale(0.6);
+  box-shadow: none;
+}
+.kt-pin.is-muted {
+  z-index: 0;
+}
+.kt-pin.is-named .kt-pin-label {
+  opacity: 1;
+}
+
+/* Mijn kaart: grijs = nog niet, oranje = in je reis, groen met vinkje = bezocht */
+.kt-mine .kt-pin .kt-pin-dot {
+  background: #c9c1b8;
+}
+.kt-mine .kt-pin.is-planned .kt-pin-dot {
+  background: #f07f1e;
+}
+.kt-mine .kt-pin.is-visited {
+  width: 24px;
+  height: 24px;
+}
+.kt-mine .kt-pin.is-visited .kt-pin-dot {
+  background: #2f6b2a;
+  display: grid;
+  place-items: center;
+}
+.kt-mine .kt-pin.is-visited .kt-pin-dot::after {
+  content: '✓';
+  color: #fff;
+  font: 700 12px/1 system-ui, sans-serif;
+}
+
+/* Afvinken op de kaart: stempel, uitdijende ring en confetti */
+.kt-mine .kt-pin:not(.is-visited) .kt-pin-dot {
+  cursor: pointer;
+}
+.kt-mine .kt-pin:not(.is-visited):hover .kt-pin-dot {
+  background: #8ec98a;
+}
+.kt-confetti {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 6px;
+  height: 9px;
+  margin: -4px 0 0 -3px;
+  border-radius: 2px;
+  pointer-events: none;
+  animation: kt-confetti 0.85s cubic-bezier(0.2, 0.7, 0.3, 1) forwards;
+}
+@keyframes kt-confetti {
+  0% { transform: translate(0, 0) rotate(0) scale(0.6); opacity: 1; }
+  70% { opacity: 1; }
+  100% { transform: translate(var(--dx), calc(var(--dy) + 14px)) rotate(var(--rot)) scale(1); opacity: 0; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .kt-pin.is-ticked .kt-pin-dot {
+    animation: kt-stamp 0.55s cubic-bezier(0.3, 1.7, 0.5, 1);
+  }
+  .kt-pin.is-ticked::after {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 9999px;
+    border: 3px solid #2f6b2a;
+    animation: kt-ring 0.8s ease-out forwards;
+    pointer-events: none;
+  }
+  .kt-cheer {
+    animation: kt-cheer 0.5s cubic-bezier(0.3, 1.5, 0.5, 1);
+  }
+  .kt-count-pop {
+    animation: kt-count 0.45s cubic-bezier(0.3, 1.6, 0.5, 1);
+  }
+}
+@keyframes kt-stamp {
+  0% { transform: scale(2.2) rotate(-25deg); }
+  60% { transform: scale(0.85) rotate(4deg); }
+  100% { transform: scale(1) rotate(0); }
+}
+@keyframes kt-ring {
+  0% { transform: scale(1); opacity: 0.9; }
+  100% { transform: scale(3.2); opacity: 0; }
+}
+@keyframes kt-cheer {
+  0% { transform: translate(-50%, -12px) scale(0.85); opacity: 0; }
+  100% { transform: translate(-50%, 0) scale(1); opacity: 1; }
+}
+@keyframes kt-count {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.12); color: #2f6b2a; }
+  100% { transform: scale(1); }
+}
+
+/* Mijn kaart: gebieden ingekleurd, met de stip van elke plek erop (grijs, oranje of groen met vinkje) */
+.kt-area-pop .maplibregl-popup-content {
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font: 600 13px/1.3 var(--font-barlow), system-ui, sans-serif;
+  color: #2a1f17;
+  box-shadow: 0 2px 10px rgba(42, 31, 23, 0.2);
+  pointer-events: none;
+}
+.kt-area-pop .maplibregl-popup-tip {
+  display: none;
+}
