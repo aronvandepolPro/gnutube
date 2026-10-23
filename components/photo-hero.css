@@ -1,0 +1,10 @@
+/* Kopfoto's op de homepage: langzame zoom op de actieve foto (uit bij "minder beweging"). */
+@media (prefers-reduced-motion: no-preference) {
+  .kt-hero-zoom {
+    animation: kt-hero-zoom 9s ease-out both;
+  }
+}
+@keyframes kt-hero-zoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}

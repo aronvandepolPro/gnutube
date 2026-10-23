@@ -1,0 +1,14 @@
+/* Footer: donker vlak met de wereldbol in de merkkleur. */
+.kt-footer {
+  --footer-tint: #E8954A;
+  background: #33241A;
+}
+.kt-footer-glow {
+  background: radial-gradient(60% 70% at 50% 100%, color-mix(in srgb, var(--footer-tint) 28%, transparent), transparent 70%);
+}
+.kt-footer-word {
+  background: linear-gradient(180deg, #ffffff 30%, color-mix(in srgb, var(--footer-tint) 70%, #ffffff));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

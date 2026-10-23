@@ -1,0 +1,19 @@
+/* Keuzelijst: zacht openklappen vanuit het veld (omhoog of omlaag). */
+@media (prefers-reduced-motion: no-preference) {
+  .kt-pick-up {
+    transform-origin: 50% 100%;
+    animation: kt-pick-up 0.22s cubic-bezier(0.2, 0.8, 0.3, 1) both;
+  }
+  .kt-pick-down {
+    transform-origin: 50% 0%;
+    animation: kt-pick-down 0.22s cubic-bezier(0.2, 0.8, 0.3, 1) both;
+  }
+}
+@keyframes kt-pick-up {
+  from { opacity: 0; transform: translateY(8px) scale(0.97); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes kt-pick-down {
+  from { opacity: 0; transform: translateY(-8px) scale(0.97); }
+  to { opacity: 1; transform: none; }
+}

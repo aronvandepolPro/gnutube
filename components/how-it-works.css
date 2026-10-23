@@ -1,0 +1,17 @@
+/* "Zo werkt het": vliegtuigje dat over de route tussen de stappen vliegt (uit bij "minder beweging"). */
+@media (prefers-reduced-motion: no-preference) {
+  .kt-route-plane {
+    animation: kt-route-plane 14s linear infinite;
+  }
+  .kt-route-plane-v {
+    animation: kt-route-plane-v 14s linear infinite;
+  }
+}
+@keyframes kt-route-plane {
+  from { left: 0%; }
+  to { left: 100%; }
+}
+@keyframes kt-route-plane-v {
+  from { top: 0%; }
+  to { top: 100%; }
+}

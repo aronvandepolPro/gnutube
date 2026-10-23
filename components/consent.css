@@ -1,0 +1,259 @@
+/*
+ * Gnoe (mascotte) die linksonder het scherm in springt en om een koekje vraagt (cookie-keuze).
+ * Ja: koekje op, knikken, wegduiken. Nee: traantje, oren omlaag, wegzakken.
+ * Alles uit bij 'minder beweging'.
+ */
+.kt-gnu-pop {
+  transform: translateY(105%);
+  transform-origin: 50% 100%;
+}
+.kt-gnu-bubble {
+  opacity: 0;
+  transform: translateY(8px) scale(0.94);
+  transform-origin: 0% 100%;
+}
+.kt-gnu-crumb,
+.kt-gnu-tear {
+  opacity: 0;
+}
+/* Oogleden standaard open (dicht alleen tijdens het knipperen) */
+.kt-gnu-lid {
+  transform-box: fill-box;
+  transform-origin: 50% 0%;
+  transform: scaleY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .kt-gnu-pop,
+  .kt-gnu-bubble {
+    transform: none;
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  /* Binnenkomen: omhoog springen, even boven de rand uit, landen met een veer */
+  .kt-gnu-pop {
+    animation: kt-gnu-up 1.5s cubic-bezier(0.3, 0.7, 0.4, 1) 1.1s both;
+  }
+  /* Pootjes intrekken in de lucht */
+  .kt-gnu-leg {
+    transform-box: fill-box;
+    transform-origin: 50% 0%;
+  }
+  .kt-gnu-leg-l {
+    animation: kt-gnu-tuck-l 1.5s ease-in-out 1.1s both;
+  }
+  .kt-gnu-leg-r {
+    animation: kt-gnu-tuck-r 1.5s ease-in-out 1.1s both;
+  }
+  .kt-gnu-bubble {
+    animation: kt-bubble-pop 0.45s cubic-bezier(0.2, 0.8, 0.3, 1.3) 2.7s both;
+  }
+  .kt-gnu-head {
+    transform-box: fill-box;
+    transform-origin: 50% 80%;
+    animation:
+      kt-gnu-look 1.6s ease-in-out 2s both,
+      kt-gnu-tilt 6s ease-in-out 4s infinite;
+  }
+  .kt-gnu-lid {
+    transform-box: fill-box;
+    transform-origin: 50% 0%;
+    animation: kt-gnu-blink 4.8s ease-in-out 2.8s infinite;
+  }
+  .kt-gnu-ear-l {
+    transform-box: fill-box;
+    transform-origin: 100% 40%;
+    animation: kt-gnu-ear-l 3.4s ease-in-out 2.6s infinite;
+  }
+  .kt-gnu-ear-r {
+    transform-box: fill-box;
+    transform-origin: 0% 40%;
+    animation: kt-gnu-ear-r 4s ease-in-out 3.1s infinite;
+  }
+  .kt-gnu:hover .kt-gnu-ear-l,
+  .kt-gnu:hover .kt-gnu-ear-r {
+    animation-duration: 0.5s;
+  }
+  .kt-gnu-beard {
+    transform-box: fill-box;
+    transform-origin: 50% 0%;
+    animation: kt-gnu-beard 2.8s ease-in-out 2.6s infinite;
+  }
+  .kt-gnu-jaw {
+    transform-box: fill-box;
+    transform-origin: 50% 0%;
+    animation: kt-gnu-chew 2.8s ease-in-out 2.6s infinite;
+  }
+  .kt-gnu-cookie {
+    transform-box: fill-box;
+    transform-origin: 20% 50%;
+    animation: kt-gnu-cookie-chew 2.8s ease-in-out 2.6s infinite;
+  }
+  .kt-gnu-crumb {
+    animation: kt-gnu-crumb 2.8s ease-in 2.8s infinite;
+  }
+  .kt-gnu-crumb-2 { animation-delay: 3s; }
+  .kt-gnu-crumb-3 { animation-delay: 3.25s; }
+
+  /* Ja: koekje in drie happen op, twee keer knikken, wegduiken */
+  .kt-gnu-yes .kt-gnu-cookie {
+    animation: kt-gnu-eat 0.9s steps(1, end) both;
+  }
+  .kt-gnu-yes .kt-gnu-crumb {
+    animation: none;
+    opacity: 0;
+  }
+  .kt-gnu-yes .kt-gnu-jaw,
+  .kt-gnu-yes .kt-gnu-beard {
+    animation: kt-gnu-chew-fast 0.3s ease-in-out 3;
+  }
+  .kt-gnu-yes .kt-gnu-head {
+    animation: kt-gnu-nod 0.35s ease-in-out 0.9s 2;
+  }
+  .kt-gnu-yes .kt-gnu-pop {
+    animation: kt-gnu-down 0.6s cubic-bezier(0.5, 0, 0.75, 0) 1.7s both;
+  }
+  /* Nee: traantje, oren omlaag, kop iets zakken, wegzakken */
+  .kt-gnu-no .kt-gnu-tear {
+    transform-box: fill-box;
+    transform-origin: 50% 0%;
+    animation: kt-gnu-tear 1.5s ease-in 0.2s both;
+  }
+  .kt-gnu-no .kt-gnu-ear-l {
+    animation: kt-gnu-ear-down-l 0.7s ease-in-out 0.2s both;
+  }
+  .kt-gnu-no .kt-gnu-ear-r {
+    animation: kt-gnu-ear-down-r 0.7s ease-in-out 0.2s both;
+  }
+  .kt-gnu-no .kt-gnu-head {
+    animation: kt-gnu-sad 0.8s ease-in-out 0.3s both;
+  }
+  .kt-gnu-no .kt-gnu-jaw,
+  .kt-gnu-no .kt-gnu-cookie,
+  .kt-gnu-no .kt-gnu-crumb,
+  .kt-gnu-no .kt-gnu-beard {
+    animation: none;
+  }
+  .kt-gnu-no .kt-gnu-pop {
+    animation: kt-gnu-down 0.9s cubic-bezier(0.5, 0, 0.75, 0) 1.9s both;
+  }
+  .kt-gnu-yes .kt-gnu-bubble,
+  .kt-gnu-no .kt-gnu-bubble {
+    animation: kt-bubble-out 0.25s ease-in both;
+  }
+}
+
+/* Omhoog tot het hele lijf met pootjes boven de rand is, even hangen, terugzakken tot de schouders */
+@keyframes kt-gnu-up {
+  0% { transform: translateY(105%); }
+  42% { transform: translateY(-50%) scale(0.97, 1.03); }
+  52% { transform: translateY(-52%) scale(1, 1); }
+  76% { transform: translateY(0) scale(1, 1); }
+  84% { transform: translateY(0) scale(1.04, 0.95); }
+  93% { transform: translateY(0) scale(0.99, 1.02); }
+  100% { transform: translateY(0) scale(1, 1); }
+}
+@keyframes kt-gnu-tuck-l {
+  0%, 25% { transform: rotate(0); }
+  40%, 55% { transform: rotate(28deg); }
+  72%, 100% { transform: rotate(0); }
+}
+@keyframes kt-gnu-tuck-r {
+  0%, 25% { transform: rotate(0); }
+  40%, 55% { transform: rotate(-28deg); }
+  72%, 100% { transform: rotate(0); }
+}
+@keyframes kt-gnu-down {
+  from { transform: translateY(0); }
+  to { transform: translateY(105%); }
+}
+@keyframes kt-bubble-pop {
+  from { opacity: 0; transform: translateY(8px) scale(0.94); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes kt-bubble-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@keyframes kt-gnu-look {
+  0% { transform: rotate(0); }
+  30% { transform: rotate(-8deg); }
+  60% { transform: rotate(6deg); }
+  100% { transform: rotate(0); }
+}
+@keyframes kt-gnu-tilt {
+  0%, 60%, 100% { transform: rotate(0); }
+  70% { transform: rotate(-6deg); }
+  85% { transform: rotate(-4deg); }
+}
+@keyframes kt-gnu-blink {
+  0%, 90%, 100% { transform: scaleY(0); }
+  93% { transform: scaleY(1); }
+  96% { transform: scaleY(0); }
+  97.5% { transform: scaleY(1); }
+  99% { transform: scaleY(0); }
+}
+@keyframes kt-gnu-ear-l {
+  0%, 78%, 100% { transform: rotate(0); }
+  84% { transform: rotate(14deg); }
+  90% { transform: rotate(-5deg); }
+}
+@keyframes kt-gnu-ear-r {
+  0%, 78%, 100% { transform: rotate(0); }
+  84% { transform: rotate(-14deg); }
+  90% { transform: rotate(5deg); }
+}
+@keyframes kt-gnu-ear-down-l {
+  from { transform: rotate(0); }
+  to { transform: rotate(28deg); }
+}
+@keyframes kt-gnu-ear-down-r {
+  from { transform: rotate(0); }
+  to { transform: rotate(-28deg); }
+}
+@keyframes kt-gnu-beard {
+  0%, 40%, 100% { transform: rotate(0); }
+  48%, 64% { transform: rotate(3deg); }
+  56%, 72% { transform: rotate(-2deg); }
+}
+@keyframes kt-gnu-chew {
+  0%, 40%, 100% { transform: translateY(0); }
+  48%, 64% { transform: translateY(3px); }
+  56%, 72% { transform: translateY(0); }
+}
+@keyframes kt-gnu-chew-fast {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(4px); }
+}
+@keyframes kt-gnu-cookie-chew {
+  0%, 40%, 100% { transform: translateY(0); }
+  48%, 64% { transform: translateY(2px); }
+  56%, 72% { transform: translateY(0); }
+}
+@keyframes kt-gnu-crumb {
+  0%, 45% { opacity: 0; transform: translateY(0); }
+  50% { opacity: 1; }
+  85% { opacity: 1; transform: translateY(26px); }
+  100% { opacity: 0; transform: translateY(32px); }
+}
+@keyframes kt-gnu-eat {
+  0% { clip-path: circle(60% at 50% 50%); }
+  33% { clip-path: circle(40% at 30% 50%); }
+  66% { clip-path: circle(22% at 20% 50%); }
+  100% { clip-path: circle(0% at 15% 50%); }
+}
+@keyframes kt-gnu-nod {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  50% { transform: translateY(6px) rotate(0); }
+}
+@keyframes kt-gnu-sad {
+  from { transform: translateY(0) rotate(0); }
+  to { transform: translateY(5px) rotate(-5deg); }
+}
+@keyframes kt-gnu-tear {
+  0% { opacity: 0; transform: translateY(0) scale(0.4); }
+  15% { opacity: 1; transform: translateY(0) scale(1); }
+  35% { opacity: 1; transform: translateY(4px) scale(1); }
+  85% { opacity: 1; transform: translateY(34px) scale(0.9); }
+  100% { opacity: 0; transform: translateY(40px) scale(0.7); }
+}

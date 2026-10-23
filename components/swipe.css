@@ -1,0 +1,65 @@
+/* Veegkaart in de videofeed */
+.kt-swipe-card {
+  will-change: transform;
+}
+.kt-swipe-card.is-settling {
+  transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.3, 1);
+}
+.kt-swipe-card.is-leaving {
+  transition: transform 0.32s ease-in, opacity 0.32s ease-in;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .kt-heart-burst {
+    animation: kt-heart 0.8s cubic-bezier(0.2, 0.8, 0.3, 1.2) both;
+  }
+  .kt-toast {
+    animation: kt-toast 2.6s ease both;
+  }
+}
+@keyframes kt-heart {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.3); }
+  25% { opacity: 1; transform: translate(-50%, -50%) scale(1.15); }
+  60% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -60%) scale(1); }
+}
+@keyframes kt-toast {
+  0% { opacity: 0; transform: translate(-50%, 10px); }
+  10%, 85% { opacity: 1; transform: translate(-50%, 0); }
+  100% { opacity: 0; transform: translate(-50%, 0); }
+}
+
+/* Over de drempel: teken en stempel springen even op (los van de transform die de vinger volgt) */
+@media (prefers-reduced-motion: no-preference) {
+  .kt-swipe-card.is-armed .kt-swipe-badge,
+  .kt-swipe-card.is-armed .kt-swipe-stamp {
+    animation: kt-armed 0.28s cubic-bezier(0.3, 1.6, 0.5, 1);
+  }
+}
+@keyframes kt-armed {
+  0% { scale: 1; }
+  50% { scale: 1.2; }
+  100% { scale: 1; }
+}
+.kt-swipe-card.is-leaving {
+  transition: transform 0.36s cubic-bezier(0.4, 0, 0.9, 0.6), opacity 0.36s ease-in;
+}
+
+/* Tekstblok naast de video: wel scrollen als het niet past, maar zonder zichtbare balk */
+.kt-no-scrollbar {
+  scrollbar-width: none;
+}
+.kt-no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Teller van je reis springt even op als er een plek bij komt */
+@media (prefers-reduced-motion: no-preference) {
+  .kt-pop {
+    animation: kt-pop 0.45s cubic-bezier(0.3, 1.6, 0.5, 1);
+  }
+}
+@keyframes kt-pop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.45); }
+  100% { transform: scale(1); }
+}
